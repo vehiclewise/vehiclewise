@@ -1,0 +1,409 @@
+vehicle_type,brand,model,body_type,countries,regions,model_year,fuel_type,power_hp,transmission,price_eur,price_source,last_verified,availability_status
+car,Alfa Romeo,Giulia,sedan,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Alfa Romeo,Junior,suv,ch|de|es|fi|gb|il|lu|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Alfa Romeo,Stelvio,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Alfa Romeo,Tonale,suv,ar|au|ca|ch|de|es|fi|gb|il|lu|nl|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Alpine,A110,coupe,au|ch|de|es|fi|gb|il|lu|nl|no|nz,as|eu|oc,,,,,,,,Needs verification
+car,Alpine,A290,hatchback,ch|de|es|gb|il|lu|nl,as|eu,,,,,,,,Needs verification
+car,Alpine,A390,hatchback,de|es|gb|lu|nl,eu,,,,,,,,Needs verification
+car,Audi,A1,hatchback|wagon,ar|au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,Audi,A2,hatchback,ch|de|es|fi|gb|lu|nl|no|nz|ua,eu|oc,,,,,,,,Needs verification
+car,Audi,A3,hatchback,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Audi,A4,sedan|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Audi,A5,coupe,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Audi,A6,sedan|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Audi,A7,sedan,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Audi,A8,sedan,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Audi,e-tron GT,hatchback,ca|ch|de|es|fi|gb|il|lu|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Audi,Q2,suv,ar|au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,Audi,Q3,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Audi,Q4,suv,au|ca|ch|de|es|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Audi,Q5,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Audi,Q6,suv,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Audi,Q7,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Audi,Q8,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Bentley,Bentayga,hatchback|wagon,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Bentley,Continental,convertible,au|ca|ch|de|es|fi|gb|lu|nl|no|nz|ua,eu|na|oc,,,,,,,,Needs verification
+car,BMW,1 Series,hatchback|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,BMW,2 Series,coupe,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,BMW,3 Series,sedan|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,BMW,4 Series,coupe,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,BMW,5 Series,sedan|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,BMW,7 Series,sedan,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,BMW,8 Series,coupe,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,BMW,i3,hatchback,au|ca|ch|de|es|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,BMW,iX,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,BMW,X1,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,BMW,X2,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,BMW,X3,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,BMW,X4,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,BMW,X5,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,BMW,X6,suv,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,BMW,X7,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,BMW,XM,hatchback,au|ca|ch|de|es|fi|gb|il|lu|my|nl|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,BMW,Z4,roadster,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,BMW,Z8,roadster,ca|ch|de|fi|gb|nl|no|ua|us,eu|na,,,,,,,,Needs verification
+car,BYD,Atto 2,hatchback,ar|ch|de|es|fi|gb|il|lu|my|nl|nz,as|eu|oc|sa,,,,,,,,Needs verification
+car,BYD,Atto 3,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,BYD,Dolphin,hatchback,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,BYD,Dolphin Surf,hatchback,ch|de|es|fi|ie|il|lu|nl,as|eu,,,,,,,,Needs verification
+car,BYD,Seal,sedan,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,BYD,Seal U,suv,ar|ch|de|es|fi|gb|il|lu|nl|nz|th,as|eu|oc|sa,,,,,,,,Needs verification
+car,BYD,Sealion 5,hatchback,de|gb|ie|il|lu|nz,as|eu|oc,,,,,,,,Needs verification
+car,BYD,Sealion 7,hatchback,ch|de|es|fi|gb|ie|il|lu|nl|nz|th,as|eu|oc,,,,,,,,Needs verification
+car,BYD,Tang,hatchback,de|fi|il|nl|no|ua,as|eu,,,,,,,,Needs verification
+car,Cadillac,Escalade,hatchback|wagon,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Cadillac,Optiq,hatchback,ca|de|gb|il|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Cadillac,Vistiq,hatchback,ca|de|gb|il|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Chery,TIGGO9,hatchback,de|nl,eu,,,,,,,,Needs verification
+car,Citroën,C3,hatchback,ar|au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,Citroën,C4,hatchback,ar|au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,Citroën,C5,hatchback|wagon,au|ch|de|es|fi|gb|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Cupra,Born,hatchback|wagon,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Cupra,Formentor,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Cupra,Raval,hatchback|wagon,de|es|fi|lu|nl,eu,,,,,,,,Needs verification
+car,Cupra,Tavascan,suv,ch|de|es|fi|gb|ie|il|lu|nl|nz,as|eu|oc,,,,,,,,Needs verification
+car,Cupra,Terramar,suv,ch|de|es|fi|gb|ie|il|lu|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Dacia,Bigster,suv,ch|de|es|fi|gb|ie|il|lu|nl,as|eu,,,,,,,,Needs verification
+car,Dacia,Duster,suv,ch|de|es|fi|gb|ie|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
+car,Dacia,Jogger,hatchback|wagon,ch|de|es|fi|gb|ie|il|lu|nl|ua,as|eu,,,,,,,,Needs verification
+car,Dacia,Logan,hatchback|wagon,ch|de|es|fi|gb|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
+car,Dacia,Sandero,hatchback,ch|de|es|fi|gb|ie|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
+car,Dacia,Spring,suv,ch|de|es|fi|gb|ie|il|lu|nl|ua,as|eu,,,,,,,,Needs verification
+car,Deepal,S05,hatchback|wagon,de|es|il|nl|th|ua,as|eu,,,,,,,,Needs verification
+car,Deepal,S07,hatchback|wagon,au|de|es|gb|il|nl|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,Dongfeng,Box,hatchback,ar|ch|de|es|fi|il|lu|my|nl|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,DS,DS 3,hatchback|wagon,ar|ch|de|es|fi|gb|il|lu|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,DS,DS 7,hatchback|wagon,ch|de|es|fi|gb|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
+car,DS,DS N°4,hatchback|wagon,ch|de|es|fi|gb|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
+car,DS,DS N°8,hatchback,de|es|fi|gb|lu|nl,eu,,,,,,,,Needs verification
+car,Ferrari,12CILINDRI,coupe,ca|ch|de|es|fi|gb|lu|my|nl|nz|th|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Ferrari,296,convertible,au|ca|de|es|fi|gb|il|lu|my|nl|nz|th|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Ferrari,612 Scaglietti,coupe,ca|ch|de|fi|nl|no|us,eu|na,,,,,,,,Needs verification
+car,Ferrari,849 Testarossa,coupe,ca|de|es|lu|nl|nz,eu|na|oc,,,,,,,,Needs verification
+car,Ferrari,Amalfi,coupe,de|es|gb|il|lu|nl|nz|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Ferrari,Purosangue,hatchback,au|ca|ch|de|es|fi|gb|il|lu|my|nl|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Ferrari,Roma,coupe,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Ferrari,SF90,hatchback,au|de|gb|my|nz,as|eu|oc,,,,,,,,Needs verification
+car,Fiat,500,hatchback,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Fiat,600,suv,ar|ch|de|es|fi|gb|ie|lu|nl|no|nz|ua,eu|oc|sa,,,,,,,,Needs verification
+car,Fiat,Grande Panda,hatchback,de|gb,eu,,,,,,,,Needs verification
+car,Fiat,Panda,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Fiat,Qubo,hatchback,ch|de|es|fi|gb|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
+car,Fiat,Tipo,hatchback,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Fiat,Ulysse,hatchback,ch|de|es|fi|gb|il|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Fisker,Ocean,hatchback|wagon,ch|de|fi|gb|nl|no|ua,eu,,,,,,,,Needs verification
+car,Ford,Capri,coupe,au|ch|de|es|fi|gb|ie|lu|nl|no|nz|ua,eu|oc,,,,,,,,Needs verification
+car,Ford,Explorer,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Ford,Fiesta,hatchback,au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Ford,Focus,hatchback|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Ford,Kuga,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Ford,Mustang,coupe,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Ford,Mustang Mach-E,hatchback,ca|ch|de|es|fi|gb|il|lu|nl|no|th|ua|us,as|eu|na,,,,,,,,Needs verification
+car,Ford,Puma,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Geely,E2,hatchback,de|es|nl,eu,,,,,,,,Needs verification
+car,Geely,E5,hatchback,de|es|lu|nl,eu,,,,,,,,Needs verification
+car,Geely,Starray EM-i,hatchback,de|es|gb|lu|nl|nz,eu|oc,,,,,,,,Needs verification
+car,Genesis,G80,sedan,au|ca|ch|de|es|gb|my|nl|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Genesis,G90,sedan,ca|ch|de|il|nl|us,as|eu|na,,,,,,,,Needs verification
+car,Genesis,GV60,hatchback,au|de|gb|nl|nz|ua|us,eu|na|oc,,,,,,,,Needs verification
+car,Genesis,GV70,hatchback,au|ca|ch|de|es|gb|nl|nz|ua|us,eu|na|oc,,,,,,,,Needs verification
+car,Great Wall,Ora 03,hatchback,ar|de,eu|sa,,,,,,,,Needs verification
+car,Great Wall,Ora 07,hatchback,de,eu,,,,,,,,Needs verification
+car,Great Wall,Wey 03,hatchback|wagon,de|nl,eu,,,,,,,,Needs verification
+car,Honda,Civic,hatchback,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Honda,CR-V,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Honda,E:NY1,hatchback,de|fi|il|lu|nl|ua,as|eu,,,,,,,,Needs verification
+car,Honda,HR-V,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Honda,Jazz,hatchback,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,Honda,Prelude,coupe,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Honda,ZR-V,hatchback,au|ch|de|es|fi|il|lu|my|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Hyundai,Bayon,suv,ch|de|es|fi|gb|ie|il|lu|nl,as|eu,,,,,,,,Needs verification
+car,Hyundai,i10,hatchback,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Hyundai,i20,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Hyundai,i30,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Hyundai,Inster,suv,ch|de|es|fi|gb|ie|lu|nl|nz|ua,eu|oc,,,,,,,,Needs verification
+car,Hyundai,Ioniq 3,hatchback,de|nl,eu,,,,,,,,Needs verification
+car,Hyundai,Ioniq 5,suv,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Hyundai,Ioniq 6,sedan,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Hyundai,Ioniq 9,hatchback,ca|de|es|fi|gb|ie|il|lu|my|nl|ua|us,as|eu|na,,,,,,,,Needs verification
+car,Hyundai,Kona,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Hyundai,Nexo,hatchback,au|ch|de|fi|gb|lu|nl|no|nz|us,eu|na|oc,,,,,,,,Needs verification
+car,Hyundai,Santa FE,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Hyundai,Staria,hatchback,ar|au|ch|de|es|fi|gb|il|lu|my|nl|nz|th|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,Hyundai,Tucson,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,INEOS,Grenadier,hatchback,au|ca|ch|de|es|fi|gb|lu|my|nl|nz|ua,as|eu|na|oc,,,,,,,,Needs verification
+car,Jaecoo,Jaecoo 5,hatchback,de|es|gb|il|lu|my|nl|th,as|eu,,,,,,,,Needs verification
+car,Jaecoo,Jaecoo 7,suv,de|es|gb|il|lu|my|nl|nz|th,as|eu|oc,,,,,,,,Needs verification
+car,Jeep,Avenger,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Jeep,Compass,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Jeep,Grand Cherokee,suv,ar|au|ca|ch|de|es|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Jeep,Renegade,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Jeep,Wrangler,suv,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,KGM,Actyon,hatchback|wagon,ch|de|lu|nl,eu,,,,,,,,Needs verification
+car,KGM,Korando,hatchback,de|es|gb|lu|ua,eu,,,,,,,,Needs verification
+car,KGM,Rexton,hatchback,ch|de|es|gb|il|lu|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,KGM,Tivoli,hatchback,ch|de|es|gb|il|lu,as|eu,,,,,,,,Needs verification
+car,KGM,Torres,hatchback|wagon,ch|de|es|fi|gb|il|lu|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Kia,Ceed,hatchback|wagon,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Kia,EV2,hatchback,de|es|fi|gb|ie|lu|nl,eu,,,,,,,,Needs verification
+car,Kia,EV3,suv,ch|de|es|fi|gb|ie|il|lu|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Kia,EV4,hatchback,ca|ch|de|es|fi|gb|ie|lu|nl|nz,eu|na|oc,,,,,,,,Needs verification
+car,Kia,EV5,suv,au|de|es|fi|gb|ie|lu|nl|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,Kia,EV6,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Kia,EV9,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Kia,K4,hatchback|wagon,ar|au|ca|de|es|fi|gb|ie|lu|nl|ua|us,eu|na|oc|sa,,,,,,,,Needs verification
+car,Kia,Niro,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Kia,Picanto,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Kia,PV5,hatchback,de|es|fi|gb|il|lu|nl,as|eu,,,,,,,,Needs verification
+car,Kia,Seltos,hatchback|wagon,ar|au|ca|de|es|fi|il|nl|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Kia,Sorento,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Kia,Soul,suv,au|ca|ch|de|es|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Kia,Sportage,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Kia,Stonic,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Lada,Niva,hatchback|wagon,au|ch|de|fi|gb|nl|no|nz|ua,eu|oc,,,,,,,,Needs verification
+car,Lamborghini,Urus,hatchback,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Land Rover,Defender,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Land Rover,Discovery,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Land Rover,Discovery Sport,suv,ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Land Rover,Range Rover,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Land Rover,Range Rover Evoque,suv,ar|ca|ch|de|es|fi|gb|ie|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Land Rover,Range Rover Sport,suv,ar|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Land Rover,Range Rover Velar,suv,ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Leapmotor,B03X,hatchback,de|es|lu|nl|nz,eu|oc,,,,,,,,Needs verification
+car,Leapmotor,B05,hatchback,de|es|lu|nl|nz,eu|oc,,,,,,,,Needs verification
+car,Leapmotor,B10,hatchback,ar|de|es|gb|il|lu|my|nl|nz|th|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,Leapmotor,C10,hatchback,ar|au|ch|de|es|gb|ie|il|lu|my|nl|nz|th|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,Leapmotor,T03,hatchback,ch|de|es|gb|il|lu|nl,as|eu,,,,,,,,Needs verification
+car,Lexus,ES,sedan,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Lexus,LBX,suv,ar|au|ch|de|es|fi|gb|ie|il|lu|my|nl|nz|th|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,Lexus,LM,hatchback,au|ch|de|es|gb|il|lu|my|nl|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,Lexus,NX,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Lexus,RX,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Lexus,RZ,suv,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Lexus,UX,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Lotus,Eletre,hatchback,ch|de|es|fi|gb|lu|my|nl|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,Lotus,Emeya,hatchback,ch|de|fi|gb|lu|my|nl|nz|th,as|eu|oc,,,,,,,,Needs verification
+car,Lotus,Emira,coupe,ar|au|ch|de|es|fi|gb|lu|my|nl|nz|th|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Lucid,Air,sedan,de|nl|ua,eu,,,,,,,,Needs verification
+car,Lucid,Gravity,hatchback,de|nl,eu,,,,,,,,Needs verification
+car,Lynk & Co,01,suv,ar|de|es|fi|il|nl|ua,as|eu|sa,,,,,,,,Needs verification
+car,Lynk & Co,02,hatchback,de|es|nl,eu,,,,,,,,Needs verification
+car,Lynk & Co,08,hatchback,ar|de|es|nl,eu|sa,,,,,,,,Needs verification
+car,Maserati,Ghibli,sedan,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Maserati,Gran Turismo,coupe,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Maserati,Grecale,hatchback|wagon,au|ca|ch|de|es|fi|gb|il|lu|my|nl|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Maserati,Levante,hatchback|wagon,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Maserati,Quattroporte,sedan,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Mazda,CX-30,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Mazda,CX-5,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Mazda,CX-60,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Mazda,CX-6e,suv,de|es|lu|nl,eu,,,,,,,,Needs verification
+car,Mazda,CX-80,suv,au|ch|de|es|fi|gb|ie|lu|nl|nz,eu|oc,,,,,,,,Needs verification
+car,Mazda,MAZDA2,hatchback,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Mazda,MAZDA3,hatchback,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Mazda,MAZDA6,sedan|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Mazda,MX-30,suv,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Mazda,MX-5,roadster,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Mercedes-Benz,A-Class,hatchback|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Mercedes-Benz,AMG GT,coupe,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Mercedes-Benz,Atego,hatchback,ar|ch|de|fi|nl|no,eu|sa,,,,,,,,Needs verification
+car,Mercedes-Benz,B-Class,hatchback|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Mercedes-Benz,C-Class,sedan|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Mercedes-Benz,Cl,coupe,au|ca|ch|de|es|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Mercedes-Benz,CLA,sedan|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Mercedes-Benz,CLE,coupe,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Mercedes-Benz,CLK,coupe,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Mercedes-Benz,E-Class,sedan|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Mercedes-Benz,G-Class,suv,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Mercedes-Benz,GLA,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Mercedes-Benz,GLB,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Mercedes-Benz,GLC,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Mercedes-Benz,GLE,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Mercedes-Benz,GLS,suv,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Mercedes-Benz,S-Class,sedan,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Mercedes-Benz,SL,roadster,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Mercedes-Benz,Unimog,convertible,au|ch|de|fi|nl|nz,eu|oc,,,,,,,,Needs verification
+car,Mercedes-Benz,V-Class,mpv,au|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,MG,Cyberster,convertible,au|ch|de|es|fi|gb|il|lu|my|nl|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,MG,HS,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,MG,IM5,hatchback,de|gb,eu,,,,,,,,Needs verification
+car,MG,IM6,hatchback,de|gb|nl|nz|th,as|eu|oc,,,,,,,,Needs verification
+car,MG,MG3,hatchback,ar|au|ch|de|es|fi|gb|ie|il|lu|nl|nz|th|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,MG,MG4,hatchback,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,MG,MG5,wagon,au|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,MG,MGS5 EV,hatchback,ch|de|es|fi|gb|ie|il|lu|my|nl|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,MG,MGS6 EV,hatchback,de|es|fi|gb|il|lu|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,MG,MGS9 PHEV,hatchback,de|es|gb|il|lu|nl,as|eu,,,,,,,,Needs verification
+car,MG,ZS,suv,ar|au|ch|de|es|fi|gb|ie|il|lu|my|nl|nz|th|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,Mini,Cooper,hatchback,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Mitsubishi,ASX,suv,au|ch|de|es|fi|gb|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Mitsubishi,Colt,hatchback|wagon,au|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Mitsubishi,Eclipse Cross,suv,au|ca|ch|de|es|fi|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Mitsubishi,Grandis,mpv,au|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Mitsubishi,Mirage,coupe,au|ca|de|gb|nl|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Mitsubishi,Outlander,suv,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Nio,EL6,hatchback|wagon,de|es|nl|no,eu,,,,,,,,Needs verification
+car,Nio,EL8,hatchback|wagon,de|nl|no|ua,eu,,,,,,,,Needs verification
+car,Nio,ET5,sedan,de|nl|no,eu,,,,,,,,Needs verification
+car,Nio,Firefly,hatchback|wagon,de|lu|nl,eu,,,,,,,,Needs verification
+car,Nissan,Ariya,suv,ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|na|oc,,,,,,,,Needs verification
+car,Nissan,Juke,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Nissan,Leaf,hatchback,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Nissan,Micra,hatchback,au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|na|oc,,,,,,,,Needs verification
+car,Nissan,Primastar,hatchback,ch|de|es|fi|gb|lu|nl|no|nz|ua,eu|oc,,,,,,,,Needs verification
+car,Nissan,Qashqai,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|na|oc,,,,,,,,Needs verification
+car,Nissan,X-Trail,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Omoda,Omoda 5,hatchback,au|de|es|gb|lu|my|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Omoda,Omoda 9,hatchback,de|es|fi|gb|il|lu|my|nl,as|eu,,,,,,,,Needs verification
+car,Opel,Astra,hatchback|wagon,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Opel,Corsa,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Opel,Frontera,suv,ch|de|fi|ie|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
+car,Opel,Grandland,suv,ch|de|es|fi|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Opel,Insignia,sedan|wagon,au|ch|de|es|fi|gb|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Opel,Mokka,suv,ch|de|es|fi|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Opel,Zafira Life,hatchback,ch|de|es|fi|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
+car,Peugeot,2008,suv,ar|au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,Peugeot,208,hatchback,ar|au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,Peugeot,3008,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Peugeot,308,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Peugeot,408,hatchback,au|ch|de|es|fi|gb|ie|il|lu|my|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Peugeot,5008,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Peugeot,508,hatchback|wagon,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Peugeot,J5,hatchback,ch|de|es|fi|lu|nl|no|ua,eu,,,,,,,,Needs verification
+car,Polestar,Polestar 2,sedan,au|ca|ch|de|es|fi|gb|ie|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Polestar,Polestar 3,hatchback|wagon,au|ca|ch|de|es|fi|gb|lu|nl|nz|ua|us,eu|na|oc,,,,,,,,Needs verification
+car,Polestar,Polestar 4,hatchback,au|ca|ch|de|es|fi|gb|ie|lu|nl|no|nz|ua|us,eu|na|oc,,,,,,,,Needs verification
+car,Porsche,911,coupe,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Porsche,Boxster,roadster,au|ca|ch|de|es|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Porsche,Cayenne,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Porsche,Cayman,coupe,au|ca|ch|de|es|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Porsche,Macan,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Porsche,Panamera,sedan|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Porsche,Taycan,sedan|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Renault,4,hatchback,au|ch|de|es|fi|gb|ie|lu|nl|no|nz|ua,eu|oc,,,,,,,,Needs verification
+car,Renault,5,hatchback,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Renault,Arkana,suv,ar|au|ch|de|es|fi|gb|ie|il|lu|nl|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,Renault,Austral,suv,ch|de|es|fi|gb|ie|il|lu|nl,as|eu,,,,,,,,Needs verification
+car,Renault,Captur,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Renault,Clio,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Renault,Espace,mpv,ch|de|es|fi|gb|lu|nl|no|nz|ua,eu|oc,,,,,,,,Needs verification
+car,Renault,Megane,hatchback|wagon,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Renault,Rafale,suv,ch|de|es|fi|gb|lu|nl,eu,,,,,,,,Needs verification
+car,Renault,Scenic,mpv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Renault,Symbioz,suv,ch|de|es|fi|gb|ie|il|lu|nl|ua,as|eu,,,,,,,,Needs verification
+car,Renault,Twingo,hatchback,ch|de|es|fi|gb|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Rolls-Royce,Cullinan,sedan,au|ca|ch|de|es|gb|my|nl|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Rolls-Royce,Spectre,coupe,au|de|fi|my|nl|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,SEAT,Arona,suv,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,SEAT,Ateca,suv,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,SEAT,Ibiza,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,SEAT,Leon,hatchback|wagon,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Škoda,Elroq,suv,ch|de|es|fi|gb|ie|il|lu|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Škoda,Enyaq,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Škoda,Epiq,hatchback|wagon,de|es|lu|nl,eu,,,,,,,,Needs verification
+car,Škoda,Fabia,hatchback|wagon,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Škoda,Kamiq,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Škoda,Karoq,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Škoda,Kodiaq,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Škoda,Octavia,hatchback|wagon,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Škoda,Scala,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Škoda,Superb,sedan|wagon,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Smart,#1,hatchback,au|ch|de|es|fi|gb|lu|nl|nz|ua,eu|oc,,,,,,,,Needs verification
+car,Smart,#3,hatchback,au|ch|de|es|fi|gb|lu|nl|nz|ua,eu|oc,,,,,,,,Needs verification
+car,Smart,#5,hatchback,ch|de|es|fi|gb|lu|nl|nz|ua,eu|oc,,,,,,,,Needs verification
+car,Smart,Fortwo,hatchback,au|ca|ch|de|es|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Subaru,Crosstrek,hatchback|wagon,ar|au|ca|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Subaru,Forester,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Subaru,Impreza,sedan|wagon,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Subaru,Outback,hatchback|wagon,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Subaru,Solterra,hatchback|wagon,au|ca|ch|de|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Subaru,Uncharted,hatchback|wagon,ca|de|fi|gb|lu|nl|us,eu|na,,,,,,,,Needs verification
+car,Suzuki,Across,hatchback|wagon,ar|ch|de|es|fi|gb|nl|no,eu|sa,,,,,,,,Needs verification
+car,Suzuki,Jimny,suv,au|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,Suzuki,S-Cross,suv,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Suzuki,Swace,hatchback|wagon,ch|de|es|fi|gb|il|lu|nl,as|eu,,,,,,,,Needs verification
+car,Suzuki,Swift,hatchback,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Suzuki,Vitara,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Tesla,Model 3,sedan,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Tesla,Model S,sedan,au|ca|ch|de|es|fi|gb|lu|nl|no|nz|ua|us,eu|na|oc,,,,,,,,Needs verification
+car,Tesla,Model X,suv,au|ca|ch|de|es|fi|gb|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Tesla,Model Y,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Togg,T10X,hatchback,de|my|nl,as|eu,,,,,,,,Needs verification
+car,Toyota,Aygo,hatchback,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Toyota,bZ4X,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Toyota,C-HR,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Toyota,Camry,sedan,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Toyota,Corolla,hatchback|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Toyota,Land Cruiser,suv,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Toyota,Mirai,sedan,au|ch|de|es|fi|gb|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Toyota,Prius,hatchback,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Toyota,RAV4,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Toyota,Supra,coupe,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Toyota,Urban Cruiser,suv,ch|de|es|fi|gb|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Toyota,Yaris,hatchback,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Vinfast,VF 6,hatchback,de|nl,eu,,,,,,,,Needs verification
+car,Vinfast,VF 8,hatchback,de|es|nl|ua,eu,,,,,,,,Needs verification
+car,Volkswagen,Arteon,sedan|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Volkswagen,Golf,hatchback|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Volkswagen,ID.3,hatchback|wagon,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Volkswagen,ID.4,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Volkswagen,ID.7,hatchback|wagon,ch|de|es|fi|gb|ie|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
+car,Volkswagen,Id. Buzz,hatchback|wagon,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Volkswagen,Passat,sedan|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Volkswagen,Polo,hatchback,ar|au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,Volkswagen,T-Cross,suv,ar|au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
+car,Volkswagen,T-Roc,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Volkswagen,Taigo,suv,ch|de|es|fi|gb|ie|il|lu|nl,as|eu,,,,,,,,Needs verification
+car,Volkswagen,Tayron,suv,ch|de|es|fi|gb|ie|il|lu|my|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Volkswagen,Tiguan,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Volkswagen,Touareg,suv,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Volkswagen,Touran,mpv,au|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Volkswagen,Up,hatchback,au|ch|de|es|fi|gb|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
+car,Volvo,60,hatchback,de|no,eu,,,,,,,,Needs verification
+car,Volvo,C40,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Volvo,ES90,sedan,de|es|fi|gb|lu|my|nl|ua,as|eu,,,,,,,,Needs verification
+car,Volvo,EX30,suv,ar|au|ca|ch|de|es|fi|gb|ie|lu|my|nl|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Volvo,EX60,suv,de|es|gb|lu|nl,eu,,,,,,,,Needs verification
+car,Volvo,EX90,suv,ch|de|es|fi|gb|il|lu|my|nl|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Volvo,XC40,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
+car,Volvo,XC60,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,Volvo,XC90,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
+car,XPeng,G6,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,XPeng,G9,suv,ch|de|es|fi|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
+car,XPeng,P7,sedan,de|es|fi|lu|nl|no|ua,eu,,,,,,,,Needs verification
+car,XPeng,X9,hatchback,de|il|my|nz|th,as|eu|oc,,,,,,,,Needs verification
+car,Zeekr,001,wagon,ch|de|fi|il|nl|ua,as|eu,,,,,,,,Needs verification
+car,Zeekr,7GT,hatchback|wagon,de|es|lu|nl,eu,,,,,,,,Needs verification
+car,Zeekr,7X,hatchback,ch|de|es|il|lu|my|nl|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+car,Zeekr,X,hatchback,ch|de|es|il|my|nl|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
+van,Citroën,Berlingo,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
+van,Citroën,Jumpy,,ch|de|es|fi|il|lu|nl|no,as|eu,,,,,,,,Needs verification
+van,Fiat,Doblo,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
+van,Fiat,Ducato,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
+van,Fiat,Scudo,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
+van,Ford,Transit,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
+van,Ford,Transit Connect,,ch|de|es|fi|gb|lu|nl|no,eu,,,,,,,,Needs verification
+van,Ford,Transit Courier,,ch|de|es|fi|gb|lu|nl|no,eu,,,,,,,,Needs verification
+van,Ford,Transit Custom,,ch|de|es|fi|gb|il|lu|nl|no,as|eu,,,,,,,,Needs verification
+van,Iveco,Daily,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
+van,MAN,Tge,,ch|de|es|fi|gb|il|lu|nl|no,as|eu,,,,,,,,Needs verification
+van,Maxus,Deliver 7,,ch|de|es|fi|gb|lu,eu,,,,,,,,Needs verification
+van,Mercedes-Benz,Citan,,ch|de|es|fi|gb|il|lu|nl|no,as|eu,,,,,,,,Needs verification
+van,Mercedes-Benz,Sprinter,,au|ch|de|es|fi|gb|il|lu|nl|no|th,as|eu|oc,,,,,,,,Needs verification
+van,Mercedes-Benz,Vito,,au|ch|de|es|fi|gb|il|lu|nl|no|th,as|eu|oc,,,,,,,,Needs verification
+van,Nissan,Interstar,,ch|de|es|fi|gb|lu|nl|no,eu,,,,,,,,Needs verification
+van,Nissan,Townstar,,ch|de|es|fi|gb|lu|nl,eu,,,,,,,,Needs verification
+van,Opel,Combo,,ch|de|es|fi|gb|il|lu|nl|no,as|eu,,,,,,,,Needs verification
+van,Opel,Movano,,ch|de|es|fi|gb|il|lu|nl|no,as|eu,,,,,,,,Needs verification
+van,Opel,Vivaro,,ch|de|es|fi|gb|il|lu|nl|no,as|eu,,,,,,,,Needs verification
+van,Peugeot,Boxer,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
+van,Peugeot,Expert,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
+van,Peugeot,Rifter,,de|es|fi|gb|lu|nl|no,eu,,,,,,,,Needs verification
+van,Renault,Kangoo,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
+van,Renault,Master,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
+van,Renault,Trafic,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
+van,Toyota,Proace,,ch|de|es|fi|gb|il|lu|nl|no,as|eu,,,,,,,,Needs verification
+van,Volkswagen,Caddy,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
+van,Volkswagen,Crafter,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
+van,Volkswagen,Transporter,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification

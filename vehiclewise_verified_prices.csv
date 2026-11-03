@@ -1,0 +1,14 @@
+brand,model,vehicle_type,body_type,starting_price_eur,price_source_url,price_checked_date,new_in_germany,availability_source_url
+Audi,A3 Sportback,car,hatchback,31850,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3,2026-10-23,Listed as new on official Audi Germany page,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3
+Audi,A3 Limousine,car,sedan,32650,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3,2026-10-23,Listed as new on official Audi Germany page,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3
+Audi,A3 Sportback e-hybrid,car,hatchback,45350,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3,2026-10-23,Listed as new on official Audi Germany page,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3
+Audi,A3 allstreet,car,crossover,36550,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3,2026-10-23,Listed as new on official Audi Germany page,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3
+Audi,A3 allstreet e-hybrid,car,crossover,47150,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3,2026-10-23,Listed as new on official Audi Germany page,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3
+Audi,S3 Limousine TFSI,car,sedan,58000,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3,2026-10-23,Listed as new on official Audi Germany page,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3
+Audi,S3 Sportback TFSI,car,hatchback,57200,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3,2026-10-23,Listed as new on official Audi Germany page,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3
+Audi,RS 3 Limousine,car,sedan,70500,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3,2026-10-23,Listed as new on official Audi Germany page,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3
+Audi,RS 3 Sportback,car,hatchback,68500,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3,2026-10-23,Listed as new on official Audi Germany page,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3
+Audi,A5 Limousine,car,sedan,47800,https://www.audi.de/de/neuwagen/a5/,2026-10-23,Listed on official Audi Germany model page,https://www.audi.de/de/neuwagen/a5/
+Audi,A5 Limousine e-hybrid,car,sedan,65100,https://www.audi.de/de/neuwagen/a5/,2026-10-23,Listed on official Audi Germany model page,https://www.audi.de/de/neuwagen/a5/
+Audi,A5 Avant,car,wagon,49450,https://www.audi.de/de/neuwagen/a5/,2026-10-23,Listed on official Audi Germany model page,https://www.audi.de/de/neuwagen/a5/
+Audi,A5 Avant e-hybrid,car,wagon,66750,https://www.audi.de/de/neuwagen/a5/,2026-10-23,Listed on official Audi Germany model page,https://www.audi.de/de/neuwagen/a5/
