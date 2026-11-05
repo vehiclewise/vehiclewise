@@ -1,22 +1,20 @@
 from sqlalchemy.orm import Session
 
 from backend.auth.models import User
+from backend.auth.schemas import UserRegister
 from backend.auth.security import hash_password, verify_password
 from backend.auth.token import create_access_token
-from backend.auth.schemas import UserRegister
 
 
 def register_user(user_data: UserRegister, db: Session) -> User:
-    existing_email = db.query(User).filter(
-        User.email == user_data.email
-    ).first()
+    existing_email = db.query(User).filter(User.email == user_data.email).first()
 
     if existing_email:
         raise ValueError("Email already registered.")
 
-    existing_username = db.query(User).filter(
-        User.username == user_data.username
-    ).first()
+    existing_username = (
+        db.query(User).filter(User.username == user_data.username).first()
+    )
 
     if existing_username:
         raise ValueError("Username already taken.")
@@ -51,18 +49,18 @@ def create_user_token(user: User) -> str:
 
 
 def update_user_profile(user: User, user_data, db: Session) -> User:
-    existing_email = db.query(User).filter(
-        User.email == user_data.email,
-        User.id != user.id
-    ).first()
+    existing_email = (
+        db.query(User).filter(User.email == user_data.email, User.id != user.id).first()
+    )
 
     if existing_email:
         raise ValueError("Email already registered.")
 
-    existing_username = db.query(User).filter(
-        User.username == user_data.username,
-        User.id != user.id
-    ).first()
+    existing_username = (
+        db.query(User)
+        .filter(User.username == user_data.username, User.id != user.id)
+        .first()
+    )
 
     if existing_username:
         raise ValueError("Username already taken.")
