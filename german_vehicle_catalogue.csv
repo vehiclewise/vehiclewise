@@ -1,409 +1,479 @@
-vehicle_type,brand,model,body_type,countries,regions,model_year,fuel_type,power_hp,transmission,price_eur,price_source,last_verified,availability_status
-car,Alfa Romeo,Giulia,sedan,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Alfa Romeo,Junior,suv,ch|de|es|fi|gb|il|lu|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Alfa Romeo,Stelvio,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Alfa Romeo,Tonale,suv,ar|au|ca|ch|de|es|fi|gb|il|lu|nl|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Alpine,A110,coupe,au|ch|de|es|fi|gb|il|lu|nl|no|nz,as|eu|oc,,,,,,,,Needs verification
-car,Alpine,A290,hatchback,ch|de|es|gb|il|lu|nl,as|eu,,,,,,,,Needs verification
-car,Alpine,A390,hatchback,de|es|gb|lu|nl,eu,,,,,,,,Needs verification
-car,Audi,A1,hatchback|wagon,ar|au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,Audi,A2,hatchback,ch|de|es|fi|gb|lu|nl|no|nz|ua,eu|oc,,,,,,,,Needs verification
-car,Audi,A3,hatchback,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Audi,A4,sedan|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Audi,A5,coupe,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Audi,A6,sedan|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Audi,A7,sedan,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Audi,A8,sedan,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Audi,e-tron GT,hatchback,ca|ch|de|es|fi|gb|il|lu|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Audi,Q2,suv,ar|au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,Audi,Q3,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Audi,Q4,suv,au|ca|ch|de|es|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Audi,Q5,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Audi,Q6,suv,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Audi,Q7,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Audi,Q8,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Bentley,Bentayga,hatchback|wagon,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Bentley,Continental,convertible,au|ca|ch|de|es|fi|gb|lu|nl|no|nz|ua,eu|na|oc,,,,,,,,Needs verification
-car,BMW,1 Series,hatchback|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,BMW,2 Series,coupe,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,BMW,3 Series,sedan|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,BMW,4 Series,coupe,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,BMW,5 Series,sedan|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,BMW,7 Series,sedan,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,BMW,8 Series,coupe,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,BMW,i3,hatchback,au|ca|ch|de|es|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,BMW,iX,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,BMW,X1,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,BMW,X2,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,BMW,X3,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,BMW,X4,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,BMW,X5,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,BMW,X6,suv,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,BMW,X7,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,BMW,XM,hatchback,au|ca|ch|de|es|fi|gb|il|lu|my|nl|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,BMW,Z4,roadster,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,BMW,Z8,roadster,ca|ch|de|fi|gb|nl|no|ua|us,eu|na,,,,,,,,Needs verification
-car,BYD,Atto 2,hatchback,ar|ch|de|es|fi|gb|il|lu|my|nl|nz,as|eu|oc|sa,,,,,,,,Needs verification
-car,BYD,Atto 3,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,BYD,Dolphin,hatchback,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,BYD,Dolphin Surf,hatchback,ch|de|es|fi|ie|il|lu|nl,as|eu,,,,,,,,Needs verification
-car,BYD,Seal,sedan,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,BYD,Seal U,suv,ar|ch|de|es|fi|gb|il|lu|nl|nz|th,as|eu|oc|sa,,,,,,,,Needs verification
-car,BYD,Sealion 5,hatchback,de|gb|ie|il|lu|nz,as|eu|oc,,,,,,,,Needs verification
-car,BYD,Sealion 7,hatchback,ch|de|es|fi|gb|ie|il|lu|nl|nz|th,as|eu|oc,,,,,,,,Needs verification
-car,BYD,Tang,hatchback,de|fi|il|nl|no|ua,as|eu,,,,,,,,Needs verification
-car,Cadillac,Escalade,hatchback|wagon,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Cadillac,Optiq,hatchback,ca|de|gb|il|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Cadillac,Vistiq,hatchback,ca|de|gb|il|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Chery,TIGGO9,hatchback,de|nl,eu,,,,,,,,Needs verification
-car,Citroën,C3,hatchback,ar|au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,Citroën,C4,hatchback,ar|au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,Citroën,C5,hatchback|wagon,au|ch|de|es|fi|gb|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Cupra,Born,hatchback|wagon,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Cupra,Formentor,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Cupra,Raval,hatchback|wagon,de|es|fi|lu|nl,eu,,,,,,,,Needs verification
-car,Cupra,Tavascan,suv,ch|de|es|fi|gb|ie|il|lu|nl|nz,as|eu|oc,,,,,,,,Needs verification
-car,Cupra,Terramar,suv,ch|de|es|fi|gb|ie|il|lu|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Dacia,Bigster,suv,ch|de|es|fi|gb|ie|il|lu|nl,as|eu,,,,,,,,Needs verification
-car,Dacia,Duster,suv,ch|de|es|fi|gb|ie|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
-car,Dacia,Jogger,hatchback|wagon,ch|de|es|fi|gb|ie|il|lu|nl|ua,as|eu,,,,,,,,Needs verification
-car,Dacia,Logan,hatchback|wagon,ch|de|es|fi|gb|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
-car,Dacia,Sandero,hatchback,ch|de|es|fi|gb|ie|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
-car,Dacia,Spring,suv,ch|de|es|fi|gb|ie|il|lu|nl|ua,as|eu,,,,,,,,Needs verification
-car,Deepal,S05,hatchback|wagon,de|es|il|nl|th|ua,as|eu,,,,,,,,Needs verification
-car,Deepal,S07,hatchback|wagon,au|de|es|gb|il|nl|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,Dongfeng,Box,hatchback,ar|ch|de|es|fi|il|lu|my|nl|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,DS,DS 3,hatchback|wagon,ar|ch|de|es|fi|gb|il|lu|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,DS,DS 7,hatchback|wagon,ch|de|es|fi|gb|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
-car,DS,DS N°4,hatchback|wagon,ch|de|es|fi|gb|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
-car,DS,DS N°8,hatchback,de|es|fi|gb|lu|nl,eu,,,,,,,,Needs verification
-car,Ferrari,12CILINDRI,coupe,ca|ch|de|es|fi|gb|lu|my|nl|nz|th|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Ferrari,296,convertible,au|ca|de|es|fi|gb|il|lu|my|nl|nz|th|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Ferrari,612 Scaglietti,coupe,ca|ch|de|fi|nl|no|us,eu|na,,,,,,,,Needs verification
-car,Ferrari,849 Testarossa,coupe,ca|de|es|lu|nl|nz,eu|na|oc,,,,,,,,Needs verification
-car,Ferrari,Amalfi,coupe,de|es|gb|il|lu|nl|nz|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Ferrari,Purosangue,hatchback,au|ca|ch|de|es|fi|gb|il|lu|my|nl|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Ferrari,Roma,coupe,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Ferrari,SF90,hatchback,au|de|gb|my|nz,as|eu|oc,,,,,,,,Needs verification
-car,Fiat,500,hatchback,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Fiat,600,suv,ar|ch|de|es|fi|gb|ie|lu|nl|no|nz|ua,eu|oc|sa,,,,,,,,Needs verification
-car,Fiat,Grande Panda,hatchback,de|gb,eu,,,,,,,,Needs verification
-car,Fiat,Panda,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Fiat,Qubo,hatchback,ch|de|es|fi|gb|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
-car,Fiat,Tipo,hatchback,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Fiat,Ulysse,hatchback,ch|de|es|fi|gb|il|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Fisker,Ocean,hatchback|wagon,ch|de|fi|gb|nl|no|ua,eu,,,,,,,,Needs verification
-car,Ford,Capri,coupe,au|ch|de|es|fi|gb|ie|lu|nl|no|nz|ua,eu|oc,,,,,,,,Needs verification
-car,Ford,Explorer,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Ford,Fiesta,hatchback,au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Ford,Focus,hatchback|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Ford,Kuga,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Ford,Mustang,coupe,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Ford,Mustang Mach-E,hatchback,ca|ch|de|es|fi|gb|il|lu|nl|no|th|ua|us,as|eu|na,,,,,,,,Needs verification
-car,Ford,Puma,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Geely,E2,hatchback,de|es|nl,eu,,,,,,,,Needs verification
-car,Geely,E5,hatchback,de|es|lu|nl,eu,,,,,,,,Needs verification
-car,Geely,Starray EM-i,hatchback,de|es|gb|lu|nl|nz,eu|oc,,,,,,,,Needs verification
-car,Genesis,G80,sedan,au|ca|ch|de|es|gb|my|nl|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Genesis,G90,sedan,ca|ch|de|il|nl|us,as|eu|na,,,,,,,,Needs verification
-car,Genesis,GV60,hatchback,au|de|gb|nl|nz|ua|us,eu|na|oc,,,,,,,,Needs verification
-car,Genesis,GV70,hatchback,au|ca|ch|de|es|gb|nl|nz|ua|us,eu|na|oc,,,,,,,,Needs verification
-car,Great Wall,Ora 03,hatchback,ar|de,eu|sa,,,,,,,,Needs verification
-car,Great Wall,Ora 07,hatchback,de,eu,,,,,,,,Needs verification
-car,Great Wall,Wey 03,hatchback|wagon,de|nl,eu,,,,,,,,Needs verification
-car,Honda,Civic,hatchback,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Honda,CR-V,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Honda,E:NY1,hatchback,de|fi|il|lu|nl|ua,as|eu,,,,,,,,Needs verification
-car,Honda,HR-V,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Honda,Jazz,hatchback,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,Honda,Prelude,coupe,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Honda,ZR-V,hatchback,au|ch|de|es|fi|il|lu|my|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Hyundai,Bayon,suv,ch|de|es|fi|gb|ie|il|lu|nl,as|eu,,,,,,,,Needs verification
-car,Hyundai,i10,hatchback,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Hyundai,i20,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Hyundai,i30,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Hyundai,Inster,suv,ch|de|es|fi|gb|ie|lu|nl|nz|ua,eu|oc,,,,,,,,Needs verification
-car,Hyundai,Ioniq 3,hatchback,de|nl,eu,,,,,,,,Needs verification
-car,Hyundai,Ioniq 5,suv,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Hyundai,Ioniq 6,sedan,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Hyundai,Ioniq 9,hatchback,ca|de|es|fi|gb|ie|il|lu|my|nl|ua|us,as|eu|na,,,,,,,,Needs verification
-car,Hyundai,Kona,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Hyundai,Nexo,hatchback,au|ch|de|fi|gb|lu|nl|no|nz|us,eu|na|oc,,,,,,,,Needs verification
-car,Hyundai,Santa FE,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Hyundai,Staria,hatchback,ar|au|ch|de|es|fi|gb|il|lu|my|nl|nz|th|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,Hyundai,Tucson,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,INEOS,Grenadier,hatchback,au|ca|ch|de|es|fi|gb|lu|my|nl|nz|ua,as|eu|na|oc,,,,,,,,Needs verification
-car,Jaecoo,Jaecoo 5,hatchback,de|es|gb|il|lu|my|nl|th,as|eu,,,,,,,,Needs verification
-car,Jaecoo,Jaecoo 7,suv,de|es|gb|il|lu|my|nl|nz|th,as|eu|oc,,,,,,,,Needs verification
-car,Jeep,Avenger,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Jeep,Compass,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Jeep,Grand Cherokee,suv,ar|au|ca|ch|de|es|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Jeep,Renegade,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Jeep,Wrangler,suv,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,KGM,Actyon,hatchback|wagon,ch|de|lu|nl,eu,,,,,,,,Needs verification
-car,KGM,Korando,hatchback,de|es|gb|lu|ua,eu,,,,,,,,Needs verification
-car,KGM,Rexton,hatchback,ch|de|es|gb|il|lu|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,KGM,Tivoli,hatchback,ch|de|es|gb|il|lu,as|eu,,,,,,,,Needs verification
-car,KGM,Torres,hatchback|wagon,ch|de|es|fi|gb|il|lu|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Kia,Ceed,hatchback|wagon,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Kia,EV2,hatchback,de|es|fi|gb|ie|lu|nl,eu,,,,,,,,Needs verification
-car,Kia,EV3,suv,ch|de|es|fi|gb|ie|il|lu|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Kia,EV4,hatchback,ca|ch|de|es|fi|gb|ie|lu|nl|nz,eu|na|oc,,,,,,,,Needs verification
-car,Kia,EV5,suv,au|de|es|fi|gb|ie|lu|nl|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,Kia,EV6,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Kia,EV9,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Kia,K4,hatchback|wagon,ar|au|ca|de|es|fi|gb|ie|lu|nl|ua|us,eu|na|oc|sa,,,,,,,,Needs verification
-car,Kia,Niro,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Kia,Picanto,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Kia,PV5,hatchback,de|es|fi|gb|il|lu|nl,as|eu,,,,,,,,Needs verification
-car,Kia,Seltos,hatchback|wagon,ar|au|ca|de|es|fi|il|nl|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Kia,Sorento,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Kia,Soul,suv,au|ca|ch|de|es|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Kia,Sportage,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Kia,Stonic,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Lada,Niva,hatchback|wagon,au|ch|de|fi|gb|nl|no|nz|ua,eu|oc,,,,,,,,Needs verification
-car,Lamborghini,Urus,hatchback,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Land Rover,Defender,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Land Rover,Discovery,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Land Rover,Discovery Sport,suv,ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Land Rover,Range Rover,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Land Rover,Range Rover Evoque,suv,ar|ca|ch|de|es|fi|gb|ie|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Land Rover,Range Rover Sport,suv,ar|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Land Rover,Range Rover Velar,suv,ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Leapmotor,B03X,hatchback,de|es|lu|nl|nz,eu|oc,,,,,,,,Needs verification
-car,Leapmotor,B05,hatchback,de|es|lu|nl|nz,eu|oc,,,,,,,,Needs verification
-car,Leapmotor,B10,hatchback,ar|de|es|gb|il|lu|my|nl|nz|th|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,Leapmotor,C10,hatchback,ar|au|ch|de|es|gb|ie|il|lu|my|nl|nz|th|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,Leapmotor,T03,hatchback,ch|de|es|gb|il|lu|nl,as|eu,,,,,,,,Needs verification
-car,Lexus,ES,sedan,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Lexus,LBX,suv,ar|au|ch|de|es|fi|gb|ie|il|lu|my|nl|nz|th|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,Lexus,LM,hatchback,au|ch|de|es|gb|il|lu|my|nl|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,Lexus,NX,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Lexus,RX,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Lexus,RZ,suv,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Lexus,UX,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Lotus,Eletre,hatchback,ch|de|es|fi|gb|lu|my|nl|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,Lotus,Emeya,hatchback,ch|de|fi|gb|lu|my|nl|nz|th,as|eu|oc,,,,,,,,Needs verification
-car,Lotus,Emira,coupe,ar|au|ch|de|es|fi|gb|lu|my|nl|nz|th|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Lucid,Air,sedan,de|nl|ua,eu,,,,,,,,Needs verification
-car,Lucid,Gravity,hatchback,de|nl,eu,,,,,,,,Needs verification
-car,Lynk & Co,01,suv,ar|de|es|fi|il|nl|ua,as|eu|sa,,,,,,,,Needs verification
-car,Lynk & Co,02,hatchback,de|es|nl,eu,,,,,,,,Needs verification
-car,Lynk & Co,08,hatchback,ar|de|es|nl,eu|sa,,,,,,,,Needs verification
-car,Maserati,Ghibli,sedan,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Maserati,Gran Turismo,coupe,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Maserati,Grecale,hatchback|wagon,au|ca|ch|de|es|fi|gb|il|lu|my|nl|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Maserati,Levante,hatchback|wagon,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Maserati,Quattroporte,sedan,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Mazda,CX-30,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Mazda,CX-5,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Mazda,CX-60,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Mazda,CX-6e,suv,de|es|lu|nl,eu,,,,,,,,Needs verification
-car,Mazda,CX-80,suv,au|ch|de|es|fi|gb|ie|lu|nl|nz,eu|oc,,,,,,,,Needs verification
-car,Mazda,MAZDA2,hatchback,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Mazda,MAZDA3,hatchback,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Mazda,MAZDA6,sedan|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Mazda,MX-30,suv,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Mazda,MX-5,roadster,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Mercedes-Benz,A-Class,hatchback|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Mercedes-Benz,AMG GT,coupe,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Mercedes-Benz,Atego,hatchback,ar|ch|de|fi|nl|no,eu|sa,,,,,,,,Needs verification
-car,Mercedes-Benz,B-Class,hatchback|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Mercedes-Benz,C-Class,sedan|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Mercedes-Benz,Cl,coupe,au|ca|ch|de|es|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Mercedes-Benz,CLA,sedan|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Mercedes-Benz,CLE,coupe,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Mercedes-Benz,CLK,coupe,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Mercedes-Benz,E-Class,sedan|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Mercedes-Benz,G-Class,suv,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Mercedes-Benz,GLA,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Mercedes-Benz,GLB,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Mercedes-Benz,GLC,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Mercedes-Benz,GLE,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Mercedes-Benz,GLS,suv,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Mercedes-Benz,S-Class,sedan,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Mercedes-Benz,SL,roadster,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Mercedes-Benz,Unimog,convertible,au|ch|de|fi|nl|nz,eu|oc,,,,,,,,Needs verification
-car,Mercedes-Benz,V-Class,mpv,au|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,MG,Cyberster,convertible,au|ch|de|es|fi|gb|il|lu|my|nl|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,MG,HS,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,MG,IM5,hatchback,de|gb,eu,,,,,,,,Needs verification
-car,MG,IM6,hatchback,de|gb|nl|nz|th,as|eu|oc,,,,,,,,Needs verification
-car,MG,MG3,hatchback,ar|au|ch|de|es|fi|gb|ie|il|lu|nl|nz|th|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,MG,MG4,hatchback,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,MG,MG5,wagon,au|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,MG,MGS5 EV,hatchback,ch|de|es|fi|gb|ie|il|lu|my|nl|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,MG,MGS6 EV,hatchback,de|es|fi|gb|il|lu|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,MG,MGS9 PHEV,hatchback,de|es|gb|il|lu|nl,as|eu,,,,,,,,Needs verification
-car,MG,ZS,suv,ar|au|ch|de|es|fi|gb|ie|il|lu|my|nl|nz|th|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,Mini,Cooper,hatchback,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Mitsubishi,ASX,suv,au|ch|de|es|fi|gb|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Mitsubishi,Colt,hatchback|wagon,au|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Mitsubishi,Eclipse Cross,suv,au|ca|ch|de|es|fi|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Mitsubishi,Grandis,mpv,au|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Mitsubishi,Mirage,coupe,au|ca|de|gb|nl|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Mitsubishi,Outlander,suv,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Nio,EL6,hatchback|wagon,de|es|nl|no,eu,,,,,,,,Needs verification
-car,Nio,EL8,hatchback|wagon,de|nl|no|ua,eu,,,,,,,,Needs verification
-car,Nio,ET5,sedan,de|nl|no,eu,,,,,,,,Needs verification
-car,Nio,Firefly,hatchback|wagon,de|lu|nl,eu,,,,,,,,Needs verification
-car,Nissan,Ariya,suv,ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|na|oc,,,,,,,,Needs verification
-car,Nissan,Juke,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Nissan,Leaf,hatchback,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Nissan,Micra,hatchback,au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|na|oc,,,,,,,,Needs verification
-car,Nissan,Primastar,hatchback,ch|de|es|fi|gb|lu|nl|no|nz|ua,eu|oc,,,,,,,,Needs verification
-car,Nissan,Qashqai,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|na|oc,,,,,,,,Needs verification
-car,Nissan,X-Trail,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Omoda,Omoda 5,hatchback,au|de|es|gb|lu|my|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Omoda,Omoda 9,hatchback,de|es|fi|gb|il|lu|my|nl,as|eu,,,,,,,,Needs verification
-car,Opel,Astra,hatchback|wagon,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Opel,Corsa,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Opel,Frontera,suv,ch|de|fi|ie|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
-car,Opel,Grandland,suv,ch|de|es|fi|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Opel,Insignia,sedan|wagon,au|ch|de|es|fi|gb|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Opel,Mokka,suv,ch|de|es|fi|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Opel,Zafira Life,hatchback,ch|de|es|fi|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
-car,Peugeot,2008,suv,ar|au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,Peugeot,208,hatchback,ar|au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,Peugeot,3008,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Peugeot,308,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Peugeot,408,hatchback,au|ch|de|es|fi|gb|ie|il|lu|my|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Peugeot,5008,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Peugeot,508,hatchback|wagon,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Peugeot,J5,hatchback,ch|de|es|fi|lu|nl|no|ua,eu,,,,,,,,Needs verification
-car,Polestar,Polestar 2,sedan,au|ca|ch|de|es|fi|gb|ie|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Polestar,Polestar 3,hatchback|wagon,au|ca|ch|de|es|fi|gb|lu|nl|nz|ua|us,eu|na|oc,,,,,,,,Needs verification
-car,Polestar,Polestar 4,hatchback,au|ca|ch|de|es|fi|gb|ie|lu|nl|no|nz|ua|us,eu|na|oc,,,,,,,,Needs verification
-car,Porsche,911,coupe,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Porsche,Boxster,roadster,au|ca|ch|de|es|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Porsche,Cayenne,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Porsche,Cayman,coupe,au|ca|ch|de|es|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Porsche,Macan,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Porsche,Panamera,sedan|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Porsche,Taycan,sedan|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Renault,4,hatchback,au|ch|de|es|fi|gb|ie|lu|nl|no|nz|ua,eu|oc,,,,,,,,Needs verification
-car,Renault,5,hatchback,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Renault,Arkana,suv,ar|au|ch|de|es|fi|gb|ie|il|lu|nl|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,Renault,Austral,suv,ch|de|es|fi|gb|ie|il|lu|nl,as|eu,,,,,,,,Needs verification
-car,Renault,Captur,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Renault,Clio,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Renault,Espace,mpv,ch|de|es|fi|gb|lu|nl|no|nz|ua,eu|oc,,,,,,,,Needs verification
-car,Renault,Megane,hatchback|wagon,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Renault,Rafale,suv,ch|de|es|fi|gb|lu|nl,eu,,,,,,,,Needs verification
-car,Renault,Scenic,mpv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Renault,Symbioz,suv,ch|de|es|fi|gb|ie|il|lu|nl|ua,as|eu,,,,,,,,Needs verification
-car,Renault,Twingo,hatchback,ch|de|es|fi|gb|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Rolls-Royce,Cullinan,sedan,au|ca|ch|de|es|gb|my|nl|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Rolls-Royce,Spectre,coupe,au|de|fi|my|nl|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,SEAT,Arona,suv,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,SEAT,Ateca,suv,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,SEAT,Ibiza,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,SEAT,Leon,hatchback|wagon,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Škoda,Elroq,suv,ch|de|es|fi|gb|ie|il|lu|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Škoda,Enyaq,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Škoda,Epiq,hatchback|wagon,de|es|lu|nl,eu,,,,,,,,Needs verification
-car,Škoda,Fabia,hatchback|wagon,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Škoda,Kamiq,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Škoda,Karoq,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Škoda,Kodiaq,suv,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Škoda,Octavia,hatchback|wagon,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Škoda,Scala,hatchback,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Škoda,Superb,sedan|wagon,au|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Smart,#1,hatchback,au|ch|de|es|fi|gb|lu|nl|nz|ua,eu|oc,,,,,,,,Needs verification
-car,Smart,#3,hatchback,au|ch|de|es|fi|gb|lu|nl|nz|ua,eu|oc,,,,,,,,Needs verification
-car,Smart,#5,hatchback,ch|de|es|fi|gb|lu|nl|nz|ua,eu|oc,,,,,,,,Needs verification
-car,Smart,Fortwo,hatchback,au|ca|ch|de|es|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Subaru,Crosstrek,hatchback|wagon,ar|au|ca|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Subaru,Forester,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Subaru,Impreza,sedan|wagon,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Subaru,Outback,hatchback|wagon,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Subaru,Solterra,hatchback|wagon,au|ca|ch|de|fi|gb|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Subaru,Uncharted,hatchback|wagon,ca|de|fi|gb|lu|nl|us,eu|na,,,,,,,,Needs verification
-car,Suzuki,Across,hatchback|wagon,ar|ch|de|es|fi|gb|nl|no,eu|sa,,,,,,,,Needs verification
-car,Suzuki,Jimny,suv,au|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,Suzuki,S-Cross,suv,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Suzuki,Swace,hatchback|wagon,ch|de|es|fi|gb|il|lu|nl,as|eu,,,,,,,,Needs verification
-car,Suzuki,Swift,hatchback,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Suzuki,Vitara,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Tesla,Model 3,sedan,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Tesla,Model S,sedan,au|ca|ch|de|es|fi|gb|lu|nl|no|nz|ua|us,eu|na|oc,,,,,,,,Needs verification
-car,Tesla,Model X,suv,au|ca|ch|de|es|fi|gb|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Tesla,Model Y,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Togg,T10X,hatchback,de|my|nl,as|eu,,,,,,,,Needs verification
-car,Toyota,Aygo,hatchback,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Toyota,bZ4X,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Toyota,C-HR,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Toyota,Camry,sedan,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Toyota,Corolla,hatchback|wagon,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Toyota,Land Cruiser,suv,ar|au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Toyota,Mirai,sedan,au|ch|de|es|fi|gb|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Toyota,Prius,hatchback,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Toyota,RAV4,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Toyota,Supra,coupe,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Toyota,Urban Cruiser,suv,ch|de|es|fi|gb|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Toyota,Yaris,hatchback,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Vinfast,VF 6,hatchback,de|nl,eu,,,,,,,,Needs verification
-car,Vinfast,VF 8,hatchback,de|es|nl|ua,eu,,,,,,,,Needs verification
-car,Volkswagen,Arteon,sedan|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Volkswagen,Golf,hatchback|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Volkswagen,ID.3,hatchback|wagon,ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Volkswagen,ID.4,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Volkswagen,ID.7,hatchback|wagon,ch|de|es|fi|gb|ie|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
-car,Volkswagen,Id. Buzz,hatchback|wagon,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Volkswagen,Passat,sedan|wagon,au|ca|ch|de|es|fi|gb|ie|il|lu|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Volkswagen,Polo,hatchback,ar|au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,Volkswagen,T-Cross,suv,ar|au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc|sa,,,,,,,,Needs verification
-car,Volkswagen,T-Roc,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Volkswagen,Taigo,suv,ch|de|es|fi|gb|ie|il|lu|nl,as|eu,,,,,,,,Needs verification
-car,Volkswagen,Tayron,suv,ch|de|es|fi|gb|ie|il|lu|my|nl|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Volkswagen,Tiguan,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Volkswagen,Touareg,suv,au|ca|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Volkswagen,Touran,mpv,au|ch|de|es|fi|gb|il|lu|my|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Volkswagen,Up,hatchback,au|ch|de|es|fi|gb|il|lu|nl|no|nz|ua,as|eu|oc,,,,,,,,Needs verification
-car,Volvo,60,hatchback,de|no,eu,,,,,,,,Needs verification
-car,Volvo,C40,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Volvo,ES90,sedan,de|es|fi|gb|lu|my|nl|ua,as|eu,,,,,,,,Needs verification
-car,Volvo,EX30,suv,ar|au|ca|ch|de|es|fi|gb|ie|lu|my|nl|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Volvo,EX60,suv,de|es|gb|lu|nl,eu,,,,,,,,Needs verification
-car,Volvo,EX90,suv,ch|de|es|fi|gb|il|lu|my|nl|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Volvo,XC40,suv,au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc,,,,,,,,Needs verification
-car,Volvo,XC60,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,Volvo,XC90,suv,ar|au|ca|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua|us,as|eu|na|oc|sa,,,,,,,,Needs verification
-car,XPeng,G6,suv,au|ch|de|es|fi|gb|ie|il|lu|my|nl|no|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,XPeng,G9,suv,ch|de|es|fi|il|lu|nl|no|ua,as|eu,,,,,,,,Needs verification
-car,XPeng,P7,sedan,de|es|fi|lu|nl|no|ua,eu,,,,,,,,Needs verification
-car,XPeng,X9,hatchback,de|il|my|nz|th,as|eu|oc,,,,,,,,Needs verification
-car,Zeekr,001,wagon,ch|de|fi|il|nl|ua,as|eu,,,,,,,,Needs verification
-car,Zeekr,7GT,hatchback|wagon,de|es|lu|nl,eu,,,,,,,,Needs verification
-car,Zeekr,7X,hatchback,ch|de|es|il|lu|my|nl|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-car,Zeekr,X,hatchback,ch|de|es|il|my|nl|nz|th|ua,as|eu|oc,,,,,,,,Needs verification
-van,Citroën,Berlingo,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
-van,Citroën,Jumpy,,ch|de|es|fi|il|lu|nl|no,as|eu,,,,,,,,Needs verification
-van,Fiat,Doblo,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
-van,Fiat,Ducato,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
-van,Fiat,Scudo,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
-van,Ford,Transit,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
-van,Ford,Transit Connect,,ch|de|es|fi|gb|lu|nl|no,eu,,,,,,,,Needs verification
-van,Ford,Transit Courier,,ch|de|es|fi|gb|lu|nl|no,eu,,,,,,,,Needs verification
-van,Ford,Transit Custom,,ch|de|es|fi|gb|il|lu|nl|no,as|eu,,,,,,,,Needs verification
-van,Iveco,Daily,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
-van,MAN,Tge,,ch|de|es|fi|gb|il|lu|nl|no,as|eu,,,,,,,,Needs verification
-van,Maxus,Deliver 7,,ch|de|es|fi|gb|lu,eu,,,,,,,,Needs verification
-van,Mercedes-Benz,Citan,,ch|de|es|fi|gb|il|lu|nl|no,as|eu,,,,,,,,Needs verification
-van,Mercedes-Benz,Sprinter,,au|ch|de|es|fi|gb|il|lu|nl|no|th,as|eu|oc,,,,,,,,Needs verification
-van,Mercedes-Benz,Vito,,au|ch|de|es|fi|gb|il|lu|nl|no|th,as|eu|oc,,,,,,,,Needs verification
-van,Nissan,Interstar,,ch|de|es|fi|gb|lu|nl|no,eu,,,,,,,,Needs verification
-van,Nissan,Townstar,,ch|de|es|fi|gb|lu|nl,eu,,,,,,,,Needs verification
-van,Opel,Combo,,ch|de|es|fi|gb|il|lu|nl|no,as|eu,,,,,,,,Needs verification
-van,Opel,Movano,,ch|de|es|fi|gb|il|lu|nl|no,as|eu,,,,,,,,Needs verification
-van,Opel,Vivaro,,ch|de|es|fi|gb|il|lu|nl|no,as|eu,,,,,,,,Needs verification
-van,Peugeot,Boxer,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
-van,Peugeot,Expert,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
-van,Peugeot,Rifter,,de|es|fi|gb|lu|nl|no,eu,,,,,,,,Needs verification
-van,Renault,Kangoo,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
-van,Renault,Master,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
-van,Renault,Trafic,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
-van,Toyota,Proace,,ch|de|es|fi|gb|il|lu|nl|no,as|eu,,,,,,,,Needs verification
-van,Volkswagen,Caddy,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
-van,Volkswagen,Crafter,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
-van,Volkswagen,Transporter,,au|ch|de|es|fi|gb|il|lu|nl|no,as|eu|oc,,,,,,,,Needs verification
+vehicle_type,brand,model,body_type,countries,regions,model_year,fuel_type,power_hp,transmission,price_eur,price_source,last_verified,availability_status,official_source_url,record_scope
+car,Toyota,Aygo X,hatchback,de,eu,,hybrid,,,19450.70,Toyota Germany new-car page; displayed promotional starting price,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,Yaris,hatchback,de,eu,,hybrid,,,22215.00,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,Yaris Cross,suv,de,eu,,hybrid,,,24955.20,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,Urban Cruiser,suv,de,eu,,electric,,,29470.70,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,Corolla,hatchback|wagon,de,eu,,hybrid,,,29626.20,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,Corolla Touring Sports,wagon,de,eu,,hybrid,,,30742.20,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,Corolla Cross,suv,de,eu,,hybrid,,,33551.70,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,C-HR,suv,de,eu,,hybrid|plug-in hybrid,,,30110.70,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,C-HR+,suv,de,eu,,electric,,,34966.72,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,Prius Plug-in Hybrid,hatchback,de,eu,,plug-in hybrid,,,41770.70,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,RAV4,suv,de,eu,,hybrid|plug-in hybrid,,,39910.70,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,bZ4X,suv,de,eu,,electric,,,35980.70,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,bZ4X Touring,wagon,de,eu,,electric,,,44350.70,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,Land Cruiser,suv,de,eu,,mild hybrid,,,84750.00,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,GR Yaris,hatchback,de,eu,,petrol,,,47590.00,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,GR Supra,coupe,de,eu,,petrol,,,142800.00,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,Hilux,pickup,de,eu,,mild hybrid|electric,,,46746.17,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Toyota,Mirai,sedan,de,eu,,hydrogen electric,,,68490.00,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+van,Toyota,Proace,van,de,eu,,diesel|electric,,,37264.85,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+van,Toyota,Proace Verso,mpv,de,eu,,diesel|electric,,,32747.25,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+van,Toyota,Proace City,van,de,eu,,multiple,,,,Toyota German new-car model page; price displayed;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+van,Toyota,Proace City Verso,mpv,de,eu,,multiple,,,21066.45,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+van,Toyota,Proace Max,van,de,eu,,diesel|electric,,,42661.50,Toyota German new-car model page; displayed starting price;2026-11-05,2026-11-05,Listed in Germany,https://www.toyota.de/neuwagen,model_family
+car,Volkswagen,Polo,hatchback,de,eu,,petrol,,,20380.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,ID. Polo,hatchback,de,eu,,electric,,,24995.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,ID. Tiguan,suv,de,eu,,electric,,,42695.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,Golf,hatchback,de,eu,,,,,30210.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,ID.3 Neo,hatchback,de,eu,,electric,,,33995.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,Taigo,suv,de,eu,,,,,23560.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,T-Cross,suv,de,eu,,,,,25280.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,ID. Cross,suv,de,eu,,electric,,,27995.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,T-Roc,suv,de,eu,,,,,30995.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,T-Roc Cabriolet,convertible,de,eu,,,,,37995.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,Tiguan,suv,de,eu,,,,,39385.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,ID.4,suv,de,eu,,electric,,,40580.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,ID.5,suv-coupe,de,eu,,electric,,,43360.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,Tayron,suv,de,eu,,,,,47470.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,Golf Variant,wagon,de,eu,,,,,31310.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,Passat,wagon,de,eu,,,,,42930.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,ID.7,liftback,de,eu,,electric,,,54505.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Volkswagen,ID.7 Tourer,wagon,de,eu,,electric,,,55305.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+van,Volkswagen,Caddy,van,de,eu,,,,,34200.60,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+van,Volkswagen,Caddy California,camper van,de,eu,,,,,41174.00,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+van,Volkswagen,ID. Buzz,van,de,eu,,electric,,,52270.75,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+van,Volkswagen,Multivan,mpv,de,eu,,,,,57465.10,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+van,Volkswagen,California,camper van,de,eu,,,,,66086.65,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+van,Volkswagen,Grand California,camper van,de,eu,,,,,83109.60,Volkswagen German model page; starting price incl. VAT;2026-11-05,2026-11-05,Listed in Germany,https://www.volkswagen.de/de/modelle.html,model_family
+car,Hyundai,INSTER,suv,de,eu,,electric,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,KONA Elektro,suv,de,eu,,electric,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,IONIQ 3,hatchback,de,eu,,electric,,,,Hyundai German lineup page; new model listing;verify order availability,2026-11-05,New listing; order availability to verify,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,IONIQ 5,suv,de,eu,,electric,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,IONIQ 6,sedan,de,eu,,electric,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,IONIQ 9,suv,de,eu,,electric,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,IONIQ 5 N,suv,de,eu,,electric,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,IONIQ 6 N,sedan,de,eu,,electric,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+van,Hyundai,STARIA Elektro,van,de,eu,,electric,,,,Hyundai German lineup page; new model listing;verify order availability,2026-11-05,New listing; order availability to verify,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,i20,hatchback,de,eu,,petrol,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,i30,hatchback,de,eu,,petrol,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,i30 Kombi,wagon,de,eu,,petrol,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,KONA,suv,de,eu,,petrol,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,BAYON,suv,de,eu,,petrol,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,TUCSON,suv,de,eu,,petrol,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,KONA Hybrid,suv,de,eu,,hybrid,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,TUCSON Hybrid,suv,de,eu,,hybrid,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,SANTA FE Hybrid,suv,de,eu,,hybrid,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+van,Hyundai,STARIA Hybrid 9-Sitzer,mpv,de,eu,,hybrid,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+van,Hyundai,STARIA Hybrid 7-Sitzer,mpv,de,eu,,hybrid,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,TUCSON Plug-in-Hybrid,suv,de,eu,,plug-in hybrid,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,SANTA FE Plug-in-Hybrid,suv,de,eu,,plug-in hybrid,,,,Hyundai German lineup page (price omitted; current promotional terms need rechecking);2026-11-05,2026-11-05,Listed in Germany,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Hyundai,NEXO,suv,de,eu,,hydrogen electric,,,,Hyundai German lineup page; new model listing;verify order availability,2026-11-05,New listing; order availability to verify,https://www.hyundai.com/de/de/modelle.html,model_family
+car,Audi,A2 e-tron,hatchback,de,eu,,electric,,,,,2026-11-05,Officially listed; order status to verify,https://www.audi.de/de/neuwagen/,model_family
+car,Audi,A3,hatchback,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.audi.de/de/neuwagen/,model_family
+car,Audi,A5,sedan|wagon,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.audi.de/de/neuwagen/,model_family
+car,Audi,A6,sedan|wagon,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.audi.de/de/neuwagen/,model_family
+car,Audi,A6 e-tron,sedan|wagon,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.audi.de/de/neuwagen/,model_family
+car,Audi,Q3,suv,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.audi.de/de/neuwagen/,model_family
+car,Audi,Q4 e-tron,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.audi.de/de/neuwagen/,model_family
+car,Audi,Q5,suv,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.audi.de/de/neuwagen/,model_family
+car,Audi,Q6 e-tron,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.audi.de/de/neuwagen/,model_family
+car,Audi,Q7,suv,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.audi.de/de/neuwagen/,model_family
+car,Audi,Q8,suv,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.audi.de/de/neuwagen/,model_family
+car,Audi,Q9,suv,de,eu,,,,,,,2026-11-05,Officially listed; order status to verify,https://www.audi.de/de/neuwagen/,model_family
+car,Audi,e-tron GT,coupe,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.audi.de/de/neuwagen/,model_family
+car,Kia,Picanto,hatchback,de,eu,,petrol,,,,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,Stonic,suv,de,eu,,petrol,,,23790.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,XCeed,hatchback,de,eu,,petrol,,,28390.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,K4,sedan,de,eu,,petrol,,,28890.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,K4 Hybrid,sedan,de,eu,,hybrid,,,33590.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,K4 Sportswagon,wagon,de,eu,,petrol,,,29890.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,K4 Sportswagon Hybrid,wagon,de,eu,,hybrid,,,34590.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,Niro Hybrid,suv,de,eu,,hybrid,,,33690.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,Seltos,suv,de,eu,,petrol,,,34190.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,Seltos Hybrid,suv,de,eu,,hybrid,,,37490.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,Sportage,suv,de,eu,,petrol,,,33990.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,Sportage Hybrid,suv,de,eu,,hybrid,,,38990.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,Sportage Plug-in Hybrid,suv,de,eu,,plug-in hybrid,,,43100.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,Sorento,suv,de,eu,,petrol|diesel,,,54690.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,Sorento Hybrid,suv,de,eu,,hybrid,,,55190.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,Sorento Plug-in Hybrid,suv,de,eu,,plug-in hybrid,,,61140.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,EV2,hatchback,de,eu,,electric,,,26600.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,EV3,suv,de,eu,,electric,,,35990.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,EV3 GT,suv,de,eu,,electric,,,53990.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,EV4,hatchback,de,eu,,electric,,,37590.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,EV4 GT,hatchback,de,eu,,electric,,,57840.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,EV4 Fastback,sedan,de,eu,,electric,,,41490.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,EV5,suv,de,eu,,electric,,,45990.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,EV5 GT,suv,de,eu,,electric,,,59990.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,EV6,suv,de,eu,,electric,,,44990.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,EV6 GT,suv,de,eu,,electric,,,69990.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,EV9,suv,de,eu,,electric,,,63690.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Kia,EV9 GT,suv,de,eu,,electric,,,90490.00,Kia Germany model listing; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+van,Kia,PV5 Chassis Cab,van,de,eu,,electric,,,38390.00,Kia Germany new-model page; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+van,Kia,PV5 Passenger,mpv,de,eu,,electric,,,38390.00,Kia Germany new-model page; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+van,Kia,PV5 WAV,mpv,de,eu,,electric,,,44940.00,Kia Germany new-model page; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+van,Kia,PV5 Cargo,van,de,eu,,electric,,,35990.00,Kia Germany new-model page; displayed starting price,2026-11-05,Listed in Germany,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+van,Kia,PV5 Crew,van,de,eu,,electric,,,,Kia Germany new-model page; orderable;price not shown,2026-11-05,Newly orderable; price not published,https://www.kia.com/de/ueber-kia/neue-modelle/,model_family
+car,Škoda,Elroq,suv,de,eu,,electric,,,33900.00,Škoda Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.skoda-auto.de/modelle/modelluebersicht,model_family
+car,Škoda,Enyaq,suv,de,eu,,electric,,,43490.00,Škoda Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.skoda-auto.de/modelle/modelluebersicht,model_family
+car,Škoda,Enyaq Coupé,suv-coupe,de,eu,,electric,,,48990.00,Škoda Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.skoda-auto.de/modelle/modelluebersicht,model_family
+car,Škoda,Peaq,suv,de,eu,,electric,,,49900.00,Škoda Germany model overview; new model starting price,2026-11-05,New listing; availability date to verify,https://www.skoda-auto.de/modelle/modelluebersicht,model_family
+car,Škoda,Fabia,hatchback,de,eu,,petrol,,,20190.00,Škoda Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.skoda-auto.de/modelle/modelluebersicht,model_family
+car,Škoda,Scala,hatchback,de,eu,,petrol,,,25300.00,Škoda Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.skoda-auto.de/modelle/modelluebersicht,model_family
+car,Škoda,Kamiq,suv,de,eu,,petrol,,,25980.00,Škoda Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.skoda-auto.de/modelle/modelluebersicht,model_family
+car,Škoda,Octavia,wagon,de,eu,,petrol|diesel|plug-in hybrid,,,,Škoda Germany model overview; variants listed;price varies by body and trim,2026-11-05,Listed in Germany,https://www.skoda-auto.de/modelle/modelluebersicht,model_family
+car,Škoda,Octavia Combi,wagon,de,eu,,petrol|diesel|plug-in hybrid,,,32840.00,Škoda Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.skoda-auto.de/modelle/modelluebersicht,model_family
+car,Škoda,Karoq,suv,de,eu,,petrol|diesel,,,,Škoda Germany model overview; variants listed;price not confirmed,2026-11-05,Listed in Germany,https://www.skoda-auto.de/modelle/modelluebersicht,model_family
+car,Škoda,Kodiaq,suv,de,eu,,petrol|diesel|plug-in hybrid,,,44710.00,Škoda Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.skoda-auto.de/modelle/modelluebersicht,model_family
+car,Škoda,Superb,sedan,de,eu,,petrol|diesel|plug-in hybrid,,,40900.00,Škoda Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.skoda-auto.de/modelle/modelluebersicht,model_family
+car,Škoda,Superb Combi,wagon,de,eu,,petrol|diesel|plug-in hybrid,,,42100.00,Škoda Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.skoda-auto.de/modelle/modelluebersicht,model_family
+car,BMW,iX,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,iX5,suv,de,eu,,electric,,,,,2026-11-05,New listing; order availability to verify,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,iX4,suv-coupe,de,eu,,electric,,,,,2026-11-05,New listing; order availability to verify,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,iX3,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,iX2,suv-coupe,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,iX1,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,X1,suv,de,eu,,petrol|diesel|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,X2,suv-coupe,de,eu,,petrol|diesel,,,,,2026-11-05,Listed in Germany,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,X3,suv,de,eu,,petrol|diesel|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,X5,suv,de,eu,,petrol|diesel|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,X7,suv,de,eu,,petrol|diesel,,,,,2026-11-05,Listed in Germany,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,1 Series,hatchback,de,eu,,petrol|diesel,,,,,2026-11-05,Listed in Germany,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,2 Series,coupe|mpv,de,eu,,petrol|diesel|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,3 Series,sedan|wagon,de,eu,,petrol|diesel|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,4 Series,coupe|convertible,de,eu,,petrol|diesel,,,,,2026-11-05,Listed in Germany,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,5 Series,sedan|wagon,de,eu,,petrol|diesel|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,7 Series,sedan,de,eu,,petrol|diesel|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,BMW,Z4,roadster,de,eu,,petrol,,,,,2026-11-05,Listed in Germany,https://www.bmw.de/de/neufahrzeuge.html,model_family
+car,Ford,Capri,coupe,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.ford.de/shop/broschueren-preislisten,model_family
+car,Ford,Explorer,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.ford.de/shop/broschueren-preislisten,model_family
+car,Ford,Puma Gen-E,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.ford.de/shop/broschueren-preislisten,model_family
+car,Ford,Puma,suv,de,eu,,petrol|mild hybrid,,,,,2026-11-05,Listed in Germany,https://www.ford.de/shop/broschueren-preislisten,model_family
+car,Ford,Kuga,suv,de,eu,,petrol|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.ford.de/shop/broschueren-preislisten,model_family
+car,Ford,Mustang Mach-E,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.ford.de/shop/broschueren-preislisten,model_family
+car,Ford,Mustang,coupe,de,eu,,petrol,,,,,2026-11-05,Listed in Germany,https://www.ford.de/shop/broschueren-preislisten,model_family
+car,Ford,Bronco,suv,de,eu,,petrol,,,,,2026-11-05,Listed in Germany,https://www.ford.de/shop/broschueren-preislisten,model_family
+van,Ford,Tourneo Courier,van,de,eu,,petrol|electric,,,,,2026-11-05,Listed in Germany,https://www.ford.de/shop/broschueren-preislisten,model_family
+van,Ford,Tourneo Connect,mpv,de,eu,,petrol|diesel|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.ford.de/shop/broschueren-preislisten,model_family
+van,Ford,Tourneo Custom,mpv,de,eu,,diesel|electric,,,,,2026-11-05,Listed in Germany,https://www.ford.de/shop/broschueren-preislisten,model_family
+van,Ford,Transit Custom Nugget,camper van,de,eu,,diesel|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.ford.de/shop/broschueren-preislisten,model_family
+truck,Ford,Ranger,pickup,de,eu,,diesel|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.ford.de/shop/broschueren-preislisten,model_family
+truck,Ford,Ranger Raptor,pickup,de,eu,,petrol|diesel,,,,,2026-11-05,Listed in Germany,https://www.ford.de/shop/broschueren-preislisten,model_family
+car,Renault,5 E-Tech, hatchback,de,eu,,electric,,,26290.00,Renault Germany model page; UPE shown with delivery surcharge excluded,2026-11-05,Listed in Germany,https://www.renault.de/modelluebersicht.html,model_family
+car,Renault,4 E-Tech,suv,de,eu,,electric,,,29500.00,Renault Germany model page; UPE shown with delivery surcharge excluded,2026-11-05,Listed in Germany,https://www.renault.de/modelluebersicht.html,model_family
+car,Renault,Megane E-Tech,hatchback,de,eu,,electric,,,34990.00,Renault Germany model page; UPE shown with delivery surcharge excluded,2026-11-05,Listed in Germany,https://www.renault.de/modelluebersicht.html,model_family
+car,Renault,Scenic E-Tech,suv,de,eu,,electric,,,42590.00,Renault Germany model page; UPE shown with delivery surcharge excluded,2026-11-05,Listed in Germany,https://www.renault.de/modelluebersicht.html,model_family
+van,Renault,Kangoo E-Tech,van,de,eu,,electric,,,35950.00,Renault Germany model page; UPE shown with delivery surcharge excluded,2026-11-05,Listed in Germany,https://www.renault.de/modelluebersicht.html,model_family
+van,Renault,Grand Kangoo E-Tech,mpv,de,eu,,electric,,,40350.00,Renault Germany model page; UPE shown with delivery surcharge excluded,2026-11-05,Listed in Germany,https://www.renault.de/modelluebersicht.html,model_family
+van,Renault,Kangoo Rapid,van,de,eu,,petrol|diesel,,,22200.00,Renault Germany commercial price shown excluding VAT,2026-11-05,Listed in Germany,https://www.renault.de/modelluebersicht.html,model_family
+van,Renault,Kangoo Rapid E-Tech,van,de,eu,,electric,,,32640.00,Renault Germany commercial price shown excl. VAT on source page,2026-11-05,Listed in Germany,https://www.renault.de/modelluebersicht.html,model_family
+van,Renault,Trafic,van,de,eu,,diesel,,,32550.00,Renault Germany commercial price shown excl. VAT on source page,2026-11-05,Listed in Germany,https://www.renault.de/modelluebersicht.html,model_family
+van,Renault,Trafic E-Tech,van,de,eu,,electric,,,,,2026-11-05,New model listing; price not shown,https://www.renault.de/modelluebersicht.html,model_family
+van,Renault,Master,van,de,eu,,diesel,,,37020.00,Renault Germany commercial price shown excl. VAT on source page,2026-11-05,Listed in Germany,https://www.renault.de/modelluebersicht.html,model_family
+van,Renault,Master Kastenwagen,van,de,eu,,diesel,,,35290.00,Renault Germany commercial price shown excl. VAT on source page,2026-11-05,Listed in Germany,https://www.renault.de/modelluebersicht.html,model_family
+van,Renault,Master Kastenwagen E-Tech,van,de,eu,,electric,,,45790.00,Renault Germany commercial price shown excl. VAT on source page,2026-11-05,Listed in Germany,https://www.renault.de/modelluebersicht.html,model_family
+car,Volvo,EX60,suv,de,eu,,electric,,,62990.00,Volvo Germany model page; UVP,2026-11-05,Listed in Germany,https://www.volvocars.com/de/cars/family-cars/,model_family
+car,Volvo,EX30,suv,de,eu,,electric,,,34990.00,Volvo Germany model page; UVP,2026-11-05,Listed in Germany,https://www.volvocars.com/de/cars/family-cars/,model_family
+car,Volvo,EX40,suv,de,eu,,electric,,,47490.00,Volvo Germany model page; UVP,2026-11-05,Listed in Germany,https://www.volvocars.com/de/cars/family-cars/,model_family
+car,Volvo,XC90,suv,de,eu,,plug-in hybrid|mild hybrid,,,88990.00,Volvo Germany model page; UVP displayed for plug-in hybrid,2026-11-05,Listed in Germany,https://www.volvocars.com/de/cars/family-cars/,model_family
+car,Volvo,EX90,suv,de,eu,,electric,,,84190.00,Volvo Germany model page; UVP,2026-11-05,Listed in Germany,https://www.volvocars.com/de/cars/family-cars/,model_family
+car,Volvo,XC60,suv,de,eu,,plug-in hybrid|mild hybrid,,,57390.00,Volvo Germany model page; UVP displayed for mild hybrid; PHEV price also listed,2026-11-05,Listed in Germany,https://www.volvocars.com/de/cars/family-cars/,model_family
+car,Volvo,XC40,suv,de,eu,,mild hybrid,,,43990.00,Volvo Germany model page; UVP,2026-11-05,Listed in Germany,https://www.volvocars.com/de/cars/family-cars/,model_family
+car,Volvo,ES90,sedan,de,eu,,electric,,,71490.00,Volvo Germany model page; UVP,2026-11-05,Listed in Germany,https://www.volvocars.com/de/cars/family-cars/,model_family
+car,Volvo,EC40,crossover,de,eu,,electric,,,51890.00,Volvo Germany model page; UVP,2026-11-05,Listed in Germany,https://www.volvocars.com/de/cars/family-cars/,model_family
+car,Volvo,V60,wagon,de,eu,,plug-in hybrid|mild hybrid,,,48590.00,Volvo Germany model page; UVP displayed for mild hybrid; PHEV price also listed,2026-11-05,Listed in Germany,https://www.volvocars.com/de/cars/family-cars/,model_family
+car,Mazda,CX-5,suv,de,eu,,petrol|mild hybrid,,,35990.00,Mazda Germany recommended retail price incl. VAT; delivery/registration extra,2026-11-05,Listed in Germany,https://www.mazda.de/modelle/,model_family
+car,Mazda,CX-6e EV,suv,de,eu,,electric,,,49990.00,Mazda Germany recommended retail price incl. VAT; delivery/registration extra,2026-11-05,Listed in Germany,https://www.mazda.de/modelle/,model_family
+car,Mazda,CX-30,suv,de,eu,2027,petrol,,,29990.00,Mazda Germany recommended retail price incl. VAT; delivery/registration extra,2026-11-05,Listed in Germany,https://www.mazda.de/modelle/,model_family
+car,Mazda,CX-60,suv,de,eu,,plug-in hybrid|diesel,,,50950.00,Mazda Germany recommended retail price incl. VAT; delivery/registration extra,2026-11-05,Listed in Germany,https://www.mazda.de/modelle/,model_family
+car,Mazda,CX-80,suv,de,eu,,plug-in hybrid|diesel,,,57550.00,Mazda Germany recommended retail price incl. VAT; delivery/registration extra,2026-11-05,Listed in Germany,https://www.mazda.de/modelle/,model_family
+car,Mazda,6e,sedan,de,eu,2027,electric,,,47490.00,Mazda Germany recommended retail price incl. VAT; delivery/registration extra,2026-11-05,Listed in Germany,https://www.mazda.de/modelle/,model_family
+car,Mazda,3,hatchback,de,eu,2027,petrol,,,29190.00,Mazda Germany recommended retail price incl. VAT; delivery/registration extra,2026-11-05,Listed in Germany,https://www.mazda.de/modelle/,model_family
+car,Mazda,3 Fastback,sedan,de,eu,2027,petrol,,,29690.00,Mazda Germany recommended retail price incl. VAT; delivery/registration extra,2026-11-05,Listed in Germany,https://www.mazda.de/modelle/,model_family
+car,Mazda,MX-5,convertible,de,eu,2027,petrol,,,34190.00,Mazda Germany recommended retail price incl. VAT; delivery/registration extra,2026-11-05,Listed in Germany,https://www.mazda.de/modelle/,model_family
+car,Mazda,MX-5 RF,convertible,de,eu,2027,petrol,,,36990.00,Mazda Germany recommended retail price incl. VAT; delivery/registration extra,2026-11-05,Listed in Germany,https://www.mazda.de/modelle/,model_family
+car,Mazda,2 Hybrid,hatchback,de,eu,,hybrid,,,25990.00,Mazda Germany recommended retail price incl. VAT; delivery/registration extra,2026-11-05,Listed in Germany,https://www.mazda.de/modelle/,model_family
+car,Mitsubishi,ASX,suv,de,eu,,petrol|hybrid,,,22390.00,Mitsubishi Germany model page; starting price,2026-11-05,Listed in Germany,https://www.mitsubishi-motors.de/modelle/,model_family
+car,Mitsubishi,Grandis,suv,de,eu,,mild hybrid|hybrid,,,26390.00,Mitsubishi Germany model page; starting price,2026-11-05,Listed in Germany,https://www.mitsubishi-motors.de/modelle/,model_family
+car,Mitsubishi,Eclipse Cross,suv,de,eu,,electric,,,43990.00,Mitsubishi Germany model page; starting price,2026-11-05,Listed in Germany,https://www.mitsubishi-motors.de/modelle/,model_family
+car,Mitsubishi,Outlander,suv,de,eu,,plug-in hybrid,,,39990.00,Mitsubishi Germany model page; starting price,2026-11-05,Listed in Germany,https://www.mitsubishi-motors.de/modelle/,model_family
+car,Honda,Jazz,hatchback,de,eu,,full hybrid,,,25900.00,Honda Germany model listing; starting price,2026-11-05,Listed in Germany,https://www.honda.de/cars.html,model_family
+car,Honda,Prelude,coupe,de,eu,,full hybrid,,,49500.00,Honda Germany model listing; starting price,2026-11-05,Listed in Germany,https://www.honda.de/cars.html,model_family
+car,Honda,Civic,hatchback,de,eu,,full hybrid,,,37900.00,Honda Germany model listing; starting price,2026-11-05,Listed in Germany,https://www.honda.de/cars.html,model_family
+car,Honda,HR-V,suv,de,eu,,full hybrid,,,33900.00,Honda Germany model listing; starting price,2026-11-05,Listed in Germany,https://www.honda.de/cars.html,model_family
+car,Honda,ZR-V,suv,de,eu,,full hybrid,,,40900.00,Honda Germany model listing; starting price,2026-11-05,Listed in Germany,https://www.honda.de/cars.html,model_family
+car,Honda,CR-V,suv,de,eu,,full hybrid|plug-in hybrid,,,46900.00,Honda Germany model listing; starting price for full hybrid,2026-11-05,Listed in Germany,https://www.honda.de/cars.html,model_family
+car,Lexus,LBX,suv,de,eu,,hybrid,,,32990.00,Lexus Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.lexus.de/modelle/alle-modelle,model_family
+car,Lexus,UX,crossover,de,eu,,hybrid,,,45200.00,Lexus Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.lexus.de/modelle/alle-modelle,model_family
+car,Lexus,NX,suv,de,eu,,hybrid|plug-in hybrid,,,53700.00,Lexus Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.lexus.de/modelle/alle-modelle,model_family
+car,Lexus,RZ,suv,de,eu,,electric,,,57100.00,Lexus Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.lexus.de/modelle/alle-modelle,model_family
+car,Lexus,ES,sedan,de,eu,,hybrid|electric,,,59600.00,Lexus Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.lexus.de/modelle/alle-modelle,model_family
+car,Lexus,RX,suv,de,eu,,hybrid|plug-in hybrid,,,73850.00,Lexus Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.lexus.de/modelle/alle-modelle,model_family
+car,Lexus,LM,mpv,de,eu,,hybrid,,,128000.00,Lexus Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.lexus.de/modelle/alle-modelle,model_family
+car,Lexus,TZ,suv,de,eu,,,,,,,2026-11-05,Model listed; sales availability to verify,https://www.lexus.de/modelle/alle-modelle,model_family
+car,Porsche,911,coupe|convertible,de,eu,,petrol,,,,,2026-11-05,Listed in Germany,https://www.porsche.com/germany/models/,model_family
+car,Porsche,718,convertible|coupe,de,eu,,petrol,,,,,2026-11-05,Listed in Germany; verify order status,https://www.porsche.com/germany/models/,model_family
+car,Porsche,Taycan,sedan|wagon,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.porsche.com/germany/models/,model_family
+car,Porsche,Panamera,sedan,de,eu,,petrol|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.porsche.com/germany/models/,model_family
+car,Porsche,Macan,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.porsche.com/germany/models/,model_family
+car,Porsche,Cayenne,suv,de,eu,,petrol|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.porsche.com/germany/models/,model_family
+car,Mercedes-Benz,CLA,sedan,de,eu,,electric|petrol,,,43931.23,Mercedes-Benz German model page; lowest displayed starting price across family,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,C-Klasse Limousine,sedan,de,eu,,electric|plug-in hybrid|petrol|diesel,,,42982.32,Mercedes-Benz German model page; lowest displayed starting price across family,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,EQE Limousine,sedan,de,eu,,electric,,,65171.78,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,EQS Limousine,sedan,de,eu,,electric,,,91570.62,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,E-Klasse Limousine,sedan,de,eu,,plug-in hybrid|petrol|diesel,,,52586.10,Mercedes-Benz German model page; lowest displayed starting price across family,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,S-Klasse,sedan,de,eu,,plug-in hybrid|petrol|diesel,,,109220.58,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,GLA,suv,de,eu,,electric|plug-in hybrid|petrol|diesel,,,41684.51,Mercedes-Benz German model page; lowest displayed starting price across family,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,GLB,suv,de,eu,,electric|petrol,,,46868.75,Mercedes-Benz German model page; lowest displayed starting price across family,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,GLC,suv,de,eu,,electric|plug-in hybrid|petrol|diesel,,,54017.43,Mercedes-Benz German model page; lowest displayed starting price across family,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,GLC Coupé,suv-coupe,de,eu,,plug-in hybrid|petrol|diesel,,,57820.43,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,GLE,suv,de,eu,,plug-in hybrid|petrol|diesel,,,87461.13,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,GLE Coupé,suv-coupe,de,eu,,plug-in hybrid|petrol|diesel,,,94204.57,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,GLS,suv,de,eu,,petrol|diesel,,,102700.27,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,G-Klasse,suv,de,eu,,electric|petrol|diesel,,,127591.80,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,AMG GT SUV,suv,de,eu,,electric,,,113050.00,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,CLA Shooting Brake,wagon,de,eu,,electric|petrol,,,44279.07,Mercedes-Benz German model page; lowest displayed starting price across family,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,C-Klasse T-Modell,wagon,de,eu,,plug-in hybrid|petrol|diesel,,,46863.21,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,E-Klasse T-Modell,wagon,de,eu,,plug-in hybrid|petrol|diesel,,,54835.20,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,E-Klasse T-Modell All-Terrain,wagon,de,eu,,plug-in hybrid|petrol|diesel,,,66241.35,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,A-Klasse Kompaktlimousine,hatchback,de,eu,,plug-in hybrid|petrol|diesel,,,32297.20,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,B-Klasse,mpv,de,eu,,plug-in hybrid|petrol|diesel,,,35559.10,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,CLE Coupé,coupe,de,eu,,plug-in hybrid|petrol|diesel,,,49521.02,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,AMG GT Coupé,coupe,de,eu,,plug-in hybrid|petrol,,,111660.50,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,AMG GT 4-Türer Coupé,coupe,de,eu,,electric,,,115430.00,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,CLE Cabriolet,convertible,de,eu,,petrol|diesel,,,56814.35,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,SL Roadster,roadster,de,eu,,plug-in hybrid|petrol,,,126686.45,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Mercedes-Benz,VLE,mpv,de,eu,,electric,,,71526.74,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+van,Mercedes-Benz,V-Klasse,mpv,de,eu,,petrol|diesel,,,56590.45,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+van,Mercedes-Benz,Marco Polo,camper van,de,eu,,diesel,,,78133.02,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+van,Mercedes-Benz,Marco Polo Horizon,camper van,de,eu,,diesel,,,69640.20,Mercedes-Benz German model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mercedes-benz.de/passengercars/models.html?group=all,model_family
+car,Alpine,A290,hatchback,de,eu,,electric,,,37000.00,Alpine Germany official site; starting price,2026-11-05,Listed in Germany,https://www.alpinecars.de/,model_family
+car,Alpine,A390,suv,de,eu,,electric,,,67500.00,Alpine Germany official site; starting price,2026-11-05,Listed in Germany,https://www.alpinecars.de/,model_family
+car,Alpine,A110,coupe,de,eu,,petrol,,,66350.00,Alpine Germany official site; starting price,2026-11-05,Listed in Germany,https://www.alpinecars.de/,model_family
+car,Dacia,Spring,hatchback,de,eu,,electric,,,17900.00,Dacia Germany model page; UPE excluding delivery charges,2026-11-05,Listed in Germany,https://www.dacia.de/modelle.html,model_family
+car,Dacia,Sandero,hatchback,de,eu,,petrol|full hybrid|LPG,,,13790.00,Dacia Germany model page; UPE excluding delivery charges,2026-11-05,Listed in Germany,https://www.dacia.de/modelle.html,model_family
+car,Dacia,Sandero Stepway,hatchback|crossover,de,eu,,petrol|full hybrid|LPG,,,15290.00,Dacia Germany model page; UPE excluding delivery charges,2026-11-05,Listed in Germany,https://www.dacia.de/modelle.html,model_family
+car,Dacia,Jogger,wagon|mpv,de,eu,,petrol|full hybrid|LPG,,,17990.00,Dacia Germany model page; UPE excluding delivery charges,2026-11-05,Listed in Germany,https://www.dacia.de/modelle.html,model_family
+car,Dacia,Duster,suv,de,eu,,petrol|full hybrid|LPG,,,18990.00,Dacia Germany model page; UPE excluding delivery charges,2026-11-05,Listed in Germany,https://www.dacia.de/modelle.html,model_family
+car,Dacia,Striker,suv,de,eu,,full hybrid,,,21990.00,Dacia Germany model page; new listing starting price,2026-11-05,New listing; sales availability to verify,https://www.dacia.de/modelle.html,model_family
+car,Dacia,Bigster,suv,de,eu,,petrol|full hybrid|LPG,,,23990.00,Dacia Germany model page; UPE excluding delivery charges,2026-11-05,Listed in Germany,https://www.dacia.de/modelle.html,model_family
+car,SEAT,Ibiza,hatchback,de,eu,,petrol,,,19910.00,SEAT Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.seat.de/,model_family
+car,SEAT,Arona,suv,de,eu,,petrol,,,24440.00,SEAT Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.seat.de/,model_family
+car,SEAT,Leon,hatchback,de,eu,,petrol|plug-in hybrid,,,29530.00,SEAT Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.seat.de/,model_family
+car,SEAT,Leon Sportstourer,wagon,de,eu,,petrol|plug-in hybrid,,,31215.00,SEAT Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.seat.de/,model_family
+car,CUPRA,Tavascan,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.cupraofficial.de/,model_family
+car,CUPRA,Terramar,suv,de,eu,,petrol|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.cupraofficial.de/,model_family
+car,CUPRA,Born,hatchback,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.cupraofficial.de/,model_family
+car,CUPRA,Leon,hatchback,de,eu,,petrol|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.cupraofficial.de/,model_family
+car,CUPRA,Leon Sportstourer,wagon,de,eu,,petrol|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.cupraofficial.de/,model_family
+car,CUPRA,Formentor,suv,de,eu,,petrol|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.cupraofficial.de/,model_family
+car,CUPRA,Ateca,suv,de,eu,,petrol,,,,,2026-11-05,Listed in Germany; confirm current order availability,https://www.cupraofficial.de/,model_family
+car,Citroën,Ami,quadricycle,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.citroen.de/infocenter/konfigurator.html,model_family
+car,Citroën,C3,hatchback,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.citroen.de/infocenter/konfigurator.html,model_family
+car,Citroën,C3 Aircross,suv,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.citroen.de/infocenter/konfigurator.html,model_family
+car,Citroën,C4,hatchback,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.citroen.de/infocenter/konfigurator.html,model_family
+car,Citroën,C4 X,sedan,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.citroen.de/infocenter/konfigurator.html,model_family
+car,Citroën,C5 Aircross,suv,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.citroen.de/infocenter/konfigurator.html,model_family
+van,Citroën,Berlingo,van,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.citroen.de/infocenter/konfigurator.html,model_family
+van,Citroën,Jumpy Kombi,mpv,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.citroen.de/infocenter/konfigurator.html,model_family
+van,Citroën,SpaceTourer,mpv,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.citroen.de/infocenter/konfigurator.html,model_family
+van,Citroën,Holidays,camper van,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.citroen.de/infocenter/konfigurator.html,model_family
+car,Fiat,Grizzly,suv,de,eu,,petrol|hybrid|electric,,,,,2026-11-05,Model listed; order availability to verify,https://www.fiat.de/professional/modelle,model_family
+car,Fiat,Grizzly Fastback,suv-coupe,de,eu,,petrol|hybrid|electric,,,,,2026-11-05,Model listed; order availability to verify,https://www.fiat.de/professional/modelle,model_family
+car,Fiat,Grande Panda,hatchback,de,eu,,petrol|hybrid|electric,,,14990.00,Fiat Germany offer page; listed starting price,2026-11-05,Listed in Germany,https://www.fiat.de/,model_family
+car,Fiat,Topolino,quadricycle,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.fiat.de/professional/modelle,model_family
+car,Fiat,600,suv,de,eu,,petrol|hybrid|electric,,,19990.00,Fiat Germany offer page; listed starting price,2026-11-05,Listed in Germany,https://www.fiat.de/,model_family
+car,Fiat,500,hatchback|convertible,de,eu,,hybrid|electric,,,14990.00,Fiat Germany offer page; displayed starting price,2026-11-05,Listed in Germany,https://www.fiat.de/,model_family
+car,Fiat,500 Torino,hatchback,de,eu,,hybrid,,,,,2026-11-05,Listed in Germany,https://www.fiat.de/professional/modelle,model_family
+car,Fiat,Pandina,hatchback,de,eu,,petrol,,,11490.00,Fiat Germany offer page; displayed starting price,2026-11-05,Listed in Germany,https://www.fiat.de/,model_family
+car,Fiat,Qubo L,mpv,de,eu,,diesel|petrol,,,,,2026-11-05,Listed in Germany,https://www.fiat.de/professional/modelle,model_family
+van,Fiat,E-Ducato,van,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.fiat.de/professional/modelle,model_family
+van,Fiat,E-Doblo,van,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.fiat.de/professional/modelle,model_family
+van,Fiat,E-Scudo,van,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.fiat.de/professional/modelle,model_family
+van,Fiat,Ducato,van,de,eu,,diesel,,,,,2026-11-05,Listed in Germany,https://www.fiat.de/professional/modelle,model_family
+van,Fiat,Doblo,van,de,eu,,diesel,,,,,2026-11-05,Listed in Germany,https://www.fiat.de/professional/modelle,model_family
+van,Fiat,Scudo,van,de,eu,,diesel,,,,,2026-11-05,Listed in Germany,https://www.fiat.de/professional/modelle,model_family
+car,Opel,Rocks,quadricycle,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.opel.de/auswahlhilfe/modelle.html,model_family
+car,Opel,Corsa,hatchback,de,eu,,petrol|hybrid|electric,,,,,2026-11-05,Listed in Germany,https://www.opel.de/auswahlhilfe/modelle.html,model_family
+car,Opel,Mokka,suv,de,eu,,petrol|hybrid|electric,,,,,2026-11-05,Listed in Germany,https://www.opel.de/auswahlhilfe/modelle.html,model_family
+car,Opel,Mokka GSE,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.opel.de/auswahlhilfe/modelle.html,model_family
+car,Opel,Astra,hatchback,de,eu,,petrol|hybrid|plug-in hybrid|diesel|electric,,,,,2026-11-05,Listed in Germany,https://www.opel.de/auswahlhilfe/modelle.html,model_family
+car,Opel,Astra Sports Tourer,wagon,de,eu,,petrol|hybrid|plug-in hybrid|diesel|electric,,,,,2026-11-05,Listed in Germany,https://www.opel.de/auswahlhilfe/modelle.html,model_family
+car,Opel,Frontera,suv,de,eu,,petrol|hybrid|electric,,,,,2026-11-05,Listed in Germany,https://www.opel.de/auswahlhilfe/modelle.html,model_family
+car,Opel,Grandland,suv,de,eu,,petrol|hybrid|plug-in hybrid|electric,,,,,2026-11-05,Listed in Germany,https://www.opel.de/auswahlhilfe/modelle.html,model_family
+van,Opel,Combo,van,de,eu,,diesel|electric,,,,,2026-11-05,Listed in Germany,https://www.opel.de/auswahlhilfe/modelle.html,model_family
+van,Opel,Vivaro Kombi,mpv,de,eu,,diesel|electric,,,,,2026-11-05,Listed in Germany,https://www.opel.de/auswahlhilfe/modelle.html,model_family
+van,Opel,Zafira,mpv,de,eu,,diesel|electric,,,,,2026-11-05,Listed in Germany,https://www.opel.de/auswahlhilfe/modelle.html,model_family
+car,Peugeot,208,hatchback,de,eu,,petrol|hybrid|electric,,,,,2026-11-05,Listed in Germany,https://www.peugeot.de/help-me-choose/peugeot-range.html,model_family
+car,Peugeot,2008,suv,de,eu,,petrol|hybrid|electric,,,,,2026-11-05,Listed in Germany,https://www.peugeot.de/help-me-choose/peugeot-range.html,model_family
+car,Peugeot,308,hatchback,de,eu,,petrol|hybrid|plug-in hybrid|diesel|electric,,,,,2026-11-05,Listed in Germany,https://www.peugeot.de/help-me-choose/peugeot-range.html,model_family
+car,Peugeot,308 SW,wagon,de,eu,,petrol|hybrid|plug-in hybrid|diesel|electric,,,,,2026-11-05,Listed in Germany,https://www.peugeot.de/help-me-choose/peugeot-range.html,model_family
+car,Peugeot,3008,suv,de,eu,,petrol|hybrid|plug-in hybrid|electric,,,,,2026-11-05,Listed in Germany,https://www.peugeot.de/,model_family
+van,Peugeot,Partner,van,de,eu,,diesel|electric,,,,,2026-11-05,Listed in Germany,https://www.peugeot.de/,model_family
+van,Peugeot,Expert,van,de,eu,,diesel|electric,,,,,2026-11-05,Listed in Germany,https://www.peugeot.de/,model_family
+van,Peugeot,Boxer,van,de,eu,,diesel|electric,,,,,2026-11-05,Listed in Germany,https://www.peugeot.de/,model_family
+car,BYD,ATTO 2,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.byd.com/de/e-fahrzeuge,model_family
+car,BYD,ATTO 2 DM-i,suv,de,eu,,plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.byd.com/de/presse/byd-paris-motor-show-2026,model_family
+car,BYD,ATTO 3 EVO,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.byd.com/de/e-fahrzeuge,model_family
+car,BYD,DOLPHIN,hatchback,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.byd.com/de/order-seal-u,model_family
+car,BYD,DOLPHIN SURF,hatchback,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.byd.com/de/e-fahrzeuge,model_family
+car,BYD,DOLPHIN G DM-i,hatchback,de,eu,,plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.byd.com/de/presse/byd-sommeroffensive-2026,model_family
+car,BYD,SEAL,sedan,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.byd.com/de/order-seal-u,model_family
+car,BYD,SEAL 6 DM-i Touring,wagon,de,eu,,plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.byd.com/de/presse/byd-sommeroffensive-2026,model_family
+car,BYD,SEAL U DM-i,suv,de,eu,,plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.byd.com/de/order-seal-u,model_family
+car,BYD,SEALION 5 DM-i,suv,de,eu,,plug-in hybrid,,,,,2026-11-05,Model listed; verify order availability,https://www.byd.com/de/presse/byd-paris-motor-show-2026,model_family
+car,BYD,SEALION 7,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.byd.com/de/e-fahrzeuge,model_family
+car,BYD,TANG,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.byd.com/de/order-seal-u,model_family
+car,Leapmotor,T03,hatchback,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.leapmotor.net/de-de/modelle,model_family
+car,Leapmotor,B05,hatchback,de,eu,,electric,,,,,2026-11-05,New listing; order availability to verify,https://www.leapmotor.net/de-de/modelle,model_family
+car,Leapmotor,C10,suv,de,eu,,electric|range-extender hybrid,,,,,2026-11-05,Listed in Germany,https://www.leapmotor.net/de-de/modelle,model_family
+car,Leapmotor,B03X,suv,de,eu,,electric,,,,,2026-11-05,New listing; order availability to verify,https://www.leapmotor.net/de-de/modelle,model_family
+car,Leapmotor,B10,suv,de,eu,,electric|range-extender hybrid,,,,,2026-11-05,Listed in Germany,https://www.leapmotor.net/de-de/modelle,model_family
+car,Leapmotor,B03,hatchback,de,eu,,electric,,,,,2026-11-05,Coming soon; not yet orderable,https://www.leapmotor.net/de/unseremodelle,model_family
+car,MG,CYBERSTER,roadster,de,eu,,electric,,,65990.00,MG Motor Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mgmotor.de/,model_family
+car,MG,IM6,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.mgmotor.de/,model_family
+car,MG,MGS6 EV,suv,de,eu,,electric,,,49990.00,MG Motor Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mgmotor.de/,model_family
+car,MG,IM5,sedan,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.mgmotor.de/,model_family
+car,MG,MGS5 EV,suv,de,eu,,electric,,,37990.00,MG Motor Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mgmotor.de/,model_family
+car,MG,MG4 EV Urban,hatchback,de,eu,,electric,,,24990.00,MG Motor Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mgmotor.de/,model_family
+car,MG,MG4 EV,hatchback,de,eu,,electric,,,42990.00,MG Motor Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mgmotor.de/,model_family
+car,MG,HS Plug-in Hybrid,suv,de,eu,,plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.mgmotor.de/,model_family
+car,MG,MGS9 Plug-in Hybrid,suv,de,eu,,plug-in hybrid,,,,,2026-11-05,New model listing; availability to verify,https://www.mgmotor.de/,model_family
+car,MG,HS Hybrid+,suv,de,eu,,full hybrid,,,34990.00,MG Motor Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mgmotor.de/technology,model_family
+car,MG,ZS Hybrid+,suv,de,eu,,full hybrid,,,25990.00,MG Motor Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mgmotor.de/technology,model_family
+car,MG,3 Hybrid+,hatchback,de,eu,,full hybrid,,,22490.00,MG Motor Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mgmotor.de/technology,model_family
+car,MG,HS,suv,de,eu,,petrol,,,,,2026-11-05,Listed in Germany,https://www.mgmotor.de/,model_family
+car,MG,ZS,suv,de,eu,,petrol,,,20990.00,MG Motor Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mgmotor.de/,model_family
+car,MG,3,hatchback,de,eu,,petrol,,,17990.00,MG Motor Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.mgmotor.de/,model_family
+car,Nissan,LEAF,hatchback,de,eu,,electric,,,,,2026-11-05,New listing; order availability to verify,https://www.nissan.de/fahrzeuge/neuwagen.html,model_family
+car,Nissan,MICRA,hatchback,de,eu,,electric,,,,,2026-11-05,New listing; order availability to verify,https://www.nissan.de/fahrzeuge/neuwagen.html,model_family
+car,Nissan,Juke,suv,de,eu,,petrol|hybrid,,,,,2026-11-05,Listed in Germany,https://www.nissan.de/modelluebersicht/suv-crossover.html,model_family
+car,Nissan,Qashqai,suv,de,eu,,mild hybrid|series hybrid,,,,,2026-11-05,Listed in Germany,https://www.nissan.de/modelluebersicht/suv-crossover.html,model_family
+car,Nissan,ARIYA,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.nissan.de/modelluebersicht/suv-crossover.html,model_family
+car,Nissan,X-Trail,suv,de,eu,,series hybrid,,,,,2026-11-05,Listed in Germany,https://www.nissan.de/modelluebersicht/suv-crossover.html,model_family
+van,Nissan,Townstar Kombi,mpv,de,eu,,petrol|electric,,,,,2026-11-05,Listed in Germany,https://www.nissan.de/fahrzeuge/neuwagen.html,model_family
+van,Nissan,Primastar Kombi,mpv,de,eu,,diesel,,,,,2026-11-05,Listed in Germany,https://www.nissan.de/fahrzeuge/neuwagen.html,model_family
+van,Nissan,Townstar,van,de,eu,,petrol|electric,,,,,2026-11-05,Listed in Germany,https://www.nissan.de/fahrzeuge/neuwagen.html,model_family
+van,Nissan,Primastar,van,de,eu,,diesel,,,,,2026-11-05,Listed in Germany,https://www.nissan.de/fahrzeuge/neuwagen.html,model_family
+van,Nissan,Interstar,van,de,eu,,diesel|electric,,,,,2026-11-05,Listed in Germany,https://www.nissan.de/fahrzeuge/neuwagen.html,model_family
+car,Subaru,Forester,suv,de,eu,,mild hybrid,,,,,2026-11-05,Listed in Germany,https://www.subaru.de/,model_family
+car,Subaru,Outback,wagon,de,eu,,mild hybrid,,,,,2026-11-05,Listed in Germany,https://www.subaru.de/,model_family
+car,Subaru,E-Outback,wagon,de,eu,,electric,,,,,2026-11-05,New listing; order availability to verify,https://www.subaru.de/,model_family
+car,Subaru,Uncharted,suv,de,eu,,electric,,,,,2026-11-05,New listing; order availability to verify,https://www.subaru.de/,model_family
+car,Subaru,Crosstrek,suv,de,eu,,mild hybrid,,,,,2026-11-05,Listed in Germany,https://www.subaru.de/,model_family
+car,Subaru,Impreza,hatchback,de,eu,,petrol|mild hybrid,,,,,2026-11-05,Listed in Germany,https://www.subaru.de/,model_family
+car,Subaru,Solterra,suv,de,eu,,electric,,,45990.00,Subaru Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.subaru.de/modelle/solterra,model_family
+car,Suzuki,e VITARA,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://auto.suzuki.de/bilder/modelle,model_family
+car,Suzuki,Swift,hatchback,de,eu,,mild hybrid,,,20000.00,Suzuki Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://auto.suzuki.de/bilder/modelle,model_family
+car,Suzuki,Vitara,suv,de,eu,,petrol|mild hybrid,,,27500.00,Suzuki Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://auto.suzuki.de/bilder/modelle,model_family
+car,Suzuki,S-Cross,suv,de,eu,,mild hybrid,,,,,2026-11-05,Listed in Germany,https://presse.suzuki.de/automobile/,model_family
+car,Jeep,Avenger,suv,de,eu,,petrol|hybrid|electric,,,,,2026-11-05,Listed in Germany,https://www.jeep.de/,model_family
+car,Jeep,Compass,suv,de,eu,,electric|hybrid|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.jeep.de/,model_family
+car,Jeep,Renegade,suv,de,eu,,hybrid,,,,,2026-11-05,Model listed in electrification lineup; verify order availability,https://www.jeep.de/elektrifizierung,model_family
+car,Jeep,Wrangler,suv,de,eu,,plug-in hybrid,,,,,2026-11-05,Model listed in electrification lineup; verify order availability,https://www.jeep.de/elektrifizierung,model_family
+car,Jeep,Grand Cherokee,suv,de,eu,,plug-in hybrid,,,,,2026-11-05,Model listed in electrification lineup; verify order availability,https://www.jeep.de/elektrifizierung,model_family
+car,Lynk & Co,01,suv,de,eu,,plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.lynkco.com/de-de/cars,model_family
+car,Lynk & Co,02,crossover,de,eu,,electric,,,35995.00,Lynk & Co Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.lynkco.com/de-de/cars,model_family
+car,Lynk & Co,08,suv,de,eu,,plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.lynkco.com/de-de/cars,model_family
+car,KGM,Tivoli,suv,de,eu,,petrol,,,18990.00,KGM Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.kgm.de/,model_family
+car,KGM,Korando,suv,de,eu,,petrol,,,22990.00,KGM Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.kgm.de/,model_family
+car,KGM,Torres,suv,de,eu,,petrol|hybrid,,,28990.00,KGM Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.kgm.de/,model_family
+car,KGM,Torres EVX,suv,de,eu,,electric,,,34990.00,KGM Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.kgm.de/,model_family
+van,KGM,Torres EVX Cargo Van,van,de,eu,,electric,,,38990.00,KGM Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.kgm.de/,model_family
+car,KGM,Actyon,suv,de,eu,,petrol|hybrid,,,35790.00,KGM Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.kgm.de/,model_family
+truck,KGM,Musso EV,pickup,de,eu,,electric,,,41990.00,KGM Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.kgm.de/,model_family
+truck,KGM,Musso,pickup,de,eu,,diesel,,,40990.00,KGM Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.kgm.de/,model_family
+truck,KGM,Musso Grand,pickup,de,eu,,diesel,,,42490.00,KGM Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.kgm.de/,model_family
+car,KGM,Rexton,suv,de,eu,,petrol|diesel,,,47990.00,KGM Germany model overview; displayed starting price,2026-11-05,Listed in Germany,https://www.kgm.de/,model_family
+car,Genesis,GV60,suv,de,eu,,electric,,,53500.00,Genesis Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.genesis.com/de/de/models/gv60,model_family
+car,Genesis,GV60 Magma,suv,de,eu,,electric,,,,,2026-11-05,New model listing; order availability to verify,https://www.genesis.com/de/de/find-and-buy/build-your-genesis/choose-a-model,model_family
+car,Genesis,Electrified GV70,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.genesis.com/de/de/find-and-buy/build-your-genesis/choose-a-model,model_family
+car,Genesis,Electrified G80,sedan,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.genesis.com/de/de/find-and-buy/build-your-genesis/choose-a-model,model_family
+car,Genesis,GV70,suv,de,eu,,petrol|diesel,,,,,2026-11-05,Listed in Germany,https://www.genesis.com/de/de/find-and-buy/build-your-genesis/choose-a-model,model_family
+car,Genesis,GV80,suv,de,eu,,petrol|diesel,,,70480.00,Genesis Germany model price list; starting price,2026-11-05,Listed in Germany,https://www.genesis.com/de/de/find-and-buy/build-your-genesis/choose-a-model,model_family
+car,Genesis,G70,sedan,de,eu,,petrol|diesel,,,,,2026-11-05,Listed in Germany,https://www.genesis.com/de/de/find-and-buy/build-your-genesis/choose-a-model,model_family
+car,Genesis,G80,sedan,de,eu,,petrol,,,,,2026-11-05,Listed in Germany,https://www.genesis.com/de/de/find-and-buy/build-your-genesis/choose-a-model,model_family
+car,Genesis,G70 Shooting Brake,wagon,de,eu,,petrol|diesel,,,,,2026-11-05,Listed in Germany,https://www.genesis.com/de/de/find-and-buy/build-your-genesis/choose-a-model,model_family
+car,Genesis,G90,sedan,de,eu,,petrol,,,,,2026-11-05,Listed in Germany,https://www.genesis.com/de/de/find-and-buy/build-your-genesis/choose-a-model,model_family
+car,Genesis,GV90,suv,de,eu,,,,,,,2026-11-05,Model listed; sales availability to verify,https://www.genesis.com/de/de/find-and-buy/build-your-genesis/choose-a-model,model_family
+car,NIO,ET5,sedan,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.nio.com/de_DE,model_family
+car,NIO,EL6,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.nio.com/de_DE,model_family
+car,NIO,ET5 Touring,wagon,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.nio.com/de_DE,model_family
+car,NIO,ET7,sedan,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.nio.com/de_DE,model_family
+car,NIO,EL7,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.nio.com/de_DE,model_family
+car,Zeekr,001,wagon,de,eu,,electric,,,59990.00,Zeekr Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.zeekr.eu/de-de/models/001,model_family
+car,Zeekr,X,suv,de,eu,,electric,,,37990.00,Zeekr Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.zeekr.eu/de-de/models/x,model_family
+car,Zeekr,7X,suv,de,eu,,electric,,,54990.00,Zeekr Germany model page; displayed starting price,2026-11-05,Listed in Germany,https://www.zeekr.eu/de-de/models/7x,model_family
+car,Zeekr,7GT,wagon,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.zeekr.eu/de-de/,model_family
+car,Zeekr,9X,suv,de,eu,,electric,,,,,2026-11-05,Reservation listing; not orderable status verified,https://www.zeekr.eu/de-de/,model_family
+car,Geely,E5,suv,de,eu,,electric,,,37990.00,Geely Germany official page; starting price,2026-11-05,Listed in Germany,https://www.geely.de/models/geely-e5-electric-suv,model_family
+car,Geely,Starray EM-i,suv,de,eu,,plug-in hybrid,,,32990.00,Geely Germany launch page; starting price,2026-11-05,Listed in Germany,https://www.geely.de/posts/2026-03-26-starray-emi-elektrifiziert-zuganglich-verlasslich,model_family
+car,Geely,E2,hatchback,de,eu,,electric,,,19990.00,Geely Germany homepage; displayed manufacturer price,2026-11-05,Listed in Germany,https://www.geely.de/,model_family
+car,Lucid,Gravity,suv,de,eu,,electric,,,94900.00,Lucid Germany official page; starting price,2026-11-05,Listed in Germany,https://lucidmotors.com/de-de,model_family
+car,Lucid,Air,sedan,de,eu,,electric,,,85900.00,Lucid Germany official page; starting price,2026-11-05,Listed in Germany,https://lucidmotors.com/de-de,model_family
+van,MAXUS,eDELIVER 7,van,de,eu,,electric,,,45990.00,MAXUS Germany model page; displayed price excluding VAT,2026-11-05,Listed in Germany,https://www.maxus.de/de/modelle,model_family
+van,MAXUS,eDELIVER 5,van,de,eu,,electric,,,38990.00,MAXUS Germany model page; displayed price excluding VAT,2026-11-05,Listed in Germany,https://www.maxus.de/de/modelle,model_family
+van,MAXUS,eDELIVER 9,van,de,eu,,electric,,,49990.00,MAXUS Germany model page; displayed price excluding VAT,2026-11-05,Listed in Germany,https://www.maxus.de/de/modelle,model_family
+van,MAXUS,eDELIVER 75,van,de,eu,,electric,,,69990.00,MAXUS Germany model page; displayed price excluding VAT,2026-11-05,Listed in Germany,https://www.maxus.de/de/modelle,model_family
+van,MAXUS,DELIVER 7,van,de,eu,,diesel,,,29990.00,MAXUS Germany model page; displayed price excluding VAT,2026-11-05,Listed in Germany,https://www.maxus.de/de/modelle,model_family
+van,MAXUS,DELIVER 9,van,de,eu,,diesel,,,37990.00,MAXUS Germany model page; displayed price excluding VAT,2026-11-05,Listed in Germany,https://www.maxus.de/de/modelle,model_family
+truck,MAXUS,eTERRON 9,pickup,de,eu,,electric,,,62990.00,MAXUS Germany model page; displayed price excluding VAT,2026-11-05,Listed in Germany,https://www.maxus.de/de/modelle,model_family
+truck,MAXUS,T60 MAX,pickup,de,eu,,diesel,,,39990.00,MAXUS Germany model page; displayed price excluding VAT,2026-11-05,Listed in Germany,https://www.maxus.de/de/modelle,model_family
+truck,MAXUS,T60,pickup,de,eu,,diesel,,,37990.00,MAXUS Germany model page; displayed price excluding VAT,2026-11-05,Listed in Germany,https://www.maxus.de/de/modelle,model_family
+van,MAN,TGE,van,de,eu,,diesel,,,,,2026-11-05,Listed in Germany,https://www.man.eu/de/de/transporter/man-tge/modelluebersicht/man-tge-modelluebersicht.html,model_family
+car,OMODA,5,suv,de,eu,,petrol|hybrid|electric,,,,,2026-11-05,Listed in Germany,https://www.omodajaecoo-auto.de/kaufen/konfigurator,model_family
+car,JAECOO,7,suv,de,eu,,hybrid|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.omodajaecoo-auto.de/kaufen/konfigurator,model_family
+car,Land Rover,Range Rover,suv,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.landrover.de/download-a-brochure/index,model_family
+car,Land Rover,Range Rover Sport,suv,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.landrover.de/download-a-brochure/index,model_family
+car,Land Rover,Range Rover Velar,suv,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.landrover.de/download-a-brochure/index,model_family
+car,Land Rover,Range Rover Evoque,suv,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.landrover.de/download-a-brochure/index,model_family
+car,Land Rover,Discovery,suv,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.landrover.de/download-a-brochure/index,model_family
+car,Land Rover,Discovery Sport,suv,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.landrover.de/download-a-brochure/index,model_family
+car,Land Rover,Defender,suv,de,eu,,,,,,,2026-11-05,Listed in Germany,https://www.landrover.de/download-a-brochure/index,model_family
+car,Bentley,Bentayga,suv,de,eu,,petrol|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.bentleymotors.com/de/de/models.html,model_family
+car,Bentley,Bentayga Extended Wheelbase,suv,de,eu,,petrol,,,,,2026-11-05,Listed in Germany,https://www.bentleymotors.com/de/de/models.html,model_family
+car,Bentley,Continental GT,coupe,de,eu,,petrol|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.bentleymotors.com/de/de/models.html,model_family
+car,Bentley,Continental GTC,convertible,de,eu,,petrol|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.bentleymotors.com/de/de/models.html,model_family
+car,Bentley,Flying Spur,sedan,de,eu,,petrol|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.bentleymotors.com/de/de/models.html,model_family
+car,Cadillac,OPTIQ,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.cadillaceurope.com/de-de/faq/vehicle-accessories,model_family
+car,Cadillac,LYRIQ,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.cadillaceurope.com/de-de/faq/vehicle-accessories,model_family
+car,Cadillac,LYRIQ V,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.cadillaceurope.com/de-de/faq/vehicle-accessories,model_family
+car,Cadillac,VISTIQ,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.cadillaceurope.com/de-de/faq/vehicle-accessories,model_family
+car,Alfa Romeo,Junior,suv,de,eu,,electric|mild hybrid,,,,,2026-11-05,Listed in Germany,https://www.alfaromeo.de/,model_family
+car,Alfa Romeo,Tonale,suv,de,eu,,mild hybrid|plug-in hybrid,,,,,2026-11-05,Listed in Germany,https://www.alfaromeo.de/,model_family
+car,Alfa Romeo,Giulia,sedan,de,eu,,petrol|diesel,,,,,2026-11-05,Listed in Germany; production continues through 2027,https://www.alfaromeo.de/news/statement--stellungnahme-zur-zukunft-der-marke-alfa-romeo,model_family
+car,Alfa Romeo,Stelvio,suv,de,eu,,petrol|diesel,,,,,2026-11-05,Listed in Germany; production continues through 2027,https://www.alfaromeo.de/news/statement--stellungnahme-zur-zukunft-der-marke-alfa-romeo,model_family
+car,CUPRA,Raval,hatchback,de,eu,,electric,,,,,2026-11-05,New model listed; order availability to verify,https://www.cupraofficial.de/services/stock-locator-refactor,model_family
+car,DS,DS 3,suv,de,eu,,petrol|hybrid|electric,,,,,2026-11-05,Listed in Germany,https://www.dsautomobiles.de/modellpalette.html,model_family
+car,DS,DS 4,hatchback,de,eu,,petrol|hybrid|plug-in hybrid|diesel,,,,,2026-11-05,Listed in Germany,https://www.dsautomobiles.de/modellpalette.html,model_family
+car,DS,N°4,hatchback,de,eu,,petrol|hybrid|plug-in hybrid|electric,,,,,2026-11-05,Listed in Germany,https://www.dsautomobiles.de/modellpalette.html,model_family
+car,DS,DS 7,suv,de,eu,,petrol|plug-in hybrid|diesel,,,,,2026-11-05,Listed in Germany,https://www.dsautomobiles.de/modellpalette.html,model_family
+car,DS,N°7,suv,de,eu,,electric,,,,,2026-11-05,New model listed; order availability to verify,https://www.dsautomobiles.de/modellpalette.html,model_family
+car,DS,N°8,suv-coupe,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.dsautomobiles.de/modellpalette.html,model_family
+car,Ferrari,Amalfi,coupe,de,eu,,petrol,,,,,2026-11-05,Listed in current manufacturer portfolio,https://www.ferrari.com/en-EN/auto,model_family
+car,Ferrari,12Cilindri,coupe,de,eu,,petrol,,,,,2026-11-05,Listed in current manufacturer portfolio,https://www.ferrari.com/en-EN/auto,model_family
+car,Ferrari,12Cilindri Spider,convertible,de,eu,,petrol,,,,,2026-11-05,Listed in current manufacturer portfolio,https://www.ferrari.com/en-EN/auto,model_family
+car,Ferrari,Purosangue,suv,de,eu,,petrol,,,,,2026-11-05,Listed in current manufacturer portfolio,https://www.ferrari.com/en-EN/auto,model_family
+car,Ferrari,849 Testarossa,coupe,de,eu,,hybrid,,,,,2026-11-05,New model listed; verify German order availability,https://cdn.ferrari.com/cms/network/media/pdf/2026_02_10%20-%20Ferrari%20-%20FY%202025%20Results%20Presentation.pdf,model_family
+car,Ferrari,849 Testarossa Spider,convertible,de,eu,,hybrid,,,,,2026-11-05,New model listed; verify German order availability,https://cdn.ferrari.com/cms/network/media/pdf/2026_02_10%20-%20Ferrari%20-%20FY%202025%20Results%20Presentation.pdf,model_family
+car,Ferrari,F80,coupe,de,eu,,hybrid,,,,,2026-11-05,Limited series; sale availability to verify,https://cdn.ferrari.com/cms/network/media/pdf/2026_02_10%20-%20Ferrari%20-%20FY%202025%20Results%20Presentation.pdf,model_family
+car,Lamborghini,Temerario,coupe,de,eu,,plug-in hybrid,,,,,2026-11-05,Listed; verify German order availability,https://www.lamborghini.com/en-en/models/temerario,model_family
+car,Lamborghini,Revuelto,coupe,de,eu,,plug-in hybrid,,,,,2026-11-05,Listed; verify German order availability,https://www.lamborghini.com/en-en/models/revuelto,model_family
+car,Lamborghini,Urus SE,suv,de,eu,,plug-in hybrid,,,,,2026-11-05,Listed; verify German order availability,https://www.lamborghini.com/en-en/models/urus,model_family
+car,Lotus,Emira,coupe,de,eu,,petrol,,,,,2026-11-05,Listed in Germany,https://www.lotuscars.com/de-DE/emira,model_family
+car,Lotus,Eletre,suv,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.lotuscars.com/de-DE/eletre,model_family
+car,Lotus,Emeya,liftback,de,eu,,electric,,,,,2026-11-05,Listed in Germany,https://www.lotuscars.com/de-DE/emeya/specifications,model_family
+car,Rolls-Royce,Phantom,sedan,de,eu,,petrol,,,,,2026-11-05,By commission; contact dealer,https://www.rolls-roycemotorcars.com/en_US/information/site-map.html,model_family
+car,Rolls-Royce,Ghost,sedan,de,eu,,petrol,,,,,2026-11-05,By commission; contact dealer,https://www.rolls-roycemotorcars.com/en_US/information/site-map.html,model_family
+car,Rolls-Royce,Cullinan,suv,de,eu,,petrol,,,,,2026-11-05,By commission; contact dealer,https://www.rolls-roycemotorcars.com/en_US/information/site-map.html,model_family
+car,Rolls-Royce,Spectre,coupe,de,eu,,electric,,,,,2026-11-05,By commission; contact dealer,https://www.rolls-roycemotorcars.com/en_US/information/site-map.html,model_family
+van,IVECO,Daily,van,de,eu,,diesel|electric,,,,,2026-11-05,Listed in Germany; verify local configuration,https://www.iveco.com/germany?lang=de-de,model_family
+van,IVECO,eDaily,van,de,eu,,electric,,,,,2026-11-05,Listed in Germany; verify local configuration,https://www.iveco.com/germany?lang=de-de,model_family
+van,IVECO,eJolly,van,de,eu,,electric,,,,,2026-11-05,Listed in Germany; verify local configuration,https://www.iveco.com/germany?lang=de-de,model_family
+van,IVECO,eSuperJolly,van,de,eu,,electric,,,,,2026-11-05,Listed in Germany; verify local configuration,https://www.iveco.com/germany?lang=de-de,model_family
+van,IVECO,eMoovy,van,de,eu,,electric,,,,,2026-11-05,Listed in Germany; verify local configuration,https://www.iveco.com/germany?lang=de-de,model_family
+truck,IVECO,Eurocargo,truck,de,eu,,diesel|electric,,,,,2026-11-05,Listed in Germany; verify local configuration,https://www.iveco.com/germany?lang=de-de,model_family
+truck,IVECO,S-Way,truck,de,eu,,diesel|electric,,,,,2026-11-05,Listed in Germany; verify local configuration,https://www.iveco.com/germany?lang=de-de,model_family
+truck,IVECO,X-Way,truck,de,eu,,diesel,,,,,2026-11-05,Listed in Germany; verify local configuration,https://www.iveco.com/germany?lang=de-de,model_family
+truck,IVECO,T-Way,truck,de,eu,,diesel,,,,,2026-11-05,Listed in Germany; verify local configuration,https://www.iveco.com/germany?lang=de-de,model_family

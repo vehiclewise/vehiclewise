@@ -1,6 +1,18 @@
+import hashlib
+import json
+import os
+import sys
+
+PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
+PARENT_DIR = os.path.abspath(os.path.join(PROJECT_ROOT, os.pardir))
+for candidate in (PROJECT_ROOT, PARENT_DIR):
+    if candidate not in sys.path:
+        sys.path.insert(0, candidate)
+
 import streamlit as st
 import pandas as pd
-
+from member4_dashboard import user_features
+from member4_dashboard.dashboard import render_dashboard
 from vehicle_data import load_vehicles
 from auth_ui import require_authentication
 
@@ -21,6 +33,7 @@ st.set_page_config(
 # --------------------------------------------------
 
 user = require_authentication()
+profile_id = str(user["id"])
 
 
 # --------------------------------------------------
@@ -102,6 +115,11 @@ search_text = st.sidebar.text_input(
     "Search brand or model",
     placeholder="e.g. BMW, Toyota, Golf"
 )
+
+search_stamp = (profile_id, search_text)
+if search_text and search_stamp != st.session_state.get("last_dashboard_search"):
+    user_features.record_search(profile_id, search_text)
+st.session_state["last_dashboard_search"] = search_stamp
 
 brands = sorted(df["brand"].dropna().unique().tolist())
 
@@ -202,11 +220,12 @@ st.divider()
 # NAVIGATION
 # --------------------------------------------------
 
-tab1, tab2, tab3, tab4 = st.tabs([
+tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "🔍 Explore",
     "⚖️ Compare",
     "📚 Catalogue",
-    "🎯 Recommendations"
+    "🎯 Recommendations",
+    "👤 My dashboard"
 ])
 
 
@@ -256,6 +275,29 @@ def vehicle_details(row):
     return details
 
 
+def vehicle_record(row):
+    record = {}
+    for key, value in row.to_dict().items():
+        if pd.isna(value):
+            record[str(key)] = None
+        elif hasattr(value, "item"):
+            record[str(key)] = value.item()
+        else:
+            record[str(key)] = value
+    return record
+
+
+def vehicle_key(row):
+    key_fields = [
+        "brand", "model", "model_year", "engine", "body_type",
+        "fuel_type", "power_hp",
+    ]
+    identity = [
+        None if pd.isna(row.get(field)) else str(row.get(field)).strip().casefold()
+        for field in key_fields
+    ]
+    encoded = json.dumps(identity, ensure_ascii=True, separators=(",", ":"))
+    return hashlib.sha256(encoded.encode("utf-8")).hexdigest()
 # --------------------------------------------------
 # TAB 1: EXPLORE
 # --------------------------------------------------
@@ -337,6 +379,14 @@ with tab1:
                 with detail_cols[index % 3]:
                     st.write(f"**{label}:** {value}")
 
+            if st.button("Add bookmark", key="add_dashboard_bookmark"):
+                user_features.add_bookmark(
+                    profile_id,
+                    vehicle_key(row),
+                    chosen_vehicle,
+                    vehicle_record(row),
+                )
+                st.success("Vehicle added to your dashboard bookmarks.")
 
 # --------------------------------------------------
 # TAB 2: COMPARE
@@ -416,6 +466,16 @@ with tab2:
             width="stretch",
             hide_index=True
         )
+
+        comparison_records = [
+            vehicle_record(
+                compare_source[compare_source["Vehicle"] == vehicle].iloc[0]
+            )
+            for vehicle in selected_comparison
+        ]
+        if st.button("Save comparison", key="save_dashboard_comparison"):
+            user_features.save_comparison(profile_id, comparison_records)
+            st.success("Comparison saved to your dashboard.")
 
         st.caption(
             "Comparisons use the first matching variant for each "
@@ -634,6 +694,13 @@ with tab4:
             "German-market price data is collected."
         )
 
+
+# --------------------------------------------------
+# TAB 5: USER DASHBOARD
+# --------------------------------------------------
+
+with tab5:
+    render_dashboard(profile_id)
 
 # --------------------------------------------------
 # FOOTER
