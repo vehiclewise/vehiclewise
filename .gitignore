@@ -26,3 +26,6 @@ ENV/
 .DS_Store
 .pytest_cache/
 .coverage
+.env
+__pycache__/
+*.pyc
