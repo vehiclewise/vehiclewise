@@ -11,9 +11,11 @@ for candidate in (PROJECT_ROOT, PARENT_DIR):
 
 import streamlit as st
 import pandas as pd
+from st_aggrid import AgGrid, GridOptionsBuilder
 from member4_dashboard import user_features
 from member4_dashboard.dashboard import render_dashboard
 from vehicle_data import load_vehicles
+from catalogue_data import load_catalogue
 from auth_ui import require_authentication
 
 
@@ -45,7 +47,14 @@ def get_data():
     return load_vehicles()
 
 
+@st.cache_data
+def get_catalogue_data():
+    return load_catalogue()
+
+
 df = get_data().copy()
+
+catalogue_df = get_catalogue_data().copy()
 
 
 # Standardise text values
@@ -236,43 +245,41 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs([
 def display_value(value, suffix=""):
     if pd.isna(value) or str(value).strip() == "":
         return "Not available"
-
     return f"{value}{suffix}"
 
 
-def vehicle_details(row):
+def production_period(row):
+    start = row.get("year_start")
+    end = row.get("year_end")
 
-    details = {
+    if pd.notna(start) and pd.notna(end):
+        return f"{int(start)}–{int(end)}"
+    if pd.notna(start):
+        return f"From {int(start)}"
+    if pd.notna(end):
+        return f"Until {int(end)}"
+    return "Not available"
+
+
+def vehicle_details(row):
+    return {
         "Brand": row.get("brand", "Unknown"),
         "Model": row.get("model", "Unknown"),
+        "Generation": row.get("generation", "Not available"),
+        "Production period": production_period(row),
         "Vehicle type": row.get("vehicle_type", "Unknown"),
         "Body type": row.get("body_type", "Unknown"),
-        "Model year": display_value(row.get("model_year")),
         "Fuel type": row.get("fuel_display", "Unknown"),
         "Power": display_value(row.get("power_hp"), " hp"),
         "Torque": display_value(row.get("torque_nm"), " Nm"),
         "Transmission": row.get("transmission", "Unknown"),
         "Drivetrain": row.get("drivetrain", "Unknown"),
-        "0–100 km/h": display_value(
-            row.get("acceleration_0_100_s"),
-            " seconds"
-        ),
-        "Top speed": display_value(
-            row.get("top_speed_kmh"),
-            " km/h"
-        ),
-        "Fuel consumption": display_value(
-            row.get("fuel_consumption_l_100km"),
-            " L/100 km"
-        ),
-        "Weight": display_value(
-            row.get("weight_kg"),
-            " kg"
-        ),
-        "Price in Germany": "Not available"
+        "0–100 km/h": display_value(row.get("acceleration_0_100_s"), " seconds"),
+        "Top speed": display_value(row.get("top_speed_kmh"), " km/h"),
+        "Fuel consumption": display_value(row.get("fuel_consumption_l_100km"), " L/100 km"),
+        "Weight": display_value(row.get("weight_kg"), " kg"),
+        "Price in Germany": display_value(row.get("price_eur"), " €"),
     }
-
-    return details
 
 
 def vehicle_record(row):
@@ -289,8 +296,8 @@ def vehicle_record(row):
 
 def vehicle_key(row):
     key_fields = [
-        "brand", "model", "model_year", "engine", "body_type",
-        "fuel_type", "power_hp",
+        "brand", "model", "generation", "year_start", "year_end",
+        "engine", "body_type", "fuel_type", "power_hp", "transmission",
     ]
     identity = [
         None if pd.isna(row.get(field)) else str(row.get(field)).strip().casefold()
@@ -298,97 +305,183 @@ def vehicle_key(row):
     ]
     encoded = json.dumps(identity, ensure_ascii=True, separators=(",", ":"))
     return hashlib.sha256(encoded.encode("utf-8")).hexdigest()
-# --------------------------------------------------
+
+
 # TAB 1: EXPLORE
 # --------------------------------------------------
 
 with tab1:
 
     st.header("Explore Vehicles")
-
     st.write(
-        "Search and filter the database to find vehicle variants."
+        "Search and filter the database. Select a vehicle row "
+        "to view its specifications."
     )
 
     if filtered_df.empty:
-
-        st.warning(
-            "No vehicles match your filters. Try changing your search."
-        )
+        st.warning("No vehicles match your filters. Try changing your search.")
 
     else:
+        explore_table = filtered_df.copy().reset_index(drop=True)
+
+        explore_table["Production Period"] = explore_table.apply(
+            production_period, axis=1
+        )
+
+        # Match available German catalogue prices by brand and model.
+        price_data = catalogue_df.dropna(
+            subset=["price_eur"]
+        ).copy()
+
+        price_data["_brand_key"] = (
+            price_data["brand"].astype(str).str.strip().str.casefold()
+        )
+        price_data["_model_key"] = (
+            price_data["model"].astype(str).str.strip().str.casefold()
+        )
+
+        price_lookup = (
+            price_data.groupby(["_brand_key", "_model_key"])["price_eur"]
+            .min()
+            .to_dict()
+        )
+
+        explore_table["_brand_key"] = (
+            explore_table["brand"].astype(str).str.strip().str.casefold()
+        )
+        explore_table["_model_key"] = (
+            explore_table["model"].astype(str).str.strip().str.casefold()
+        )
+
+        explore_table["Starting Price (€)"] = explore_table.apply(
+            lambda row: (
+                f"€{price_lookup[(row['_brand_key'], row['_model_key'])]:,.2f}"
+                if (row["_brand_key"], row["_model_key"]) in price_lookup
+                else "Not available"
+            ),
+            axis=1,
+        )
+
+        explore_table = explore_table.drop(
+            columns=["_brand_key", "_model_key"],
+        )
+
+        explore_table["__vehicle_key"] = explore_table.apply(
+            vehicle_key, axis=1
+        )
 
         display_columns = [
             "brand",
             "model",
-            "model_year",
+            "Production Period",
+            "Starting Price (€)",
             "body_type",
             "fuel_display",
             "power_hp",
-            "transmission"
+            "transmission",
+            "__vehicle_key",
         ]
 
         display_columns = [
-            column
-            for column in display_columns
-            if column in filtered_df.columns
+            column for column in display_columns
+            if column in explore_table.columns
         ]
 
-        st.dataframe(
-            filtered_df[display_columns].rename(columns={
+        explore_table = explore_table[display_columns].rename(
+            columns={
                 "brand": "Brand",
                 "model": "Model",
-                "model_year": "Model Year",
                 "body_type": "Body Type",
                 "fuel_display": "Fuel Type",
                 "power_hp": "Power (hp)",
-                "transmission": "Transmission"
-            }),
-            width="stretch",
-            hide_index=True
+                "transmission": "Transmission",
+            }
         )
 
-        vehicle_options = (
-            filtered_df["Vehicle"]
-            .drop_duplicates()
-            .tolist()
+        grid_builder = GridOptionsBuilder.from_dataframe(explore_table)
+
+        grid_builder.configure_default_column(
+            resizable=True,
+            sortable=True,
+            filterable=True,
+            editable=False,
         )
 
-        chosen_vehicle = st.selectbox(
-            "View vehicle details",
-            vehicle_options,
-            key="explore_vehicle"
+        grid_builder.configure_selection(
+            selection_mode="single",
+            use_checkbox=False,
         )
 
-        matching_rows = filtered_df[
-            filtered_df["Vehicle"] == chosen_vehicle
-        ]
+        grid_builder.configure_column("__vehicle_key", hide=True)
 
-        if not matching_rows.empty:
+        grid_builder.configure_grid_options(
+            rowSelection="single",
+            suppressRowClickSelection=False,
+            animateRows=True,
+            rowHeight=40,
+            headerHeight=45,
+        )
 
-            row = matching_rows.iloc[0]
+        grid_response = AgGrid(
+            explore_table,
+            gridOptions=grid_builder.build(),
+            update_on=["selectionChanged"],
+            fit_columns_on_grid_load=True,
+            height=450,
+            theme="streamlit",
+            allow_unsafe_jscode=False,
+            key="explore_vehicle_grid",
+        )
 
-            st.subheader(chosen_vehicle)
+        selected_rows = grid_response.get("selected_rows")
+        selected_row = None
 
-            details = vehicle_details(row)
+        if selected_rows is not None:
+            if isinstance(selected_rows, pd.DataFrame):
+                if not selected_rows.empty:
+                    selected_row = selected_rows.iloc[0]
+            elif isinstance(selected_rows, list) and selected_rows:
+                selected_row = selected_rows[0]
 
-            detail_cols = st.columns(3)
+        if selected_row is not None:
+            selected_key = selected_row.get("__vehicle_key")
 
-            for index, (label, value) in enumerate(details.items()):
-
-                with detail_cols[index % 3]:
-                    st.write(f"**{label}:** {value}")
-
-            if st.button("Add bookmark", key="add_dashboard_bookmark"):
-                user_features.add_bookmark(
-                    profile_id,
-                    vehicle_key(row),
-                    chosen_vehicle,
-                    vehicle_record(row),
+            matching_rows = filtered_df[
+                filtered_df.apply(
+                    lambda row: vehicle_key(row) == selected_key,
+                    axis=1,
                 )
-                st.success("Vehicle added to your dashboard bookmarks.")
+            ]
 
-# --------------------------------------------------
+            if not matching_rows.empty:
+                row = matching_rows.iloc[0]
+                chosen_vehicle = f"{row['brand']} {row['model']}"
+
+                st.divider()
+                st.subheader(f"Vehicle Details: {chosen_vehicle}")
+
+                details = vehicle_details(row)
+                detail_cols = st.columns(3)
+
+                for index, (label, value) in enumerate(details.items()):
+                    with detail_cols[index % 3]:
+                        st.write(f"**{label}:** {value}")
+
+                if st.button("Add bookmark", key="add_dashboard_bookmark"):
+                    user_features.add_bookmark(
+                        profile_id,
+                        vehicle_key(row),
+                        chosen_vehicle,
+                        vehicle_record(row),
+                    )
+                    st.success("Vehicle added to your dashboard bookmarks.")
+
+        else:
+            st.info(
+                "Select a vehicle row above to view its full specifications."
+            )
+
+
 # TAB 2: COMPARE
 # --------------------------------------------------
 
@@ -495,69 +588,166 @@ with tab2:
 # --------------------------------------------------
 
 with tab3:
-
-    st.header("Vehicle Catalogue")
-
+    st.header("📚 German Vehicle Catalogue")
     st.write(
-        "Browse the available vehicle records in the database."
+        "Explore vehicles listed in the German-market catalogue. "
+        "Prices and specifications are shown only where available."
     )
 
-    st.write(
-        f"**{len(filtered_df):,} variants found**"
+    catalogue = catalogue_df.copy()
+
+    catalogue_search = st.text_input(
+        "Search brand or model",
+        placeholder="e.g. BMW, Toyota, Golf",
+        key="catalogue_search"
     )
 
-    catalogue_columns = [
-        "Vehicle",
-        "model_year",
-        "vehicle_type",
-        "body_type",
-        "fuel_display",
-        "power_hp",
-        "transmission"
-    ]
+    filter_col1, filter_col2, filter_col3 = st.columns(3)
 
-    catalogue_columns = [
-        column
-        for column in catalogue_columns
-        if column in filtered_df.columns
-    ]
-
-    if filtered_df.empty:
-
-        st.warning(
-            "No vehicles match the current filters."
+    with filter_col1:
+        vehicle_types = sorted(catalogue["vehicle_type"].dropna().unique().tolist())
+        selected_types = st.multiselect(
+            "Vehicle type",
+            vehicle_types,
+            default=vehicle_types,
+            key="catalogue_vehicle_type"
         )
 
+    with filter_col2:
+        catalogue_brands = sorted(catalogue["brand"].dropna().unique().tolist())
+        selected_catalogue_brands = st.multiselect(
+            "Brand",
+            catalogue_brands,
+            key="catalogue_brand"
+        )
+
+    with filter_col3:
+        fuel_types = sorted(catalogue["fuel_type"].dropna().unique().tolist())
+        selected_catalogue_fuels = st.multiselect(
+            "Fuel type",
+            fuel_types,
+            key="catalogue_fuel"
+        )
+
+    if catalogue_search:
+        search_mask = (
+            catalogue["brand"].str.contains(catalogue_search, case=False, na=False)
+            | catalogue["model"].str.contains(catalogue_search, case=False, na=False)
+        )
+        catalogue = catalogue[search_mask]
+
+    if selected_types:
+        catalogue = catalogue[catalogue["vehicle_type"].isin(selected_types)]
     else:
+        catalogue = catalogue.iloc[0:0]
+
+    if selected_catalogue_brands:
+        catalogue = catalogue[catalogue["brand"].isin(selected_catalogue_brands)]
+
+    if selected_catalogue_fuels:
+        catalogue = catalogue[catalogue["fuel_type"].isin(selected_catalogue_fuels)]
+
+    metric1, metric2, metric3 = st.columns(3)
+    metric1.metric("Matching vehicles", f"{len(catalogue):,}")
+    metric2.metric("Brands", f"{catalogue['brand'].nunique():,}")
+    metric3.metric(
+        "Vehicles with prices",
+        f"{catalogue['price_eur'].notna().sum():,}"
+    )
+
+    st.divider()
+
+    if catalogue.empty:
+        st.warning("No vehicles match your selected filters.")
+    else:
+        display_catalogue = catalogue[
+            [
+                "vehicle_type", "brand", "model", "body_type",
+                "model_year", "fuel_type", "power_hp", "transmission",
+                "price_eur", "availability_status", "last_verified"
+            ]
+        ].copy()
+
+        display_catalogue["price_eur"] = display_catalogue["price_eur"].apply(
+            lambda price: f"€{price:,.2f}" if pd.notna(price) else "Not available"
+        )
+
+        display_catalogue = display_catalogue.rename(columns={
+            "vehicle_type": "Vehicle Type",
+            "brand": "Brand",
+            "model": "Model",
+            "body_type": "Body Type",
+            "model_year": "Model Year",
+            "fuel_type": "Fuel Type",
+            "power_hp": "Power (hp)",
+            "transmission": "Transmission",
+            "price_eur": "Starting Price",
+            "availability_status": "Availability in Germany",
+            "last_verified": "Last Verified"
+        })
 
         st.dataframe(
-            filtered_df[catalogue_columns].rename(columns={
-                "model_year": "Model Year",
-                "vehicle_type": "Vehicle Type",
-                "body_type": "Body Type",
-                "fuel_display": "Fuel Type",
-                "power_hp": "Power (hp)",
-                "transmission": "Transmission"
-            }),
+            display_catalogue,
             width="stretch",
             hide_index=True
         )
 
-        csv_data = (
-            filtered_df[catalogue_columns]
-            .to_csv(index=False)
-            .encode("utf-8")
-        )
-
+        csv_data = catalogue.to_csv(index=False).encode("utf-8")
         st.download_button(
-            "⬇️ Download filtered catalogue as CSV",
+            "⬇️ Download filtered German catalogue",
             data=csv_data,
-            file_name="vehiclewise_catalogue.csv",
+            file_name="vehiclewise_german_catalogue.csv",
             mime="text/csv"
         )
 
+        st.caption(
+            "Starting prices may be promotional and can change. "
+            "Always verify prices and availability with the manufacturer."
+        )
 
-# --------------------------------------------------
+        st.divider()
+        st.subheader("🚘 Vehicle Details")
+
+        vehicle_options = catalogue["Vehicle"].drop_duplicates().tolist()
+        selected_vehicle = st.selectbox(
+            "Select a vehicle to view its specifications",
+            vehicle_options,
+            key="catalogue_selected_vehicle"
+        )
+
+        selected_vehicle_data = catalogue[
+            catalogue["Vehicle"] == selected_vehicle
+        ].iloc[0]
+
+        detail_col1, detail_col2 = st.columns(2)
+
+        with detail_col1:
+            st.markdown("### General Information")
+            st.write("**Brand:**", selected_vehicle_data["brand"])
+            st.write("**Model:**", selected_vehicle_data["model"])
+            st.write("**Vehicle Type:**", selected_vehicle_data["vehicle_type"])
+            st.write("**Body Type:**", selected_vehicle_data["body_type"])
+            st.write("**Model Year:**", display_value(selected_vehicle_data["model_year"]))
+            st.write("**Fuel Type:**", selected_vehicle_data["fuel_type"])
+
+        with detail_col2:
+            st.markdown("### Specifications")
+            st.write("**Power:**", display_value(selected_vehicle_data["power_hp"], " hp"))
+            st.write("**Transmission:**", display_value(selected_vehicle_data["transmission"]))
+            st.write("**Starting Price:**", display_value(selected_vehicle_data["price_eur"], " €"))
+            st.write("**Availability:**", selected_vehicle_data["availability_status"])
+            st.write("**Last Verified:**", selected_vehicle_data["last_verified"])
+
+        st.markdown("### Price Information")
+        st.write("**Price Source:**", selected_vehicle_data["price_source"])
+
+        if selected_vehicle_data["official_source_url"]:
+            st.link_button(
+                "Visit Official Manufacturer Website",
+                selected_vehicle_data["official_source_url"]
+            )
+
+
 # TAB 4: RECOMMENDATIONS
 # --------------------------------------------------
 
@@ -663,7 +853,11 @@ with tab4:
             "fuel_display",
             "power_hp",
             "fuel_consumption_l_100km",
-            "transmission"
+            "transmission",
+            "price_eur",
+            "price_source",
+            "last_verified",
+            "official_source_url"
         ]
 
         recommendation_columns = [
@@ -672,9 +866,19 @@ with tab4:
             if column in recommendations.columns
         ]
 
+        recommendation_display = recommendations[
+            recommendation_columns
+        ].head(100).copy()
+
+        recommendation_display["price_eur"] = recommendation_display[
+            "price_eur"
+        ].apply(
+            lambda value: f"€{value:,.2f}"
+            if pd.notna(value) else "Not available"
+        )
+
         st.dataframe(
-            recommendations[recommendation_columns]
-            .head(100)
+            recommendation_display
             .rename(columns={
                 "model_year": "Model Year",
                 "body_type": "Body Type",
@@ -682,16 +886,20 @@ with tab4:
                 "power_hp": "Power (hp)",
                 "fuel_consumption_l_100km":
                     "Fuel Consumption (L/100 km)",
-                "transmission": "Transmission"
+                "transmission": "Transmission",
+                "price_eur": "Starting Price (€)",
+                "price_source": "Price Source",
+                "last_verified": "Last Verified",
+                "official_source_url": "Manufacturer Website"
             }),
             width="stretch",
             hide_index=True
         )
 
         st.caption(
-            "These recommendations match technical preferences only. "
-            "Budget-based recommendations will be added after reliable "
-            "German-market price data is collected."
+            "Prices are shown where reliable German-market data is available. "
+            "Missing prices are marked as Not available. "
+            "Always verify prices with the manufacturer."
         )
 
 
@@ -702,7 +910,7 @@ with tab4:
 with tab5:
     render_dashboard(profile_id)
 
-# --------------------------------------------------
+
 # FOOTER
 # --------------------------------------------------
 

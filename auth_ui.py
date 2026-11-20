@@ -1,8 +1,9 @@
+import os
 import requests
 import streamlit as st
 from datetime import date
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = os.getenv("VEHICLEWISE_API_URL", "http://127.0.0.1:8000").rstrip("/")
 
 
 def _show_api_error(response, fallback):
