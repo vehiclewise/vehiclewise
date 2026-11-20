@@ -1,0 +1,354 @@
+brand,model,starting_price_eur,price_source_url,price_checked_date
+Audi,A3,31850.0,https://www.audi.de/de/neuwagen/?bycarlinegroup=a3,2026-10-23
+Audi,A5,47800.0,https://www.audi.de/de/neuwagen/a5/,2026-10-23
+Mercedes-Benz,A-Class,32297.2,https://www.mercedes-benz.de/passengercars/models.html?group=all,2026-11-06
+Mercedes-Benz,B-Class,35559.1,https://www.mercedes-benz.de/passengercars/models.html?group=all,2026-11-06
+Mercedes-Benz,C-Class,42427.31,https://www.mercedes-benz.de/passengercars/models.html?group=all,2026-11-06
+Mercedes-Benz,CLA,43931.23,https://www.mercedes-benz.de/passengercars/models.html?group=all,2026-11-06
+Mercedes-Benz,CLE,49521.02,https://www.mercedes-benz.de/passengercars/configurator.html,2026-11-06
+Mercedes-Benz,E-Class,52586.1,https://www.mercedes-benz.de/passengercars/models.html?group=all,2026-11-06
+Mercedes-Benz,G-Class,127591.8,https://www.mercedes-benz.de/passengercars/models/suv.html,2026-11-06
+Mercedes-Benz,GLA,41684.51,https://www.mercedes-benz.de/passengercars/models/suv.html,2026-11-06
+Mercedes-Benz,GLB,46868.75,https://www.mercedes-benz.de/passengercars/models/suv.html,2026-11-06
+Mercedes-Benz,GLE,87461.13,https://www.mercedes-benz.de/passengercars/models/suv.html,2026-11-06
+Mercedes-Benz,GLS,102700.27,https://www.mercedes-benz.de/passengercars/models/suv.html,2026-11-06
+Mercedes-Benz,S-Class,109220.58,https://www.mercedes-benz.de/passengercars/models.html?group=all,2026-11-06
+Mercedes-Benz,AMG GT,111660.5,https://www.mercedes-benz.de/passengercars/configurator.html,2026-11-06
+Mercedes-Benz,SL,126686.45,https://www.mercedes-benz.de/passengercars/models.html?group=all,2026-11-06
+Mercedes-Benz,V-Class,56590.45,https://www.mercedes-benz.de/passengercars/models.html?group=all,2026-11-06
+Mercedes-Benz,Sprinter,32647.42,https://www.mercedes-benz.de/vans/models/sprinter.html,2026-11-06
+Mercedes-Benz,Vito,34361.63,https://www.mercedes-benz.de/vans/models/vito.html,2026-11-06
+BMW,2 Series,46300.0,https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/new-vehicles/pricelists/preisliste-bmw2er.pdf.coredownload.pdf,2026-11-06
+BMW,5 Series,60000.0,https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/new-vehicles/pricelists/preisliste-bmw5er.pdf.coredownload.inline.pdf,2026-11-06
+BMW,7 Series,117900.0,https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/new-vehicles/pricelists/preisliste-bmw7er.pdf.asset.1779886010896.pdf,2026-11-06
+BMW,X3,60300.0,https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/new-vehicles/pricelists/preisliste-bmwx3.pdf.coredownload.inline.pdf,2026-11-11
+BMW,X6,98100.0,https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/new-vehicles/pricelists/preisliste-bmwx62026.pdf.coredownload.pdf,2026-11-11
+BMW,X7,106500.0,https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/new-vehicles/pricelists/preisliste-bmwx72026.pdf.coredownload.pdf,2026-11-11
+BMW,X5,99750.0,https://www.bmw.de/de/bmw-modelle-vergleichen.html/X/G65/61JF/content.q,2026-11-11
+BMW,1 Series,38900.0,https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/new-vehicles/pricelists/preisliste-bmw1er.pdf.coredownload.pdf,2026-11-11
+BMW,3 Series,54900.0,https://www.bmw.de/de/bmw-modelle-vergleichen.html/3/NA0G50/41JM/S02TE/content.q,2026-11-11
+BMW,4 Series,53900.0,https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/new-vehicles/pricelists/preisliste-bmw4er-grancoupe.pdf.coredownload.pdf,2026-11-11
+BMW,X2,48600.0,https://www.bmw.de/de/bmw-modelle-vergleichen.html/X/U10/21GM/S02TF/content.q,2026-11-11
+BMW,XM,185800.0,https://www.bmw.de/de/bmw-modelle-vergleichen.html/X/G09/31CS/S02TB/content.q,2026-11-11
+BMW,iX,83500.0,https://www.bmw.de/de/bmw-modelle-vergleichen.html/X/I20/41CF/A/content.q,2026-11-11
+BMW,Z4,50700.0,https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/new-vehicles/pricelists/preisliste-bmwz4.pdf.asset.1749107633059.pdf,2025-07-01
+BMW,X1,45100.0,https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/new-vehicles/pricelists/preisliste-bmwx1-003.pdf.coredownload.inline.pdf,2026-05-28
+BMW,X4,60500.0,https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/new-vehicles/pricelists/preisliste-bmwx4.pdf.asset.1738141571822.pdf,2025-04-01
+BMW,8 Series,105000.0,https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/new-vehicles/pricelists/preisliste-bmw8er-grancoupe.pdf.asset.1749107805669.pdf,2025-07-01
+BMW,i3,59900.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/i3/na0-za0/352889/,2026-11-11
+BMW,Z8,127000.0,https://www.press.bmwgroup.com/deutschland/article/detail/T0001864DE/weltweit-erster-bmw-z8-club-in-muenchen-gegruendet-z8-liebhaber-aus-aller-welt-feiern-schon-jetzt-den-klassiker-von-morgen?language=de,2005-06-13
+Volkswagen,Golf,30210.0,https://www.volkswagen.de/de/modelle.html,2026-11-11
+Volkswagen,ID.3,33995.0,https://www.volkswagen.de/de/modelle.html,2026-11-11
+Volkswagen,ID.4,40580.0,https://www.volkswagen.de/de/modelle.html,2026-11-11
+Volkswagen,ID.7,54505.0,https://www.volkswagen.de/de/modelle.html,2026-11-11
+Volkswagen,Id. Buzz,52270.75,https://www.volkswagen-nutzfahrzeuge.de/de/modelle.html,2026-11-11
+Volkswagen,Passat,42930.0,https://www.volkswagen.de/de/modelle.html,2026-11-11
+Volkswagen,Polo,20380.0,https://www.volkswagen.de/de/modelle.html,2026-11-11
+Volkswagen,T-Cross,25280.0,https://www.volkswagen.de/de/modelle.html,2026-11-11
+Volkswagen,T-Roc,30995.0,https://www.volkswagen.de/de/modelle.html,2026-11-11
+Volkswagen,Taigo,23560.0,https://www.volkswagen.de/de/modelle.html,2026-11-11
+Volkswagen,Tayron,47470.0,https://www.volkswagen.de/de/modelle.html,2026-11-11
+Volkswagen,Tiguan,39385.0,https://www.volkswagen.de/de/modelle.html,2026-11-11
+Volkswagen,Touareg,75025.0,https://www.volkswagen.de/de/modelle.html,2026-11-11
+Volkswagen,Caddy,34200.6,https://www.volkswagen-nutzfahrzeuge.de/de/modelle.html,2026-11-11
+Volkswagen,Crafter,52294.55,https://www.volkswagen-nutzfahrzeuge.de/de/modelle.html,2026-11-11
+Volkswagen,Transporter,45255.7,https://www.volkswagen-nutzfahrzeuge.de/de/modelle.html,2026-11-11
+Kia,EV2,26600.0,https://www.kia.com/de/,2026-11-11
+Kia,EV3,36190.0,https://www.kia.com/de/,2026-11-11
+Kia,EV4,37590.0,https://www.kia.com/de/,2026-11-11
+Kia,EV5,45990.0,https://www.kia.com/de/,2026-11-11
+Kia,EV6,44990.0,https://www.kia.com/de/,2026-11-11
+Kia,EV9,63690.0,https://www.kia.com/de/,2026-11-11
+Kia,K4,28890.0,https://www.kia.com/de/,2026-11-11
+Kia,Niro,33690.0,https://www.kia.com/de/,2026-11-11
+Kia,Picanto,17590.0,https://www.kia.com/de/,2026-11-11
+Kia,PV5,36290.0,https://www.kia.com/de/,2026-11-11
+Kia,Seltos,34190.0,https://www.kia.com/de/,2026-11-11
+Kia,Sorento,54690.0,https://www.kia.com/de/,2026-11-11
+Kia,Sportage,33990.0,https://www.kia.com/de/,2026-11-11
+Kia,Stonic,23790.0,https://www.kia.com/de/,2026-11-11
+Renault,4,29500.0,https://www.renault.de/modelluebersicht.html,2026-11-11
+Renault,5,26290.0,https://www.renault.de/modelluebersicht.html,2026-11-11
+Renault,Austral,34900.0,https://www.renault.de/modelluebersicht.html,2026-11-11
+Renault,Captur,24950.0,https://www.renault.de/modelluebersicht.html,2026-11-11
+Renault,Clio,19900.0,https://www.renault.de/modelluebersicht.html,2026-11-11
+Renault,Espace,44000.0,https://www.renault.de/modelluebersicht.html,2026-11-11
+Renault,Megane,34990.0,https://www.renault.de/modelluebersicht.html,2026-11-11
+Renault,Rafale,44000.0,https://www.renault.de/modelluebersicht.html,2026-11-11
+Renault,Scenic,42590.0,https://www.renault.de/modelluebersicht.html,2026-11-11
+Renault,Symbioz,28800.0,https://www.renault.de/modelluebersicht.html,2026-11-11
+Renault,Twingo,19990.0,https://www.renault.de/modelluebersicht.html,2026-11-11
+Renault,Kangoo,26418.0,https://www.renault.de/modelluebersicht.html,2026-11-11
+Renault,Master,41995.1,https://www.renault.de/modelluebersicht.html,2026-11-11
+Renault,Trafic,38734.5,https://www.renault.de/modelluebersicht.html,2026-11-11
+Hyundai,Bayon,23900.0,https://www.hyundai.com/de/de/preislisten.html,2026-11-12
+Hyundai,i20,21950.0,https://www.hyundai.com/de/de/preislisten.html,2026-11-12
+Hyundai,i30,28650.0,https://www.hyundai.com/de/de/preislisten.html,2026-11-12
+Hyundai,Inster,24650.0,https://www.hyundai.com/de/de/preislisten.html,2026-11-12
+Hyundai,Ioniq 3,28950.0,https://www.hyundai.com/de/de/preislisten.html,2026-11-12
+Hyundai,Ioniq 5,45750.0,https://www.hyundai.com/de/de/preislisten.html,2026-11-12
+Hyundai,Ioniq 6,45750.0,https://www.hyundai.com/de/de/preislisten.html,2026-11-12
+Hyundai,Ioniq 9,70850.0,https://www.hyundai.com/de/de/preislisten.html,2026-11-12
+Hyundai,Kona,27950.0,https://www.hyundai.com/de/de/preislisten.html,2026-11-12
+Hyundai,Nexo,69900.0,https://www.hyundai.com/de/de/preislisten.html,2026-11-12
+Hyundai,Santa FE,60650.0,https://www.hyundai.com/de/de/preislisten.html,2026-11-12
+Hyundai,Staria,49500.0,https://www.hyundai.com/de/de/preislisten.html,2026-11-12
+Hyundai,Tucson,36490.0,https://www.hyundai.com/de/de/preislisten.html,2026-11-12
+Audi,A6,56300.0,https://www.audi.de/de/neuwagen/a6/,2026-11-12
+Audi,e-tron GT,108900.0,https://www.audi.de/de/neuwagen/e-tron-gt/,2026-11-12
+Audi,Q3,46100.0,https://www.audi.de/de/neuwagen/q3/,2026-11-12
+Audi,Q4,47500.0,https://www.audi.de/de/neuwagen/q4-e-tron/,2026-11-12
+Audi,Q5,55250.0,https://www.audi.de/de/neuwagen/q5/,2026-11-12
+Audi,Q6,63500.0,https://www.audi.de/de/neuwagen/q6-e-tron/,2026-11-12
+Audi,Q7,87900.0,https://www.audi.de/de/neuwagen/q7/,2026-11-12
+Audi,Q8,90200.0,https://www.audi.de/de/neuwagen/q8/,2026-11-12
+Toyota,bZ4X,42990.0,https://www.toyota.de/neuwagen/bz4x,2026-11-12
+Toyota,C-HR,33990.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/c-hr/x20/348304/,2026-11-12
+Toyota,Corolla,33460.0,https://www.toyota.de/neuwagen/corolla,2026-11-12
+Toyota,Land Cruiser,84750.0,https://www.toyota.de/neuwagen/land-cruiser,2026-11-12
+Toyota,Mirai,68490.0,https://www.toyota.de/neuwagen/mirai,2026-11-12
+Toyota,Prius,45990.0,https://www.toyota.de/neuwagen/prius-plugin,2026-11-12
+Toyota,RAV4,43990.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/toyota-rav4-fahrbericht/,2026-11-12
+Toyota,Supra,142800.0,https://www.toyota.de/neuwagen/supra,2026-11-12
+Toyota,Urban Cruiser,31990.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/urban-cruiser/,2026-11-12
+Toyota,Yaris,25500.0,https://www.toyota.de/neuwagen/yaris,2026-11-12
+Toyota,Proace,36907.85,https://www.toyota.de/neuwagen/proace,2026-11-12
+Ford,Capri,42400.0,https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/capri/PL_Ford_Capri_gultig_ab_27.03.2026_Bestellnummer_DE2060121_final_s.pdf,2026-11-12
+Ford,Explorer,39900.0,https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/explorer/PL_Ford_Explorer_g%C3%BCltig_ab_01.04.2026_Bestellnummer_DE20260121_final_s.pdf,2026-11-12
+Ford,Kuga,37950.0,https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/kuga/PL_Ford_Kuga_MY27.00.pdf,2026-11-12
+Ford,Mustang,60400.0,https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/new-mustang/Preisliste_des_neuen_Ford_Mustang.pdf,2026-11-12
+Ford,Mustang Mach-E,56500.0,https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/mustang-mach-e/Preisliste_des_Ford_Mustang_Mach-E.pdf,2026-11-12
+Ford,Puma,27900.0,https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/puma/PL_Ford_Puma_2026.pdf,2026-11-12
+Ford,Transit,48968.5,https://www.ford.de/nutzfahrzeuge-modelle,2026-11-12
+Ford,Transit Connect,31725.4,https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/transit-connect/PL_Der_neue_Ford_Transit_Connect.pdf,2026-11-12
+Ford,Transit Courier,22075.0,https://www.ford.de/nutzfahrzeuge-modelle,2026-11-12
+Ford,Transit Custom,46350.5,https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/transit-custom/PL-der-neue-ford-transit-custom.pdf,2026-11-12
+MG,Cyberster,65990.0,https://www.mgmotor.de/model/cyberster,2026-11-12
+MG,HS,34990.0,https://www.mgmotor.de/model/hs-hev,2026-11-12
+MG,IM5,53990.0,https://www.mgmotor.de/model/im5,2026-11-12
+MG,IM6,56990.0,https://www.mgmotor.de/model/im6,2026-11-12
+MG,MG3,17990.0,https://www.mgmotor.de/model/mg3,2026-11-12
+MG,MG4,42990.0,https://www.mgmotor.de/,2026-11-12
+MG,MGS5 EV,37990.0,https://www.mgmotor.de/model/mgs5,2026-11-12
+MG,MGS6 EV,49990.0,https://www.mgmotor.de/model/mgs6,2026-11-12
+MG,MGS9 PHEV,44990.0,https://www.mgmotor.de/,2026-11-12
+MG,ZS,20990.0,https://www.mgmotor.de/model/zs,2026-11-12
+Peugeot,2008,27050.0,https://www.peugeot.de/modelle/new-peugeot-2008.html,2026-11-12
+Peugeot,208,23480.0,https://www.peugeot.de/modelle/208/hybrid-petrol.html,2026-11-12
+Peugeot,3008,41150.0,https://www.peugeot.de/modelle/3008/hybrid.html,2026-11-12
+Peugeot,308,29150.0,https://www.peugeot.de/our-range/nouvelle-peugeot-308.html,2026-11-12
+Peugeot,408,39700.0,https://www.peugeot.de/modelle/408-fastback.html/1000,2026-11-12
+Peugeot,5008,51760.0,https://www.peugeot.de/modelle/5008/hybrid.html,2026-11-12
+Peugeot,Boxer,42185.5,https://www.peugeot.de/modelle/boxer/diesel.html,2026-11-12
+Peugeot,Expert,37485.0,https://www.peugeot.de/modelle/expert/diesel.html,2026-11-12
+Peugeot,Rifter,26670.0,https://www.peugeot.de/modelle/e-rifter.html,2026-11-12
+Fiat,500,19990.0,https://www.fiat.de/omni/konfigurator,2026-11-12
+Fiat,600,24490.0,https://www.fiat.de/omni/konfigurator,2026-11-12
+Fiat,Grande Panda,19990.0,https://www.fiat.de/omni/konfigurator,2026-11-12
+Fiat,Panda,16490.0,https://www.fiat.de/omni/konfigurator,2026-11-12
+Fiat,Qubo,24490.0,https://www.fiat.de/omni/konfigurator,2026-11-12
+Fiat,Ulysse,44590.0,https://www.fiat.de/content/dam/fiat2023/professional/de/pricelist/Fiat_Ulysse_Preisliste_MY26-07-2026.pdf,2026-11-12
+Fiat,Doblo,27013.0,https://www.fiat.de/content/dam/fiat2023/professional/de/pricelist/Preisliste_Fiat_Doblo_01-07-2026.pdf,2026-11-12
+Fiat,Ducato,42185.5,https://www.fiat.de/content/dam/fiat2023/professional/de/pricelist/Preisliste-Fiat_Ducato_MY26-Kastenwagen_01-07-2026.pdf,2026-11-12
+Fiat,Scudo,38080.0,https://www.fiat.de/content/dam/fiat2023/professional/de/pricelist/Preisliste_Fiat_Scudo_01-07-2026.pdf,2026-11-12
+Mazda,CX-30,29990.0,https://www.mazda.de/konfigurator/MAZDA%20CX-30/5WGN/exclusiveline/?dealerid=11413,2026-11-12
+Mazda,CX-5,35990.0,https://www.mazda.de/konfigurator/MAZDA_CX-5/5WGN-5S/,2026-11-12
+Mazda,CX-60,50950.0,https://de.mazda-press.com/news/2025/crossover-update-mazda-cx-60-und-mazda-cx-80-starten-ins-modelljahr-2026/,2026-11-12
+Mazda,CX-6e,49990.0,https://www.mazda.de/konfigurator/cnfwqr2rJ/55N/GX2TAT/?dealerid=15276,2026-11-12
+Mazda,CX-80,57550.0,https://media-assets.mazda.eu/raw/upload/mazdade/globalassets/pdfs/brochure/cx-80/02-02-2026_preisliste_2026_mazda-cx-80.pdf,2026-11-12
+Mazda,MAZDA3,29190.0,https://www.mazda.de/konfigurator/MAZDA3/5HB/,2026-11-12
+BYD,Atto 2,41990.0,https://www.byd.com/de/konfiguration/atto-2,2026-11-12
+BYD,Dolphin,33990.0,https://www.byd.com/de/angebot-2026/dolphin,2026-11-12
+BYD,Dolphin Surf,23490.0,https://www.byd.com/de/angebot-2026/dolphin-surf,2026-11-12
+BYD,Seal,47990.0,https://www.byd.com/de/angebot-2026/seal,2026-11-12
+BYD,Seal U,44990.0,https://www.byd.com/de/konfiguration/seal-u-dm-i,2026-11-12
+BYD,Sealion 7,49990.0,https://www.byd.com/de/angebot-2026/sealion-7,2026-11-12
+BYD,Tang,75000.0,https://www.byd.com/de/konfiguration/tang,2026-11-12
+Alfa Romeo,Giulia,56000.0,https://www.alfaromeo.de/omni/konfigurator,2026-11-12
+Alfa Romeo,Junior,32900.0,https://www.alfaromeo.de/omni/konfigurator,2026-11-12
+Alfa Romeo,Stelvio,60600.0,https://www.alfaromeo.de/modelle/stelvio,2026-11-12
+Alfa Romeo,Tonale,41980.0,https://www.alfaromeo.de/omni/konfigurator,2026-11-12
+Alpine,A110,66350.0,https://www.alpinecars.de/angebot/fahrzeuge/konfigurator.html?modelAdminId=a110,2026-11-12
+Alpine,A290,37000.0,https://www.alpinecars.de/,2026-11-12
+Alpine,A390,67500.0,https://www.alpinecars.de/elektromodelle/a390/konfigurator.html,2026-11-12
+BYD,Atto 3,44990.0,https://www.byd.com/de/presse/byd-atto-3-evo-2026,2026-11-12
+Bentley,Bentayga,217500.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bentley/bentayga/1generation-facelift/347744/,2026-11-12
+Bentley,Continental,246000.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bentley/continental/5generation/339901/,2026-11-12
+Cadillac,Optiq,65000.0,https://www.cadillaceurope.com/de-de/optiq/specifications,2026-11-12
+Cadillac,Vistiq,99640.0,https://www.cadillaceurope.com/de-de/design,2026-11-12
+Citroën,C3,16290.0,https://www.citroen.de/content/dam/citroen/germany/b2c/pricelists/07-26/Preisliste_C3_15.07.2026.pdf,2026-11-12
+Citroën,C4,24140.0,https://www.citroen.de/content/dam/citroen/germany/b2c/pricelists/07-26/Kundenpreisliste_C4_01.07.2026.pdf,2026-11-12
+Citroën,Berlingo,24220.0,https://www.citroen.de/content/dam/citroen/germany/b2c/pricelists/07-26/Preisliste_BerlingoMPV_15.07.2026.pdf,2026-11-12
+Citroën,Jumpy,38080.0,https://www.citroen.de/content/dam/citroen/germany/b2c/pricelists/07-26/Preisliste-Citro%C3%ABn-Jumpy-01.07.2026.pdf,2026-11-12
+Citroën,C5,33990.0,https://www.citroen.de/modelle/neuer-c5-aircross.html,2026-11-12
+Cupra,Born,39990.0,https://www.cupra.com/de-de/fahrzeuge/born,2026-11-12
+Cupra,Formentor,41970.0,https://www.cupra.com/de-de/fahrzeuge/formentor,2026-11-12
+Cupra,Raval,25950.0,https://www.cupra.com/de-de/fahrzeuge/raval,2026-11-12
+Cupra,Tavascan,49900.0,https://www.cupra.com/de-de/fahrzeuge/tavascan,2026-11-12
+Cupra,Terramar,45280.0,https://www.cupra.com/de-de/fahrzeuge/terramar,2026-11-12
+DS,DS 3,33870.0,https://financing.dsautomobiles.de/konfigurator,2026-11-12
+DS,DS 7,49460.0,https://www.dsautomobiles.de/models/ds7/ds-7-perfomance-line.html,2026-11-12
+DS,DS N°4,39430.0,https://financing.dsautomobiles.de/konfigurator,2026-11-12
+DS,DS N°8,58300.0,https://www.dsautomobiles.de/modelle/dsn8.html,2026-11-12
+Dacia,Bigster,23990.0,https://www.dacia.de/hybrid-und-elektromodelle/bigster-suv.html,2026-11-12
+Dacia,Duster,18990.0,https://www.dacia.de/hybrid-und-elektromodelle/duster-suv.html,2026-11-12
+Dacia,Jogger,17990.0,https://www.dacia.de/modelle/jogger.html,2026-11-12
+Dacia,Sandero,13790.0,https://www.dacia.de/modelle.html,2026-11-12
+Dacia,Spring,17900.0,https://www.dacia.de/modelle.html,2026-11-12
+Deepal,S05,35990.0,https://www.changaneurope.com/de/konfigurator/deepal-s05,2026-11-12
+Deepal,S07,44990.0,https://www.changaneurope.com/de/konfigurator/deepal-s07,2026-11-12
+Dongfeng,Box,27990.0,https://dongfeng-motor.de/,2026-11-12
+Ferrari,12CILINDRI,395000.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ferrari/12cilindri/1generation/335162/,2026-11-12
+Ferrari,296,407000.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ferrari/296/1generation/350328/,2026-11-12
+Ferrari,Amalfi,270000.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ferrari/amalfi/1generation/350186/,2026-11-12
+Ferrari,Purosangue,378873.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ferrari/purosangue/1generation/326560/,2026-11-12
+Ferrari,849 Testarossa,450000.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ferrari/849-testarossa/1generation/343951/,2026-11-12
+Geely,E2,19990.0,https://www.geely.de/models/geely-e2,2026-11-12
+Geely,E5,37990.0,https://www.geely.de/models/geely-e5-electric-suv,2026-11-12
+Geely,Starray EM-i,32990.0,https://www.geely.de/posts/2026-03-26-starray-emi-elektrifiziert-zuganglich-verlasslich,2026-11-12
+Genesis,G80,80100.0,https://www.genesis.com/de/de/models/electrified-g80,2026-11-12
+Genesis,G90,112180.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/genesis/genesis-g90/,2026-11-12
+Genesis,GV60,53500.0,https://www.genesis.com/de/de/models/gv60,2026-11-12
+Genesis,GV70,66100.0,https://www.genesis.com/de/de/models/electrified-gv70,2026-11-12
+Great Wall,Ora 03,38990.0,https://www.gwm-motor.de/ora-03,2026-11-12
+Great Wall,Ora 07,41990.0,https://presse.gwm-motor.de/2473/der-neue-gwm-ora-07/,2026-11-12
+Great Wall,Wey 03,47900.0,https://www.gwm-motor.de/wey-03,2026-11-12
+Honda,CR-V,46900.0,https://www.honda.de/cars/new/cr-v-hybrid-suv/overview.html,2026-11-12
+Honda,Civic,37900.0,https://www.honda.de/cars/new/civic-hybrid/overview.html,2026-11-12
+Honda,HR-V,33900.0,https://www.honda.de/cars/new/hr-v-hybrid/overview.html,2026-11-12
+Honda,Jazz,25900.0,https://www.honda.de/cars/new/jazz-hybrid/overview.html,2026-11-12
+Honda,Prelude,49500.0,https://www.honda.de/content/dam/local/germany/cars/pdf/download-broschueren/prelude/Prelude_Preise_Daten_Ausstattung_26-01.pdf,2026-11-12
+Honda,ZR-V,40900.0,https://www.honda.de/cars/new/zr-v-hybrid-suv/overview.html,2026-11-12
+INEOS,Grenadier,71140.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ineos/grenadier/1generation/325871/,2026-11-12
+Iveco,Daily,39151.0,https://www.iveco.com/germany/Aktionen/black-weeks-light,2026-11-12
+Jaecoo,Jaecoo 5,27900.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/jaecoo/jaecoo-5/,2026-11-12
+Jaecoo,Jaecoo 7,36900.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/jaecoo/7/1generation/341508/,2026-11-12
+Jeep,Avenger,26600.0,https://www.jeep.de/neuer-avenger/e-hybrid-benziner/trims,2026-11-12
+Jeep,Compass,39500.0,https://www.media.stellantis.com/de-de/jeep/press/erste-medientestfahrten-mit-dem-brandneuen-jeep-compass-ikonische-leistungsfaehigkeit-trifft-auf-vielseitigkeit-und-fortschrittliche-technologie,2026-11-12
+KGM,Actyon,35790.0,https://www.kgm.de/,2026-11-12
+KGM,Korando,22990.0,https://www.kgm.de/,2026-11-12
+KGM,Rexton,47990.0,https://www.kgm.de/,2026-11-12
+KGM,Tivoli,18990.0,https://www.kgm.de/,2026-11-12
+KGM,Torres,28990.0,https://www.kgm.de/,2026-11-12
+Leapmotor,B03X,24900.0,https://www.media.stellantis.com/de-de/leapmotor/press/nationale-pressetestfahrten-in-duesseldorf-der-neue-leapmotor-b03x-erstmals-auf-deutschen-strassen,2026-11-12
+Leapmotor,B05,27900.0,https://www.media.stellantis.com/de-de/leapmotor/press/leapmotor-erweitert-europaeisches-modellangebot-neuer-b05-bestellbar,2026-11-12
+Leapmotor,B10,32900.0,https://www.leapmotor.net/de-de/models/b10,2026-11-12
+Leapmotor,C10,38600.0,https://www.leapmotor.net/de-de/models/c10,2026-11-12
+Leapmotor,T03,18900.0,https://www.leapmotor.net/de-de/modelle/t03,2026-11-12
+Lexus,ES,59600.0,https://www.lexus.de/modelle,2026-11-12
+Lexus,LBX,32990.0,https://www.lexus.de/modelle,2026-11-12
+Lexus,LM,128000.0,https://www.lexus.de/modelle,2026-11-12
+Lexus,NX,53700.0,https://www.lexus.de/modelle,2026-11-12
+Lexus,RX,73850.0,https://www.lexus.de/modelle,2026-11-12
+Lexus,RZ,57100.0,https://www.lexus.de/modelle,2026-11-12
+Lexus,UX,45200.0,https://www.lexus.de/modelle,2026-11-12
+Lotus,Eletre,95990.0,https://www.lotuscars.com/de-DE/eletre/specifications,2026-11-12
+Lotus,Emeya,95990.0,https://www.lotuscars.com/de-DE/emeya,2026-11-12
+Lotus,Emira,97500.0,https://www.lotuscars.com/de-DE/,2026-11-12
+Lucid,Air,85900.0,https://lucidmotors.com/de-de/configure,2026-11-12
+Lucid,Gravity,94900.0,https://lucidmotors.com/de-de/gravity,2026-11-12
+Lynk & Co,01,42995.0,https://press.lynkco.com/de-DE/244331-media-alert-lynk-co-startet-den-verkauf-des-neuen-01-plug-in-hybridmodells-mehr-leistung-design-und-modernste-technologie/,2026-11-12
+Lynk & Co,02,35995.0,https://www.lynkco.com/de-de,2026-11-12
+Lynk & Co,08,55995.0,https://press.lynkco.com/de-AT-AT/255735-lynk-co-bringt-als-erstes-unternehmen-in-europa-ein-plug-in-hybridfahrzeug-mit-200-km-reichweite-und-dc-schnellladung-auf-den-markt-de/,2026-11-12
+MAN,Tge,48730.0,https://www.preiswert-leasen.de/hersteller/man/tge/,2026-11-12
+Maserati,Grecale,79585.0,https://www.maserati.com/de/de,2026-11-12
+Maserati,Gran Turismo,158406.0,https://www.maserati.com/de/de/dealers/geisser/modelle/granturismo,2026-11-12
+Maxus,Deliver 7,35688.0,https://www.maxus.de/de/modelle/deliver7,2026-11-12
+Mazda,MAZDA2,25990.0,https://www.mazda.de/modelle/mazda2-hybrid/,2026-11-12
+Mazda,MX-5,34190.0,https://www.mazda.de/modelle/mazda-mx-5/,2026-11-12
+Mercedes-Benz,GLC,60463.9,https://www.preiswert-leasen.de/autos/mercedes-benz/glc,2026-11-12
+Mini,Cooper,26000.0,https://www.mini.de/de_DE/home/range/mini-3-tuerer.html,2026-11-12
+Mitsubishi,ASX,25390.0,https://www.mitsubishi-motors.de/asx/varianten-und-preise,2026-11-12
+Mitsubishi,Colt,21190.0,https://www.mitsubishi-motors.de/colt/varianten-preise,2026-11-12
+Mitsubishi,Eclipse Cross,47990.0,https://www.mitsubishi-motors.de/eclipse-cross/varianten-preise,2026-11-12
+Mitsubishi,Grandis,29390.0,https://www.mitsubishi-motors.de/modelle/,2026-11-12
+Mitsubishi,Outlander,49990.0,https://www.mitsubishi-motors.de/modelle/,2026-11-12
+Nio,EL6,53500.0,https://www.nio.com/cdn-static/luban/nextjs/images/default-large-files/NIO_EL6_Preisliste,2026-11-12
+Nio,EL8,82900.0,https://www.nio.com/cdn-static/luban/nextjs/images/default-large-files/All-New_EL8_Preisliste,2026-11-12
+Nio,ET5,47500.0,https://www.nio.com/de_DE/diplomatic-sales-program,2026-11-12
+Nissan,Ariya,63840.0,https://www.nissan.de/cf/fahrzeuge/neuwagen/ariya,2026-11-12
+Nissan,Interstar,40995.5,https://www.nissan.de/content/dam/Nissan/de/Pricelists_and_Brochures/Interstar/interstar-preisliste.pdf,2026-11-12
+Nissan,Juke,25990.0,https://www.nissan.de/fahrzeuge/neuwagen/juke/version-explorer-V3/ve.shtml,2026-11-12
+Nissan,Leaf,35950.0,https://www.nissan.de/content/dam/Nissan/de/Pricelists_and_Brochures/Leaf/leaf-preisliste.pdf,2026-11-12
+Nissan,Micra,27990.0,https://micra.nissan.de/,2026-11-12
+Nissan,Primastar,40650.4,https://www.nissan.de/content/dam/Nissan/de/Pricelists_and_Brochures/Primastar/primastar-preisliste.pdf,2026-11-12
+Nissan,Qashqai,34990.0,https://www.nissan.de/fahrzeuge/neuwagen/qashqai/modellauswahl/ve.shtml,2026-11-12
+Nissan,Townstar,28250.6,https://www.nissan.de/content/dam/Nissan/de/Pricelists_and_Brochures/Townstar/townstar-preisliste.pdf,2026-11-12
+Nissan,X-Trail,42890.0,https://www.nissan.de/fahrzeuge/neuwagen/x-trail/modellauswahl/konfigurator/cfg.shtml,2026-11-12
+Omoda,Omoda 5,28900.0,https://www.omodajaecoo-auto.de/kaufen/konfigurator,2026-11-12
+Omoda,Omoda 9,52900.0,https://www.omodajaecoo-auto.de/modelle/omoda-9,2026-11-12
+Opel,Astra,32990.0,https://www.opel.de/content/dam/opel/germany/fahrzeuge/astra-l/downloads/2026/03/Preisliste_Neuer_Astra_Preislistendatum_23_03_2026.pdf,2026-11-12
+Opel,Combo,27190.0,https://www.opel.de/tools/konfigurieren.html,2026-11-12
+Opel,Corsa,22890.0,https://www.opel.de/hub/datasheet/corsa-my26-de.html,2026-11-12
+Opel,Frontera,21990.0,https://www.opel.de/hub/datasheet/frontera-my26-de.html,2026-11-12
+Opel,Grandland,38390.0,https://www.opel.de/hub/datasheet/grandland-my26-de.html,2026-11-12
+Opel,Mokka,27390.0,https://www.opel.de/hub/datasheet/mokka-my26-de.html,2026-11-12
+Opel,Movano,40222.0,https://www.opel.de/nutzfahrzeuge/movano-modelle/movano/uebersicht.html,2026-11-12
+Opel,Vivaro,38734.5,https://www.opel.de/content/dam/opel/germany/fahrzeuge/vivaro/downloads/PreislisteOpelVivaro30042026.pdf,2026-11-12
+Opel,Zafira Life,41990.0,https://www.opel.de/content/dam/opel/germany/fahrzeuge/zafira-electric/Zafira_Preisliste_10Februar2026-C.pdf,2026-11-12
+Polestar,Polestar 2,57690.0,https://www.polestar.com/de/polestar-2/,2026-11-12
+Polestar,Polestar 3,78900.0,https://www.polestar.com/de/polestar-3,2026-11-12
+Polestar,Polestar 4,57900.0,https://www.polestar.com/de/configure/,2026-11-12
+Porsche,911,137800.0,https://models.porsche.com/de-DE/model-start/911,2026-11-12
+Porsche,Cayenne,102700.0,https://models.porsche.com/de-DE/model-start/cayenne,2026-11-12
+Porsche,Macan,82200.0,https://models.porsche.com/de-DE/model-start/macan,2026-11-12
+Porsche,Panamera,118800.0,https://models.porsche.com/de-DE/model-start/panamera,2026-11-12
+Porsche,Taycan,102600.0,https://models.porsche.com/de-DE/model-start/taycan,2026-11-12
+Renault,Arkana,31890.0,https://www.renault.de/lagerfahrzeuge/fahrzeugdetails.html?productId=VEH_VF1RJL008UC555013,2026-11-12
+Rolls-Royce,Cullinan,321300.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/rolls-royce/cullinan/series-ii-facelift/346692/,2026-11-12
+Rolls-Royce,Spectre,405000.0,https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/rolls-royce/spectre/series-ii-facelift/351357/,2026-11-12
+SEAT,Arona,24440.0,https://www.seat.de/content/dam/countries/de/seat-website/download/pdf/model-range/Preisliste_SEAT_Arona_Doppel_21-07-2026.pdf,2026-11-12
+SEAT,Ibiza,19910.0,https://www.seat.de/content/dam/countries/de/seat-website/download/pdf/model-range/Preisliste_SEAT_Ibiza_Doppel_21-07-2026.pdf,2026-11-12
+SEAT,Leon,29530.0,https://www.seat.de/content/dam/countries/de/seat-website/download/pdf/autos/modelle/preisliste/leon/Preisliste_SEAT_Leon_LeonST_Doppel_06-08-2026.pdf,2026-11-12
+Smart,#1,36990.0,https://de.smart.com/de/models/hashtag-one/,2026-11-12
+Smart,#3,41140.0,https://de.smart.com/de/models/hashtag-three/,2026-11-12
+Smart,#5,45900.0,https://media.smart.com/de-DE/260877-mit-spannung-erwartet-smart-5-startet-in-deutschland-und-eroffnet-ein-neues-segment-fur-die-marke/,2026-11-12
+Subaru,Crosstrek,34890.0,https://www.subaru.de/hubfs/MY26_CRO_PTA_bf_Final-1.pdf?hsLang=de,2026-11-12
+Subaru,Forester,40990.0,https://www.subaru.de/hubfs/26FOR_PTA_Final_BF.pdf?hsLang=de,2026-11-12
+Subaru,Impreza,35360.0,https://www.subaru.de/hubfs/MY26_IMP_PTA_bf_Final-1.pdf?hsLang=de,2026-11-12
+Subaru,Outback,46690.0,https://www.subaru.de/modelle/outback,2026-11-12
+Subaru,Solterra,45990.0,https://www.subaru.de/modelle/solterra,2026-11-12
+Subaru,Uncharted,36990.0,https://www.subaru.de/modelle/uncharted,2026-11-12
+Suzuki,Across,55490.0,https://presse.suzuki.de/collection/news/2026/26-08-Neue-Generation-des-Plug-in-Hybrids-Across-Suzuki-gibt-Preise-und-Details-bekannt,2026-11-12
+Suzuki,Jimny,29490.0,https://auto.suzuki.de/beratung-kauf/beratung-kauf/jimny-preisliste,2026-11-12
+Suzuki,S-Cross,24990.0,https://presse.suzuki.de/automobile/s-cross,2026-11-12
+Suzuki,Swace,37190.0,https://auto.suzuki.de/beratung-kauf/angebote/swace-barpreis,2026-11-12
+Suzuki,Swift,20000.0,https://auto.suzuki.de/beratung-kauf/beratung-kauf/swift-preisliste,2026-11-12
+Suzuki,Vitara,27500.0,https://www.autobild.de/marken-modelle/suzuki/vitara/,2026-11-12
+Tesla,Model 3,36990.0,https://www.tesla.com/de_de/model3/design?redirect=no,2026-11-12
+Tesla,Model Y,39990.0,https://www.tesla.com/de_de/modely/design?redirect=no,2026-11-12
+Toyota,Aygo X,19450.7,https://www.toyota.de/neuwagen/aygo-x,2026-11-12
+Vinfast,VF 6,34990.0,https://vinfastauto.eu/de/vehicles/vf-6,2026-11-12
+Vinfast,VF 8,48490.0,https://vinfastauto.eu/de/vehicles/vf-8,2026-11-12
+Volvo,C40,51890.0,https://www.volvocars.com/de/cars/ec40-electric/specifications/,2026-11-12
+Volvo,ES90,71490.0,https://www.volvocars.com/de/cars/es90-electric/specifications/,2026-11-12
+Volvo,EX30,34990.0,https://www.volvocars.com/de/cars/ex30-electric/specifications/,2026-11-12
+Volvo,EX60,62990.0,https://www.volvocars.com/de/cars/ex60-electric/specifications/,2026-11-12
+Volvo,EX90,84190.0,https://www.volvocars.com/de/cars/ex90-electric/specifications/,2026-11-12
+Volvo,XC40,43990.0,https://www.volvocars.com/de/cars/xc40/,2026-11-12
+Volvo,XC60,59990.0,https://www.volvocars.com/de/cars/xc60/,2026-11-12
+Volvo,XC90,81390.0,https://www.volvocars.com/de/cars/xc90/,2026-11-12
+XPeng,G6,43600.0,https://www.xpeng.com/de/model/g6,2026-11-12
+XPeng,G9,59600.0,https://www.xpeng.com/de/model/g9,2026-11-12
+XPeng,X9,77600.0,https://s-cdn.xpeng.com/commoncms/prod/2026-05-08/f35fb7b0309f4aed9562f594bfda25eb.pdf?name=Germany_X9_technical-specs_1,2026-11-12
+Zeekr,001,59990.0,https://www.zeekr.eu/de-de/models/001,2026-11-12
+Zeekr,7GT,47990.0,https://www.zeekr.eu/de-de/models/7gt,2026-11-12
+Zeekr,7X,54990.0,https://www.zeekr.eu/de-de/models/7x,2026-11-12
+Zeekr,X,37990.0,https://www.zeekr.eu/de-de/models/x,2026-11-12
+Škoda,Elroq,37890.0,https://www.skoda-auto.de/modelle/elroq/elroq,2026-11-12
+Škoda,Enyaq,43490.0,https://www.skoda-auto.de/modelle/enyaq/enyaq,2026-11-12
+Škoda,Epiq,32100.0,https://www.skoda-auto.de/modelle/epiq/epiq,2026-11-12
+Škoda,Fabia,20190.0,https://www.skoda-auto.de/modelle/fabia/fabia,2026-11-12
+Škoda,Kamiq,25980.0,https://www.skoda-auto.de/modelle/kamiq/kamiq,2026-11-12
+Škoda,Karoq,33930.0,https://www.skoda-auto.de/modelle/karoq/karoq,2026-11-12
+Škoda,Kodiaq,44190.0,https://www.skoda-auto.de/modelle/kodiaq/kodiaq,2026-11-12
+Škoda,Octavia,32140.0,https://www.skoda-auto.de/modelle/octavia/octavia,2026-11-12
+Škoda,Scala,25000.0,https://www.skoda-auto.de/modelle/scala/scala,2026-11-12
+Škoda,Superb,41540.0,https://www.skoda-auto.de/modelle/superb/superb,2026-11-12
+Land Rover,Defender,68900.0,https://www.landrover.de/defender/index.html,2026-11-12
+Land Rover,Discovery,78600.0,https://www.landrover.de/discovery/index.html,2026-11-12
+Land Rover,Discovery Sport,54200.0,https://www.landrover.de/discovery/discovery-sport/index.html,2026-11-12
+Land Rover,Range Rover,143200.0,https://www.landrover.de/content/dam/lrdx/pdfs/de/L460_Range_Rover_MY26_07-25_Ansicht.pdf,2026-11-12
+Land Rover,Range Rover Evoque,54700.0,https://www.landrover.de/content/dam/lrdx/pdfs/de/L551_Range_Rover_Evoque_MY26.5.pdf,2026-11-12
+Land Rover,Range Rover Sport,91700.0,https://www.landrover.de/content/dam/lrdx/pdfs/de/L461_Range_Rover_Sport_MY26_07-25_Ansicht.pdf,2026-11-12
+Land Rover,Range Rover Velar,72300.0,https://www.landrover.de/content/dam/lrdx/pdfs/de/L560_Range_Rover_Velar_MY26_75_PL_01_26_D1b_Ansicht.pdf,2026-11-12
