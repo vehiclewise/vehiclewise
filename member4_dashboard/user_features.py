@@ -1,184 +1,229 @@
-"""SQLite persistence for bookmarks, searches, and saved comparisons."""
+"""SQLAlchemy persistence for bookmarks, searches, and saved comparisons."""
 
 import json
-import sqlite3
-from contextlib import contextmanager
-from pathlib import Path
 
-
-DATABASE_PATH = Path(__file__).with_name("user_features.sqlite3")
-
-
-@contextmanager
-def _connection(database_path=None):
-    connection = sqlite3.connect(database_path or DATABASE_PATH)
-    connection.row_factory = sqlite3.Row
-    try:
-        connection.executescript(
-            """
-            CREATE TABLE IF NOT EXISTS bookmarks (
-                profile_id TEXT NOT NULL,
-                vehicle_key TEXT NOT NULL,
-                vehicle_name TEXT NOT NULL,
-                vehicle_data TEXT NOT NULL,
-                note TEXT NOT NULL DEFAULT '',
-                updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
-                PRIMARY KEY (profile_id, vehicle_key)
-            );
-            CREATE TABLE IF NOT EXISTS search_history (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                profile_id TEXT NOT NULL,
-                query TEXT NOT NULL,
-                searched_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
-            );
-            CREATE TABLE IF NOT EXISTS saved_comparisons (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                profile_id TEXT NOT NULL,
-                vehicle_names TEXT NOT NULL,
-                vehicle_data TEXT NOT NULL,
-                saved_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
-            );
-            """
-        )
-        yield connection
-        connection.commit()
-    except Exception:
-        connection.rollback()
-        raise
-    finally:
-        connection.close()
+from backend.auth.models import User  # Register the users table
+from backend.database.connection import SessionLocal
+from member4_dashboard.models import Bookmark, SearchHistory, SavedComparison
 
 
 def _profile(profile_id):
-    profile_id = str(profile_id).strip()
-    if not profile_id:
+    value = str(profile_id).strip()
+    if not value:
         raise ValueError("A profile ID is required.")
-    return profile_id
+
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        raise ValueError("The profile ID must be a valid user ID.") from None
+
+
+def _timestamp(value):
+    return value.isoformat() if value else None
 
 
 def add_bookmark(profile_id, vehicle_key, vehicle_name, vehicle_data):
-    with _connection() as connection:
-        connection.execute(
-            """INSERT INTO bookmarks
-               (profile_id, vehicle_key, vehicle_name, vehicle_data)
-               VALUES (?, ?, ?, ?)
-               ON CONFLICT(profile_id, vehicle_key) DO UPDATE SET
-                   vehicle_name = excluded.vehicle_name,
-                   vehicle_data = excluded.vehicle_data,
-                   updated_at = CURRENT_TIMESTAMP""",
-            (
-                _profile(profile_id),
-                vehicle_key,
-                vehicle_name,
-                json.dumps(vehicle_data, default=str),
-            ),
+    with SessionLocal() as session:
+        bookmark = (
+            session.query(Bookmark)
+            .filter_by(
+                profile_id=_profile(profile_id),
+                vehicle_key=vehicle_key,
+            )
+            .first()
         )
+
+        if bookmark is None:
+            bookmark = Bookmark(
+                profile_id=_profile(profile_id),
+                vehicle_key=vehicle_key,
+                vehicle_name=vehicle_name,
+                vehicle_data=json.dumps(vehicle_data, default=str),
+                note="",
+            )
+            session.add(bookmark)
+        else:
+            bookmark.vehicle_name = vehicle_name
+            bookmark.vehicle_data = json.dumps(vehicle_data, default=str)
+
+        session.commit()
 
 
 def list_bookmarks(profile_id):
-    with _connection() as connection:
-        rows = connection.execute(
-            "SELECT * FROM bookmarks WHERE profile_id = ? ORDER BY updated_at DESC",
-            (_profile(profile_id),),
-        ).fetchall()
-    return [
-        {**dict(row), "vehicle_data": json.loads(row["vehicle_data"])}
-        for row in rows
-    ]
+    with SessionLocal() as session:
+        rows = (
+            session.query(Bookmark)
+            .filter_by(profile_id=_profile(profile_id))
+            .order_by(Bookmark.updated_at.desc())
+            .all()
+        )
+
+        return [
+            {
+                "id": row.id,
+                "profile_id": str(row.profile_id),
+                "vehicle_key": row.vehicle_key,
+                "vehicle_name": row.vehicle_name,
+                "vehicle_data": json.loads(row.vehicle_data),
+                "note": row.note,
+                "updated_at": _timestamp(row.updated_at),
+            }
+            for row in rows
+        ]
 
 
 def update_bookmark_note(profile_id, vehicle_key, note):
-    with _connection() as connection:
-        cursor = connection.execute(
-            """UPDATE bookmarks SET note = ?, updated_at = CURRENT_TIMESTAMP
-               WHERE profile_id = ? AND vehicle_key = ?""",
-            (str(note), _profile(profile_id), vehicle_key),
+    with SessionLocal() as session:
+        bookmark = (
+            session.query(Bookmark)
+            .filter_by(
+                profile_id=_profile(profile_id),
+                vehicle_key=vehicle_key,
+            )
+            .first()
         )
-    return cursor.rowcount > 0
+
+        if bookmark is None:
+            return False
+
+        bookmark.note = str(note)
+        session.commit()
+        return True
 
 
 def delete_bookmark(profile_id, vehicle_key):
-    with _connection() as connection:
-        cursor = connection.execute(
-            "DELETE FROM bookmarks WHERE profile_id = ? AND vehicle_key = ?",
-            (_profile(profile_id), vehicle_key),
+    with SessionLocal() as session:
+        bookmark = (
+            session.query(Bookmark)
+            .filter_by(
+                profile_id=_profile(profile_id),
+                vehicle_key=vehicle_key,
+            )
+            .first()
         )
-    return cursor.rowcount > 0
+
+        if bookmark is None:
+            return False
+
+        session.delete(bookmark)
+        session.commit()
+        return True
 
 
 def record_search(profile_id, query):
     query = str(query).strip()
     if not query:
         return
-    with _connection() as connection:
-        connection.execute(
-            "INSERT INTO search_history (profile_id, query) VALUES (?, ?)",
-            (_profile(profile_id), query),
+
+    with SessionLocal() as session:
+        session.add(
+            SearchHistory(
+                profile_id=_profile(profile_id),
+                query=query,
+            )
         )
+        session.commit()
 
 
 def list_search_history(profile_id):
-    with _connection() as connection:
-        rows = connection.execute(
-            "SELECT * FROM search_history WHERE profile_id = ? ORDER BY id DESC",
-            (_profile(profile_id),),
-        ).fetchall()
-    return [dict(row) for row in rows]
+    with SessionLocal() as session:
+        rows = (
+            session.query(SearchHistory)
+            .filter_by(profile_id=_profile(profile_id))
+            .order_by(SearchHistory.id.desc())
+            .all()
+        )
+
+        return [
+            {
+                "id": row.id,
+                "profile_id": str(row.profile_id),
+                "query": row.query,
+                "searched_at": _timestamp(row.searched_at),
+            }
+            for row in rows
+        ]
 
 
 def delete_search(profile_id, search_id):
-    with _connection() as connection:
-        cursor = connection.execute(
-            "DELETE FROM search_history WHERE profile_id = ? AND id = ?",
-            (_profile(profile_id), search_id),
+    with SessionLocal() as session:
+        row = (
+            session.query(SearchHistory)
+            .filter_by(
+                profile_id=_profile(profile_id),
+                id=search_id,
+            )
+            .first()
         )
-    return cursor.rowcount > 0
+
+        if row is None:
+            return False
+
+        session.delete(row)
+        session.commit()
+        return True
 
 
 def clear_search_history(profile_id):
-    with _connection() as connection:
-        connection.execute(
-            "DELETE FROM search_history WHERE profile_id = ?",
-            (_profile(profile_id),),
+    with SessionLocal() as session:
+        (
+            session.query(SearchHistory)
+            .filter_by(profile_id=_profile(profile_id))
+            .delete(synchronize_session=False)
         )
+        session.commit()
 
 
 def save_comparison(profile_id, vehicle_data):
     names = [vehicle["Vehicle"] for vehicle in vehicle_data]
-    with _connection() as connection:
-        cursor = connection.execute(
-            """INSERT INTO saved_comparisons
-               (profile_id, vehicle_names, vehicle_data) VALUES (?, ?, ?)""",
-            (
-                _profile(profile_id),
-                json.dumps(names),
-                json.dumps(vehicle_data, default=str),
-            ),
+
+    with SessionLocal() as session:
+        comparison = SavedComparison(
+            profile_id=_profile(profile_id),
+            vehicle_names=json.dumps(names),
+            vehicle_data=json.dumps(vehicle_data, default=str),
         )
-    return cursor.lastrowid
+        session.add(comparison)
+        session.commit()
+        session.refresh(comparison)
+        return comparison.id
 
 
 def list_saved_comparisons(profile_id):
-    with _connection() as connection:
-        rows = connection.execute(
-            """SELECT * FROM saved_comparisons
-               WHERE profile_id = ? ORDER BY id DESC""",
-            (_profile(profile_id),),
-        ).fetchall()
-    return [
-        {
-            **dict(row),
-            "vehicle_names": json.loads(row["vehicle_names"]),
-            "vehicle_data": json.loads(row["vehicle_data"]),
-        }
-        for row in rows
-    ]
+    with SessionLocal() as session:
+        rows = (
+            session.query(SavedComparison)
+            .filter_by(profile_id=_profile(profile_id))
+            .order_by(SavedComparison.id.desc())
+            .all()
+        )
+
+        return [
+            {
+                "id": row.id,
+                "profile_id": str(row.profile_id),
+                "vehicle_names": json.loads(row.vehicle_names),
+                "vehicle_data": json.loads(row.vehicle_data),
+                "saved_at": _timestamp(row.saved_at),
+            }
+            for row in rows
+        ]
 
 
 def delete_comparison(profile_id, comparison_id):
-    with _connection() as connection:
-        cursor = connection.execute(
-            "DELETE FROM saved_comparisons WHERE profile_id = ? AND id = ?",
-            (_profile(profile_id), comparison_id),
+    with SessionLocal() as session:
+        comparison = (
+            session.query(SavedComparison)
+            .filter_by(
+                profile_id=_profile(profile_id),
+                id=comparison_id,
+            )
+            .first()
         )
-    return cursor.rowcount > 0
+
+        if comparison is None:
+            return False
+
+        session.delete(comparison)
+        session.commit()
+        return True

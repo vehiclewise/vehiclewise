@@ -1,0 +1,4 @@
+catalogue_brand,catalogue_model,specs_make,specs_model,reviewed,notes
+Hyundai,KONA Elektro,Hyundai,Kona Electric,True,Verified naming difference
+Volkswagen,ID. Cross,Volkswagen,ID.Cross,True,Verified punctuation and spacing difference
+Cadillac,LYRIQ V,Cadillac,Lyriq-V,True,Verified naming-format difference

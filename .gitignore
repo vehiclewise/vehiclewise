@@ -29,3 +29,21 @@ ENV/
 .env
 __pycache__/
 *.pyc
+
+# Local database and code backups
+backups/
+
+# Temporary code backups
+*.backup
+*.before_*
+
+# Generated matching reports
+vehiclewise_high_confidence_candidates.csv
+vehiclewise_match_suggestions.csv
+vehiclewise_ranked_match_suggestions.csv
+vehiclewise_specs_validation_report.csv
+vehiclewise_unmatched_models.csv
+
+# Python bytecode
+__pycache__/
+*.py[cod]
