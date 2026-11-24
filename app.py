@@ -56,6 +56,32 @@ df = get_data().copy()
 
 catalogue_df = get_catalogue_data().copy()
 
+# Shared German-market starting prices, matched by brand and model.
+price_data = catalogue_df.dropna(subset=["price_eur"]).copy()
+price_data["_brand_key"] = (
+    price_data["brand"].astype(str).str.strip().str.casefold()
+)
+price_data["_model_key"] = (
+    price_data["model"].astype(str).str.strip().str.casefold()
+)
+
+price_lookup = (
+    price_data.groupby(["_brand_key", "_model_key"])["price_eur"]
+    .min()
+    .to_dict()
+)
+
+
+def get_catalogue_price(row):
+    brand = str(row.get("brand", "")).strip().casefold()
+    model = str(row.get("model", "")).strip().casefold()
+    return price_lookup.get((brand, model))
+
+
+def format_catalogue_price(row):
+    price = get_catalogue_price(row)
+    return f"€{price:,.2f}" if price is not None else "Not available"
+
 
 # Standardise text values
 for column in [
@@ -108,9 +134,9 @@ st.write(
 
 st.info(
     "Database note: This dataset contains historical and recent "
-    "vehicle variants from multiple markets. It does not confirm "
-    "current availability in Germany. Prices are not yet available "
-    "in the database."
+    "vehicle variants from multiple markets. German-market starting "
+    "prices are shown where available in the catalogue. Current "
+    "availability and exact variant prices are not guaranteed."
 )
 
 
@@ -255,7 +281,7 @@ def production_period(row):
     if pd.notna(start) and pd.notna(end):
         return f"{int(start)}–{int(end)}"
     if pd.notna(start):
-        return f"From {int(start)}"
+        return f"{int(start)}–Present"
     if pd.notna(end):
         return f"Until {int(end)}"
     return "Not available"
@@ -278,7 +304,7 @@ def vehicle_details(row):
         "Top speed": display_value(row.get("top_speed_kmh"), " km/h"),
         "Fuel consumption": display_value(row.get("fuel_consumption_l_100km"), " L/100 km"),
         "Weight": display_value(row.get("weight_kg"), " kg"),
-        "Price in Germany": display_value(row.get("price_eur"), " €"),
+        "German-market starting price": format_catalogue_price(row),
     }
 
 
@@ -563,7 +589,7 @@ with tab2:
             ("Top speed (km/h)", "top_speed_kmh"),
             ("Fuel consumption (L/100 km)", "fuel_consumption_l_100km"),
             ("Weight (kg)", "weight_kg"),
-            ("Price (€)", "price_eur"),
+            ("German-market starting price", "__catalogue_price__"),
         ]
 
         comparison_rows = []
@@ -572,6 +598,10 @@ with tab2:
             comparison_row = {"Specification": label}
 
             for vehicle, row in zip(selected_comparison, selected_variants):
+                if column == "__catalogue_price__":
+                    comparison_row[vehicle] = format_catalogue_price(row)
+                    continue
+
                 value = row.get(column)
 
                 if pd.isna(value) or value is None:
