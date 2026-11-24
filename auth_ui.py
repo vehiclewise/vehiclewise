@@ -3,7 +3,21 @@ import requests
 import streamlit as st
 from datetime import date
 
-API_URL = os.getenv("VEHICLEWISE_API_URL", "http://127.0.0.1:8000").rstrip("/")
+
+def get_api_url():
+    try:
+        return st.secrets.get(
+            "VEHICLEWISE_API_URL",
+            os.getenv("VEHICLEWISE_API_URL", "http://127.0.0.1:8000")
+        ).rstrip("/")
+    except Exception:
+        return os.getenv(
+            "VEHICLEWISE_API_URL",
+            "http://127.0.0.1:8000"
+        ).rstrip("/")
+
+
+API_URL = get_api_url()
 
 
 def _show_api_error(response, fallback):
