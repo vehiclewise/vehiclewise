@@ -780,7 +780,8 @@ with tab4:
     st.header("Personalised Vehicle Recommendations")
 
     st.write(
-        "Tell us what matters to you and explore matching vehicles."
+        "Choose your preferences and select a vehicle "
+        "to view its details and save it."
     )
 
     preference_col1, preference_col2 = st.columns(2)
@@ -820,25 +821,21 @@ with tab4:
     recommendations = df.copy()
 
     if preferred_fuel != "Any":
-
         recommendations = recommendations[
             recommendations["fuel_display"] == preferred_fuel
         ]
 
     if preferred_body != "Any":
-
         recommendations = recommendations[
             recommendations["body_type"] == preferred_body
         ]
 
     if minimum_power > 0:
-
         recommendations = recommendations[
             recommendations["power_hp"].fillna(0) >= minimum_power
         ]
 
     if maximum_consumption > 0:
-
         recommendations = recommendations[
             recommendations["fuel_consumption_l_100km"].notna()
             &
@@ -849,17 +846,10 @@ with tab4:
         ]
 
     recommendations = recommendations.drop_duplicates(
-        subset=[
-            "brand",
-            "model",
-            "model_year",
-            "engine"
-        ]
-    )
+        subset=["brand", "model", "model_year", "engine"]
+    ).head(100).reset_index(drop=True)
 
-    st.write(
-        f"**{len(recommendations):,} matching variants**"
-    )
+    st.write(f"**{len(recommendations):,} matching variants**")
 
     if recommendations.empty:
 
@@ -870,55 +860,202 @@ with tab4:
 
     else:
 
-        recommendation_columns = [
-            "Vehicle",
-            "model_year",
+        recommendation_table = recommendations.copy()
+
+        recommendation_table["Production Period"] = (
+            recommendation_table.apply(production_period, axis=1)
+        )
+
+        price_data = catalogue_df.dropna(
+            subset=["price_eur"]
+        ).copy()
+
+        price_data["_brand_key"] = (
+            price_data["brand"].astype(str).str.strip().str.casefold()
+        )
+
+        price_data["_model_key"] = (
+            price_data["model"].astype(str).str.strip().str.casefold()
+        )
+
+        price_lookup = (
+            price_data.groupby(["_brand_key", "_model_key"])["price_eur"]
+            .min()
+            .to_dict()
+        )
+
+        recommendation_table["_brand_key"] = (
+            recommendation_table["brand"]
+            .astype(str).str.strip().str.casefold()
+        )
+
+        recommendation_table["_model_key"] = (
+            recommendation_table["model"]
+            .astype(str).str.strip().str.casefold()
+        )
+
+        recommendation_table["Starting Price (€)"] = (
+            recommendation_table.apply(
+                lambda row: (
+                    f"€{price_lookup[(row['_brand_key'], row['_model_key'])]:,.2f}"
+                    if (row["_brand_key"], row["_model_key"]) in price_lookup
+                    else "Not available"
+                ),
+                axis=1,
+            )
+        )
+
+        recommendation_table = recommendation_table.drop(
+            columns=["_brand_key", "_model_key"]
+        )
+
+        recommendation_table["__vehicle_key"] = (
+            recommendation_table.apply(vehicle_key, axis=1)
+        )
+
+        display_columns = [
+            "brand",
+            "model",
+            "Production Period",
+            "Starting Price (€)",
             "body_type",
             "fuel_display",
             "power_hp",
-            "fuel_consumption_l_100km",
             "transmission",
-            "price_eur",
-            "price_source",
-            "last_verified",
-            "official_source_url"
+            "__vehicle_key",
         ]
 
-        recommendation_columns = [
-            column
-            for column in recommendation_columns
-            if column in recommendations.columns
+        display_columns = [
+            column for column in display_columns
+            if column in recommendation_table.columns
         ]
 
-        recommendation_display = recommendations[
-            recommendation_columns
-        ].head(100).copy()
-
-        recommendation_display["price_eur"] = recommendation_display[
-            "price_eur"
-        ].apply(
-            lambda value: f"€{value:,.2f}"
-            if pd.notna(value) else "Not available"
-        )
-
-        st.dataframe(
-            recommendation_display
-            .rename(columns={
-                "model_year": "Model Year",
+        recommendation_table = recommendation_table[
+            display_columns
+        ].rename(
+            columns={
+                "brand": "Brand",
+                "model": "Model",
                 "body_type": "Body Type",
                 "fuel_display": "Fuel Type",
                 "power_hp": "Power (hp)",
-                "fuel_consumption_l_100km":
-                    "Fuel Consumption (L/100 km)",
                 "transmission": "Transmission",
-                "price_eur": "Starting Price (€)",
-                "price_source": "Price Source",
-                "last_verified": "Last Verified",
-                "official_source_url": "Manufacturer Website"
-            }),
-            width="stretch",
-            hide_index=True
+            }
         )
+
+        grid_builder = GridOptionsBuilder.from_dataframe(
+            recommendation_table
+        )
+
+        grid_builder.configure_default_column(
+            resizable=True,
+            sortable=True,
+            filterable=True,
+            editable=False,
+        )
+
+        grid_builder.configure_selection(
+            selection_mode="single",
+            use_checkbox=False,
+        )
+
+        grid_builder.configure_column("__vehicle_key", hide=True)
+
+        grid_builder.configure_grid_options(
+            rowSelection="single",
+            suppressRowClickSelection=False,
+            animateRows=True,
+            rowHeight=40,
+            headerHeight=45,
+        )
+
+        grid_response = AgGrid(
+            recommendation_table,
+            gridOptions=grid_builder.build(),
+            update_on=["selectionChanged"],
+            fit_columns_on_grid_load=True,
+            height=450,
+            theme="streamlit",
+            allow_unsafe_jscode=False,
+            key="recommendation_vehicle_grid",
+        )
+
+        selected_rows = grid_response.get("selected_rows")
+        selected_row = None
+
+        if selected_rows is not None:
+            if isinstance(selected_rows, pd.DataFrame):
+                if not selected_rows.empty:
+                    selected_row = selected_rows.iloc[0]
+
+            elif isinstance(selected_rows, list) and selected_rows:
+                selected_row = selected_rows[0]
+
+        if selected_row is not None:
+
+            selected_key = selected_row.get("__vehicle_key")
+
+            matching_rows = recommendations[
+                recommendations.apply(
+                    lambda row: vehicle_key(row) == selected_key,
+                    axis=1,
+                )
+            ]
+
+            if not matching_rows.empty:
+
+                row = matching_rows.iloc[0]
+                chosen_vehicle = f"{row['brand']} {row['model']}"
+
+                st.divider()
+                st.subheader(f"Vehicle Details: {chosen_vehicle}")
+
+                details = vehicle_details(row)
+                detail_cols = st.columns(3)
+
+                for index, (label, value) in enumerate(details.items()):
+                    with detail_cols[index % 3]:
+                        st.write(f"**{label}:** {value}")
+
+                try:
+                    saved_bookmarks = user_features.list_bookmarks(
+                        profile_id
+                    )
+
+                    saved_keys = {
+                        item["vehicle_key"]
+                        for item in saved_bookmarks
+                    }
+
+                    if vehicle_key(row) in saved_keys:
+                        st.info("This vehicle is already in your bookmarks.")
+
+                    elif st.button(
+                        "Add bookmark",
+                        key="add_recommendation_bookmark"
+                    ):
+                        user_features.add_bookmark(
+                            profile_id,
+                            vehicle_key(row),
+                            chosen_vehicle,
+                            vehicle_record(row),
+                        )
+
+                        st.success(
+                            "Vehicle added to your dashboard bookmarks."
+                        )
+
+                        st.rerun()
+
+                except Exception as error:
+                    st.error("Could not access your bookmarks.")
+                    print(f"Bookmark error: {error}")
+
+        else:
+            st.info(
+                "Select a vehicle row to view its specifications "
+                "and add it to your bookmarks."
+            )
 
         st.caption(
             "Prices are shown where reliable German-market data is available. "
@@ -927,7 +1064,6 @@ with tab4:
         )
 
 
-# --------------------------------------------------
 # TAB 5: USER DASHBOARD
 # --------------------------------------------------
 

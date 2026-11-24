@@ -47,3 +47,6 @@ vehiclewise_unmatched_models.csv
 # Python bytecode
 __pycache__/
 *.py[cod]
+
+# Neon local configuration
+.neon
