@@ -175,7 +175,18 @@ def clear_search_history(profile_id):
 
 
 def save_comparison(profile_id, vehicle_data):
-    names = [vehicle["Vehicle"] for vehicle in vehicle_data]
+    if not isinstance(vehicle_data, list) or not 2 <= len(vehicle_data) <= 3:
+        raise ValueError("A saved comparison must contain two or three vehicles.")
+
+    names = []
+    for vehicle in vehicle_data:
+        if not isinstance(vehicle, dict):
+            raise ValueError("Each comparison vehicle must be a mapping.")
+
+        name = vehicle.get("Vehicle")
+        if not isinstance(name, str) or not name.strip():
+            raise ValueError("Each comparison vehicle must have a name.")
+        names.append(name.strip())
 
     with SessionLocal() as session:
         comparison = SavedComparison(
