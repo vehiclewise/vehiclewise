@@ -225,66 +225,256 @@ with tab1:
 # --------------------------------------------------
 
 with tab2:
-    st.header("Compare Vehicles")
-    st.write("Select two or three vehicles to compare their specifications.")
+
+    st.header("⚖️ Advanced Vehicle Comparison")
+
+    st.write(
+
+        "Compare vehicle specifications and discover "
+
+        "which vehicle performs best in different categories."
+
+    )
 
     compare_source = filtered_df if not filtered_df.empty else df
-    compare_options = sorted(compare_source["Vehicle"].drop_duplicates().tolist())
+
+    compare_options = sorted(
+
+        compare_source["Vehicle"].drop_duplicates().tolist()
+
+    )
 
     selected_comparison = st.multiselect(
-        "Choose vehicles",
+
+        "Select 2 or 3 vehicles",
+
         compare_options,
+
         max_selections=3,
+
         key="comparison"
+
     )
 
     if len(selected_comparison) >= 2:
-        comparison_rows = []
+
+        selected_rows = {}
+
+        for vehicle in selected_comparison:
+
+            vehicle_rows = compare_source[
+
+                compare_source["Vehicle"] == vehicle
+
+            ]
+
+            selected_rows[vehicle] = vehicle_rows.iloc[0]
+
+        # COMPARISON TABLE
+
+        st.subheader("Vehicle Specifications")
 
         comparison_fields = [
+
             ("Brand", "brand"),
+
             ("Model", "model"),
-            ("Model year", "model_year"),
-            ("Body type", "body_type"),
-            ("Fuel type", "fuel_display"),
-            ("Power (hp)", "power_hp"),
+
+            ("Model Year", "model_year"),
+
+            ("Body Type", "body_type"),
+
+            ("Fuel Type", "fuel_display"),
+
+            ("Horsepower (hp)", "power_hp"),
+
             ("Torque (Nm)", "torque_nm"),
-            ("Transmission", "transmission"),
-            ("Drivetrain", "drivetrain"),
-            ("0–100 km/h (seconds)", "acceleration_0_100_s"),
-            ("Top speed (km/h)", "top_speed_kmh"),
-            ("Fuel consumption (L/100 km)", "fuel_consumption_l_100km"),
-            ("Weight (kg)", "weight_kg")
+
+            ("Acceleration (0-100 km/h)", "acceleration_0_100_s"),
+
+            ("Top Speed (km/h)", "top_speed_kmh"),
+
+            ("Fuel Consumption (L/100 km)", "fuel_consumption_l_100km"),
+
+            ("Weight (kg)", "weight_kg"),
+
+            ("Price (€)", "price_eur")
+
         ]
 
+        comparison_rows = []
+
         for label, column in comparison_fields:
-            comparison_row = {"Specification": label}
 
-            for vehicle in selected_comparison:
-                vehicle_rows = compare_source[
-                    compare_source["Vehicle"] == vehicle
-                ]
+            row_data = {"Specification": label}
 
-                value = vehicle_rows.iloc[0].get(column, None)
+            for vehicle, row in selected_rows.items():
+
+                value = row.get(column, None)
 
                 if pd.isna(value) or value is None:
-                    comparison_row[vehicle] = "Not available"
-                else:
-                    comparison_row[vehicle] = str(value)
 
-            comparison_rows.append(comparison_row)
+                    row_data[vehicle] = "Not available"
+
+                else:
+
+                    row_data[vehicle] = value
+
+            comparison_rows.append(row_data)
 
         comparison_table = pd.DataFrame(comparison_rows)
-        st.dataframe(comparison_table, width="stretch", hide_index=True)
+
+        st.dataframe(
+
+            comparison_table,
+
+            width="stretch",
+
+            hide_index=True
+
+        )
+
+        # WINNER ANALYSIS
+
+        st.divider()
+
+        st.subheader("🏆 Performance Highlights")
+
+        performance_metrics = [
+
+            ("Most Powerful", "power_hp", "max", " hp"),
+
+            ("Highest Torque", "torque_nm", "max", " Nm"),
+
+            ("Fastest Acceleration", "acceleration_0_100_s", "min", " sec"),
+
+            ("Highest Top Speed", "top_speed_kmh", "max", " km/h"),
+
+            ("Lowest Fuel Consumption",
+
+             "fuel_consumption_l_100km", "min", " L/100 km")
+
+        ]
+
+        for label, column, operation, suffix in performance_metrics:
+
+            valid_values = {}
+
+            for vehicle, row in selected_rows.items():
+
+                value = pd.to_numeric(
+
+                    pd.Series([row.get(column)]),
+
+                    errors="coerce"
+
+                ).iloc[0]
+
+                if pd.notna(value):
+
+                    valid_values[vehicle] = value
+
+            if valid_values:
+
+                if operation == "max":
+
+                    winner = max(valid_values, key=valid_values.get)
+
+                else:
+
+                    winner = min(valid_values, key=valid_values.get)
+
+                st.success(
+
+                    f"🏆 {label}: **{winner}** "
+
+                    f"({valid_values[winner]}{suffix})"
+
+                )
+
+            else:
+
+                st.info(f"{label}: Data unavailable")
+
+        # COMPARISON CHART
+
+        st.divider()
+
+        st.subheader("📊 Visual Comparison")
+
+        chart_options = {
+
+            "Horsepower": "power_hp",
+
+            "Torque": "torque_nm",
+
+            "Acceleration": "acceleration_0_100_s",
+
+            "Top Speed": "top_speed_kmh",
+
+            "Fuel Consumption": "fuel_consumption_l_100km",
+
+            "Weight": "weight_kg"
+
+        }
+
+        selected_metric = st.selectbox(
+
+            "Choose specification to compare",
+
+            list(chart_options.keys()),
+
+            key="comparison_chart"
+
+        )
+
+        chart_column = chart_options[selected_metric]
+
+        chart_data = {}
+
+        for vehicle, row in selected_rows.items():
+
+            value = pd.to_numeric(
+
+                pd.Series([row.get(chart_column)]),
+
+                errors="coerce"
+
+            ).iloc[0]
+
+            if pd.notna(value):
+
+                chart_data[vehicle] = value
+
+        if chart_data:
+
+            chart_df = pd.DataFrame.from_dict(
+
+                chart_data,
+
+                orient="index",
+
+                columns=[selected_metric]
+
+            )
+
+            st.bar_chart(chart_df)
+
+        else:
+
+            st.warning("No data available for this comparison.")
 
         st.caption(
-            "Comparisons use the first matching variant for each selected "
-            "brand and model. Check the model year and engine before drawing "
-            "conclusions."
+
+            "Comparisons use the first matching variant for each "
+
+            "brand and model. Verify model year and engine specifications."
+
         )
 
     else:
-        st.info("Select at least two vehicles to compare.")
+
+        st.info("Select at least two vehicles to start comparing.")
 
 # --------------------------------------------------
 # TAB 3: CATALOGUE
