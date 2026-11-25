@@ -512,73 +512,31 @@ with tab1:
 # --------------------------------------------------
 
 with tab2:
-
     st.header("Compare Vehicles")
-    st.write(
-        "Select two or three models, then choose the exact variant "
-        "you want to compare."
-    )
+    st.write("Select two or three vehicles to compare their specifications.")
 
     compare_source = filtered_df if not filtered_df.empty else df
-
-    compare_options = sorted(
-        compare_source["Vehicle"].drop_duplicates().tolist()
-    )
+    compare_options = sorted(compare_source["Vehicle"].drop_duplicates().tolist())
 
     selected_comparison = st.multiselect(
-        "Choose vehicle models",
+        "Choose vehicles",
         compare_options,
+
         max_selections=3,
+
         key="comparison"
+
     )
 
     if len(selected_comparison) >= 2:
-
-        selected_variants = []
-
-        for vehicle_number, vehicle in enumerate(selected_comparison, start=1):
-            vehicle_rows = compare_source[
-                compare_source["Vehicle"] == vehicle
-            ].copy().reset_index(drop=True)
-
-            vehicle_rows["_variant_label"] = vehicle_rows.apply(
-                lambda row: " | ".join([
-                    str(row.get("generation"))
-                    if pd.notna(row.get("generation")) else "Generation unknown",
-                    str(int(row["model_year"]))
-                    if pd.notna(row.get("model_year")) else "Year unknown",
-                    str(row.get("engine"))
-                    if pd.notna(row.get("engine")) else "Engine unknown",
-                    str(row.get("fuel_display", "Fuel unknown")),
-                    f"{row['power_hp']:g} hp"
-                    if pd.notna(row.get("power_hp")) else "Power unknown",
-                    str(row.get("transmission"))
-                    if pd.notna(row.get("transmission")) else "Transmission unknown",
-                    f"Variant {row.name + 1}",
-                ]),
-                axis=1,
-            )
-
-            st.markdown(f"**{vehicle_number}. {vehicle}**")
-
-            selected_label = st.selectbox(
-                f"Choose variant for {vehicle}",
-                vehicle_rows["_variant_label"].tolist(),
-                key=f"comparison_variant_{vehicle_number}",
-            )
-
-            selected_row = vehicle_rows[
-                vehicle_rows["_variant_label"] == selected_label
-            ].iloc[0]
-
-            selected_variants.append(selected_row)
+        comparison_rows = []
 
         comparison_fields = [
+
             ("Brand", "brand"),
+
             ("Model", "model"),
-            ("Generation", "generation"),
             ("Model year", "model_year"),
-            ("Engine", "engine"),
             ("Body type", "body_type"),
             ("Fuel type", "fuel_display"),
             ("Power (hp)", "power_hp"),
@@ -588,53 +546,41 @@ with tab2:
             ("0–100 km/h (seconds)", "acceleration_0_100_s"),
             ("Top speed (km/h)", "top_speed_kmh"),
             ("Fuel consumption (L/100 km)", "fuel_consumption_l_100km"),
-            ("Weight (kg)", "weight_kg"),
-            ("German-market starting price", "__catalogue_price__"),
+            ("Weight (kg)", "weight_kg")
         ]
-
-        comparison_rows = []
 
         for label, column in comparison_fields:
-            comparison_row = {"Specification": label}
 
-            for vehicle, row in zip(selected_comparison, selected_variants):
-                if column == "__catalogue_price__":
-                    comparison_row[vehicle] = format_catalogue_price(row)
-                    continue
+            row_data = {"Specification": label}
 
-                value = row.get(column)
+            for vehicle in selected_comparison:
+                vehicle_rows = compare_source[
+                    compare_source["Vehicle"] == vehicle
+                ]
+
+                value = vehicle_rows.iloc[0].get(column, None)
 
                 if pd.isna(value) or value is None:
-                    comparison_row[vehicle] = "Not available"
+
+                    row_data[vehicle] = "Not available"
+
                 else:
-                    comparison_row[vehicle] = str(value)
 
-            comparison_rows.append(comparison_row)
+                    row_data[vehicle] = value
 
-        st.subheader("Comparison Results")
-        st.dataframe(
-            pd.DataFrame(comparison_rows),
-            width="stretch",
-            hide_index=True,
-        )
+            comparison_rows.append(row_data)
 
-        comparison_records = [
-            vehicle_record(row.drop(labels=["_variant_label"], errors="ignore"))
-            for row in selected_variants
-        ]
-
-        if st.button("Save comparison", key="save_dashboard_comparison"):
-            user_features.save_comparison(profile_id, comparison_records)
-            st.success("Comparison saved to your dashboard.")
+        comparison_table = pd.DataFrame(comparison_rows)
+        st.dataframe(comparison_table, width="stretch", hide_index=True)
 
         st.caption(
-            "Each vehicle is compared using the exact variant selected above. "
-            "Some specifications may be unavailable in the database."
+            "Comparisons use the first matching variant for each selected "
+            "brand and model. Check the model year and engine before drawing "
+            "conclusions."
         )
 
     else:
-        st.info("Select at least two vehicle models to compare.")
-
+        st.info("Select at least two vehicles to compare.")
 
 # --------------------------------------------------
 
